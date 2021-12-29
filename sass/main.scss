@@ -48,6 +48,57 @@ header{
     }
 }
 
-#page1{
+.page1{
     background-image: url("/images/fond-accueil.jpg");
+    background-repeat: no-repeat;
+    zoom: 135%;
+    height: 616px;
+
+    &__container{
+        display: flex;
+        justify-content: center;
+        padding: 180px 0px 0px 0px;
+        &--text{
+            & h1{
+                font-weight: 700;
+                font-size: 50px;
+            }
+
+            & h2{
+                font-weight: 700;
+                font-size: 50px;
+                display: flex;
+                justify-content: center;
+
+                & span{
+                    color: #0725bd;
+                }
+            }
+
+            & p{
+                display: flex;
+                justify-content: center;
+                font-weight: 300;
+                font-size: 20px;
+                padding: 0px 0px 20px 0px;
+            }
+        }
+
+        &--icone{
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
+
+            & div{
+                display: flex;
+                border-top: 1px solid black;
+                padding: 0px 35px 0px 35px;
+
+                & a{
+                    padding: 15px 20px 0px 20px;
+                    color: #0725bd;
+                }
+            }
+        }
+    }
 }

@@ -38,8 +38,50 @@ header nav .header-icon i {
   color: #0725bd;
 }
 
-#page1 {
+.page1 {
   background-image: url("/images/fond-accueil.jpg");
+  background-repeat: no-repeat;
+  zoom: 135%;
+  height: 616px;
+}
+.page1__container {
+  display: flex;
+  justify-content: center;
+  padding: 180px 0px 0px 0px;
+}
+.page1__container--text h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.page1__container--text h2 {
+  font-weight: 700;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+.page1__container--text h2 span {
+  color: #0725bd;
+}
+.page1__container--text p {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0px 0px 20px 0px;
+}
+.page1__container--icone {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.page1__container--icone div {
+  display: flex;
+  border-top: 1px solid black;
+  padding: 0px 35px 0px 35px;
+}
+.page1__container--icone div a {
+  padding: 15px 20px 0px 20px;
+  color: #0725bd;
 }
 
 /*# sourceMappingURL=styles.css.map */
