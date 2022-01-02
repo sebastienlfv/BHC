@@ -12,12 +12,15 @@
 }
 
 header{
+    // margin-bottom: 100px;
     & nav{
         display: flex;
         align-items: center;
         justify-content: center;
         border-bottom: solid 2px #0725bd;
         background-color: white;
+        // position: fixed;
+        width: 100%;
         
         & .header-nav{          
             margin-left: 48px;
@@ -63,13 +66,12 @@ header{
 .page1{
     background-image: url("/images/fond-accueil.jpg");
     background-repeat: no-repeat;
-    // zoom: 135%;
     height: 830px;
 
     &__container{
         display: flex;
         justify-content: center;
-        padding: 180px 0px 0px 0px;
+        padding: 220px 0px 0px 0px;
         &--text{
             & h1{
                 text-align: center;
@@ -117,6 +119,7 @@ header{
 }
 
 .page2{
+    background-image: url("/images/fond-page2.png");
     &__container{
         text-align: center;
         margin-top: 80px;

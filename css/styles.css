@@ -16,6 +16,7 @@ header nav {
   justify-content: center;
   border-bottom: solid 2px #0725bd;
   background-color: white;
+  width: 100%;
 }
 header nav .header-nav {
   margin-left: 48px;
@@ -58,7 +59,7 @@ header nav .header-icon i {
 .page1__container {
   display: flex;
   justify-content: center;
-  padding: 180px 0px 0px 0px;
+  padding: 220px 0px 0px 0px;
 }
 .page1__container--text h1 {
   text-align: center;
@@ -97,6 +98,9 @@ header nav .header-icon i {
   color: #0725bd;
 }
 
+.page2 {
+  background-image: url("/images/fond-page2.png");
+}
 .page2__container {
   text-align: center;
   margin-top: 80px;
