@@ -14,6 +14,11 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom: solid 2px #0725bd;
+  background-color: white;
+}
+header nav .header-nav {
+  margin-left: 48px;
 }
 header nav .header-nav ul {
   display: flex;
@@ -26,23 +31,29 @@ header nav .header-nav ul a {
   color: black;
   font-weight: 100;
 }
+header nav .header-nav ul a .active {
+  color: #0725bd;
+}
+header nav .header-nav ul a:hover {
+  color: #0725bd;
+}
 header nav .header-nav ul li {
   padding: 0px 60px 0px 60px;
 }
 header nav .header-icon {
   position: absolute;
-  right: 5em;
+  right: 3em;
 }
 header nav .header-icon i {
   margin: 0px 10px 0px 0px;
   color: #0725bd;
+  font-size: 20px;
 }
 
 .page1 {
   background-image: url("/images/fond-accueil.jpg");
   background-repeat: no-repeat;
-  zoom: 135%;
-  height: 616px;
+  height: 830px;
 }
 .page1__container {
   display: flex;
@@ -50,24 +61,26 @@ header nav .header-icon i {
   padding: 180px 0px 0px 0px;
 }
 .page1__container--text h1 {
+  text-align: center;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 70px;
+  color: white;
 }
 .page1__container--text h2 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 70px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-}
-.page1__container--text h2 span {
-  color: #0725bd;
+  color: white;
 }
 .page1__container--text p {
   display: flex;
   justify-content: center;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 30px;
   padding: 0px 0px 20px 0px;
+  color: white;
 }
 .page1__container--icone {
   display: flex;
@@ -76,12 +89,81 @@ header nav .header-icon i {
 }
 .page1__container--icone div {
   display: flex;
-  border-top: 1px solid black;
+  border-top: 1px solid white;
   padding: 0px 35px 0px 35px;
 }
 .page1__container--icone div a {
   padding: 15px 20px 0px 20px;
   color: #0725bd;
+}
+
+.page2__container {
+  text-align: center;
+  margin-top: 80px;
+}
+.page2__container h2 {
+  font-size: 33px;
+}
+.page2__container p {
+  width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+}
+.page2__container__dcw {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.page2__container__dcw--design {
+  background-image: url("/images/dcw/image-design");
+  background-size: 195%;
+  margin-right: 80px;
+  padding: 253px 167px 253px 167px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid black;
+}
+.page2__container__dcw--design h2 {
+  font-size: 25px;
+}
+.page2__container__dcw--consulting {
+  background-image: url("/images/dcw/image-consulting");
+  background-size: 195%;
+  padding: 253px 40px 253px 40px;
+  margin-right: 80px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid black;
+}
+.page2__container__dcw--consulting h2 {
+  font-size: 25px;
+}
+.page2__container__dcw--web {
+  background-image: url("/images/dcw/image-web");
+  background-size: 195%;
+  padding: 253px 188px 253px 188px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid black;
+}
+.page2__container__dcw--web h2 {
+  font-size: 25px;
+}
+.page2__container button {
+  margin-bottom: 40px;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  background-color: #0725bd;
+  border-color: #0725bd;
+  border-style: solid;
+  cursor: pointer;
+}
+.page2__container button:hover {
+  background-color: white;
+  color: #0725bd;
+  border-color: #0725bd;
 }
 
 /*# sourceMappingURL=styles.css.map */

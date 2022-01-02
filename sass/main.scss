@@ -16,8 +16,11 @@ header{
         display: flex;
         align-items: center;
         justify-content: center;
-
-        & .header-nav{           
+        border-bottom: solid 2px #0725bd;
+        background-color: white;
+        
+        & .header-nav{          
+            margin-left: 48px;
             & ul{
                 display: flex;
                 align-items: center;
@@ -29,6 +32,14 @@ header{
                 & a{
                     color: black;
                     font-weight: 100;
+
+                    & .active{
+                        color: #0725bd;
+                    }
+
+                    &:hover{
+                        color: #0725bd;
+                    }
                 }
 
                 & li{
@@ -39,10 +50,11 @@ header{
 
         & .header-icon{
             position: absolute;
-            right: 5em;
+            right: 3em;
             & i{
                 margin: 0px 10px 0px 0px;
                 color: #0725bd;
+                font-size: 20px;
             }
         }
     }
@@ -51,8 +63,8 @@ header{
 .page1{
     background-image: url("/images/fond-accueil.jpg");
     background-repeat: no-repeat;
-    zoom: 135%;
-    height: 616px;
+    // zoom: 135%;
+    height: 830px;
 
     &__container{
         display: flex;
@@ -60,27 +72,28 @@ header{
         padding: 180px 0px 0px 0px;
         &--text{
             & h1{
+                text-align: center;
                 font-weight: 700;
-                font-size: 50px;
+                font-size: 70px;
+                color: white;
             }
 
             & h2{
                 font-weight: 700;
-                font-size: 50px;
+                font-size: 70px;
                 display: flex;
+                flex-direction: row;
                 justify-content: center;
-
-                & span{
-                    color: #0725bd;
-                }
+                color: white;
             }
 
             & p{
                 display: flex;
                 justify-content: center;
                 font-weight: 300;
-                font-size: 20px;
+                font-size: 30px;
                 padding: 0px 0px 20px 0px;
+                color: white;
             }
         }
 
@@ -91,13 +104,95 @@ header{
 
             & div{
                 display: flex;
-                border-top: 1px solid black;
+                border-top: 1px solid white;
                 padding: 0px 35px 0px 35px;
 
                 & a{
                     padding: 15px 20px 0px 20px;
                     color: #0725bd;
                 }
+            }
+        }
+    }
+}
+
+.page2{
+    &__container{
+        text-align: center;
+        margin-top: 80px;
+
+        & h2{
+            font-size: 33px;
+        }
+
+        & p{
+            width: 1000px;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        &__dcw{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+            &--design{
+                background-image: url("/images/dcw/image-design");
+                background-size: 195%;
+                margin-right: 80px;
+                padding: 253px 167px 253px 167px;
+                border-radius: 20px;
+                color: white;
+                border: 1px solid black;
+
+                & h2{
+                    font-size: 25px;
+                }
+            }
+
+            &--consulting{
+                background-image: url("/images/dcw/image-consulting");
+                background-size: 195%;
+                padding: 253px 40px 253px 40px;
+                margin-right: 80px;
+                border-radius: 20px;
+                color: white;
+                border: 1px solid black;
+
+                & h2{
+                    font-size: 25px;
+                }
+            }
+
+            &--web{
+                background-image: url("/images/dcw/image-web");
+                background-size: 195%;
+                padding: 253px 188px 253px 188px;
+                border-radius: 20px;
+                color: white;
+                border: 1px solid black;
+
+                & h2{
+                    font-size: 25px;
+                }
+            }
+        }
+
+        button{
+            margin-bottom: 40px;
+            font-size: 20px;
+            padding: 5px 10px 5px 10px;
+            color: white;
+            background-color: #0725bd;
+            border-color: #0725bd;
+            border-style: solid;
+            cursor: pointer;
+
+            &:hover{
+                background-color: white;
+                color: #0725bd;
+                border-color: #0725bd;
             }
         }
     }
