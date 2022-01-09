@@ -1,3 +1,4 @@
+@import url("/sass/Utils/_variables.scss");
 @font-face {
   font-family: "Poppins";
   src: url("/fonts/Poppins-ExtraLight.ttf") format("truetype");
@@ -16,7 +17,9 @@ header nav {
   justify-content: center;
   border-bottom: solid 2px #0725bd;
   background-color: white;
+  position: fixed;
   width: 100%;
+  z-index: 1;
 }
 header nav .header-nav {
   margin-left: 48px;
@@ -52,14 +55,27 @@ header nav .header-icon i {
 }
 
 .page1 {
-  background-image: url("/images/fond-accueil.jpg");
+  background-image: url("/images/dpa/fond-accueil.jpg");
   background-repeat: no-repeat;
   height: 830px;
+  padding-bottom: 100px;
+}
+.page1 .ancre_page1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 400px;
+  right: 50px;
+}
+.page1 .ancre_page1 img {
+  margin-bottom: 10px;
+  width: 25px;
+  cursor: pointer;
 }
 .page1__container {
   display: flex;
   justify-content: center;
-  padding: 220px 0px 0px 0px;
+  padding: 320px 0px 0px 0px;
 }
 .page1__container--text h1 {
   text-align: center;
@@ -95,18 +111,31 @@ header nav .header-icon i {
 }
 .page1__container--icone div a {
   padding: 15px 20px 0px 20px;
-  color: #0725bd;
+  color: white;
 }
 
 .page2 {
-  background-image: url("/images/fond-page2.png");
+  background-image: url("/images/dpa/fond-page2.png");
+}
+.page2 .ancre_page2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 77em;
+  right: 50px;
+}
+.page2 .ancre_page2 img {
+  margin-bottom: 10px;
+  width: 25px;
+  cursor: pointer;
 }
 .page2__container {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 51px;
 }
 .page2__container h2 {
-  font-size: 33px;
+  font-size: 35px;
+  color: #0725bd;
 }
 .page2__container p {
   width: 1000px;
@@ -123,22 +152,35 @@ header nav .header-icon i {
   background-image: url("/images/dcw/image-design");
   background-size: 195%;
   margin-right: 80px;
-  padding: 253px 167px 253px 167px;
+  padding: 160px 167px 160px 167px;
   border-radius: 20px;
   color: white;
   border: 1px solid black;
+  height: 150px;
+  display: flex;
+  align-items: center;
 }
 .page2__container__dcw--design h2 {
   font-size: 25px;
+  color: white;
+}
+.page2__container__dcw--consulting h2 {
+  color: white;
+}
+.page2__container__dcw--web h2 {
+  color: white;
 }
 .page2__container__dcw--consulting {
   background-image: url("/images/dcw/image-consulting");
   background-size: 195%;
-  padding: 253px 40px 253px 40px;
+  padding: 160px 40px 160px 40px;
   margin-right: 80px;
   border-radius: 20px;
   color: white;
   border: 1px solid black;
+  height: 150px;
+  display: flex;
+  align-items: center;
 }
 .page2__container__dcw--consulting h2 {
   font-size: 25px;
@@ -146,10 +188,13 @@ header nav .header-icon i {
 .page2__container__dcw--web {
   background-image: url("/images/dcw/image-web");
   background-size: 195%;
-  padding: 253px 188px 253px 188px;
+  padding: 160px 188px 160px 188px;
   border-radius: 20px;
   color: white;
   border: 1px solid black;
+  height: 150px;
+  display: flex;
+  align-items: center;
 }
 .page2__container__dcw--web h2 {
   font-size: 25px;
