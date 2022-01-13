@@ -57,11 +57,12 @@ header nav .header-icon i {
 .page1 {
   background-image: url("/images/dpa/fond-accueil.jpg");
   background-repeat: no-repeat;
+  background-position: right;
   height: 830px;
   padding-bottom: 100px;
 }
 .page1 .ancre_page1 {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   top: 400px;
@@ -80,12 +81,12 @@ header nav .header-icon i {
 .page1__container--text h1 {
   text-align: center;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 50px;
   color: white;
 }
 .page1__container--text h2 {
   font-weight: 700;
-  font-size: 70px;
+  font-size: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -117,21 +118,9 @@ header nav .header-icon i {
 .page2 {
   background-image: url("/images/dpa/fond-page2.png");
 }
-.page2 .ancre_page2 {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  top: 77em;
-  right: 50px;
-}
-.page2 .ancre_page2 img {
-  margin-bottom: 10px;
-  width: 25px;
-  cursor: pointer;
-}
 .page2__container {
   text-align: center;
-  margin-top: 51px;
+  padding-top: 150px;
 }
 .page2__container h2 {
   font-size: 35px;
@@ -144,14 +133,14 @@ header nav .header-icon i {
 }
 .page2__container__dcw {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 .page2__container__dcw--design {
   background-image: url("/images/dcw/image-design");
   background-size: 195%;
-  margin-right: 80px;
+  background-position: left 580px top 0px;
   padding: 160px 167px 160px 167px;
   border-radius: 20px;
   color: white;
@@ -173,8 +162,8 @@ header nav .header-icon i {
 .page2__container__dcw--consulting {
   background-image: url("/images/dcw/image-consulting");
   background-size: 195%;
+  background-position: left 720px top -60px;
   padding: 160px 40px 160px 40px;
-  margin-right: 80px;
   border-radius: 20px;
   color: white;
   border: 1px solid black;
@@ -183,11 +172,13 @@ header nav .header-icon i {
   align-items: center;
 }
 .page2__container__dcw--consulting h2 {
+  width: 340px;
   font-size: 25px;
 }
 .page2__container__dcw--web {
   background-image: url("/images/dcw/image-web");
   background-size: 195%;
+  background-position: left 600px top -40px;
   padding: 160px 188px 160px 188px;
   border-radius: 20px;
   color: white;
@@ -200,8 +191,9 @@ header nav .header-icon i {
   font-size: 25px;
 }
 .page2__container button {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   font-size: 20px;
+  font-weight: 500;
   padding: 5px 10px 5px 10px;
   color: white;
   background-color: #0725bd;
@@ -213,6 +205,290 @@ header nav .header-icon i {
   background-color: white;
   color: #0725bd;
   border-color: #0725bd;
+}
+
+.page3 {
+  background-image: url("/images/dpa/font-page3.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.page3__container {
+  text-align: center;
+  padding-top: 100px;
+}
+.page3__container p {
+  width: 1000px;
+  margin: auto;
+  margin-top: 27px;
+}
+.page3__container h2 {
+  color: #0725bd;
+  font-size: 35px;
+  margin-top: 40px;
+}
+.page3__container__slide {
+  margin-top: 41px;
+}
+.page3__container__slide h3 {
+  background-image: url("/images/fondprojet/streampack_fond.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 60%;
+  height: 500px;
+  font-size: 100px;
+  color: white;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 27px;
+}
+.page3__container__slide__arrow {
+  display: flex;
+  width: 10%;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+.page3__container__slide__arrow p {
+  font-weight: 300;
+  font-size: 25px;
+  margin-top: 8px;
+}
+.page3__container__slide__arrow i {
+  font-size: 50px;
+  transition: 0.2s;
+}
+.page3__container__slide__arrow i:hover {
+  color: #0725bd;
+  transition: 0.2s;
+}
+.page3__container__slide__arrow #left_arrow {
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+.page3__container__slide__arrow #right_arrow {
+  transform: rotate(-90deg);
+  cursor: pointer;
+}
+.page3__container__slide2 {
+  display: none;
+}
+.page3__container__slide2 h3 {
+  background-image: url("/images/fondprojet/test.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 60%;
+  height: 500px;
+  font-size: 100px;
+  color: white;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 27px;
+}
+
+.page4 {
+  background-image: url("/images/avis/fond-avis.jpg");
+  height: 100vh;
+}
+.page4 #bottom_arrow {
+  width: 70px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.page4__container {
+  padding-top: 100px;
+  text-align: center;
+}
+.page4__container h2 {
+  color: white;
+  font-size: 35px;
+  margin-top: 25px;
+}
+.page4__container__avis {
+  background-color: white;
+  width: 1125px;
+  margin: auto;
+  margin-top: 35px;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 10px 10px 20px black;
+}
+.page4__container__avis__style {
+  display: flex;
+  padding: 40px 100px 40px 100px;
+  justify-content: space-between;
+}
+.page4__container__avis__style__info img {
+  width: 120px;
+  border-radius: 20px;
+}
+.page4__container__avis__style__info h4 {
+  font-size: 25px;
+  font-weight: 100;
+}
+.page4__container__avis__style__info p {
+  font-weight: 200;
+}
+.page4__container__avis__style__type {
+  width: 22%;
+  text-align: left;
+}
+.page4__container__avis__style__type--desc {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 65px;
+}
+.page4__container__avis__style__type--desc h4 {
+  font-size: 25px;
+  color: #0725bd;
+}
+.page4__container__avis__style__type--desc p {
+  font-weight: 200;
+}
+.page4__container__avis__style__type--note {
+  font-size: 25px;
+}
+.page4__container__avis__style__type--note h4 {
+  color: #0725bd;
+}
+.page4__container__avis__style__type--note div {
+  display: flex;
+  align-items: center;
+}
+.page4__container__avis__style__type--note div img {
+  width: 10px;
+  margin-right: 3px;
+}
+.page4__container__avis__style__type--note div p {
+  font-size: 25px;
+  margin-left: 10px;
+}
+.page4__container__avis__style__com {
+  text-align: left;
+  width: 30%;
+}
+.page4__container__avis__style__com h4 {
+  color: #0725bd;
+  font-size: 25px;
+}
+.page4__container__avis__style__com p {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.page5 {
+  background-image: url("/images/dpa/fond-page2.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.page5 .page5__container {
+  text-align: center;
+  padding-top: 100px;
+}
+.page5 .page5__container h2 {
+  color: #0725bd;
+  font-size: 35px;
+  margin-top: 50px;
+}
+.page5 .page5__container__content {
+  width: 1400px;
+  margin: auto;
+  margin-top: 50px;
+}
+.page5 .page5__container__content__desc {
+  display: flex;
+  justify-content: space-between;
+}
+.page5 .page5__container__content__desc p {
+  text-align: left;
+  font-weight: 300;
+  width: 50%;
+}
+.page5 .page5__container__content__desc img {
+  width: 450px;
+}
+.page5 .page5__container__content__chiffre {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.page5 .page5__container__content__chiffre__esport {
+  width: 15%;
+}
+.page5 .page5__container__content__chiffre h4 {
+  font-size: 60px;
+  font-weight: 500;
+  color: #0725bd;
+}
+.page5 .page5__container__content__chiffre p {
+  font-size: 30px;
+}
+
+footer {
+  text-align: center;
+  background: black;
+  background: linear-gradient(90deg, black 35%, #1a1a1a 48%, black 64%);
+  height: 100vh;
+  color: white;
+  background-position: right -50px;
+}
+footer .footer__container__arrow {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  margin: auto;
+  padding-top: 120px;
+}
+footer .footer__container__arrow img {
+  margin-top: 15px;
+}
+footer .footer__container p {
+  font-size: 40px;
+  font-weight: 800;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+footer .footer__container__info {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: auto;
+  margin-top: 150px;
+}
+footer .footer__container__info p {
+  font-size: 15px;
+  margin-top: 0;
+  width: 100%;
+}
+footer .footer__container__info h4 {
+  font-size: 25px;
+}
+footer .footer__container__info__reseaux__icone {
+  margin-top: 15px;
+  border-top: solid 2px #0725bd;
+}
+footer .footer__container__info__reseaux__icone a {
+  color: white;
+  font-size: 25px;
+}
+footer .footer__container__info__reseaux__icone a i {
+  margin-top: 20px;
+  padding: 0px 7px 0px 7px;
+}
+footer .footer__container__info__contact p {
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: solid 2px #0725bd;
+  font-weight: 100;
+}
+footer .footer__container .agence {
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */

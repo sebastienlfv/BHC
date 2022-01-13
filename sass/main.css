@@ -1,0 +1,439 @@
+@import url("/sass/Utils/_variables.scss");
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: solid 2px #0725bd;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+header nav .header-nav {
+  margin-left: 48px;
+}
+
+header nav .header-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .header-nav ul img {
+  width: 90px;
+}
+
+header nav .header-nav ul a {
+  color: black;
+  font-weight: 100;
+}
+
+header nav .header-nav ul a .active {
+  color: #0725bd;
+}
+
+header nav .header-nav ul a:hover {
+  color: #0725bd;
+}
+
+header nav .header-nav ul li {
+  padding: 0px 60px 0px 60px;
+}
+
+header nav .header-icon {
+  position: absolute;
+  right: 3em;
+}
+
+header nav .header-icon i {
+  margin: 0px 10px 0px 0px;
+  color: #0725bd;
+  font-size: 20px;
+}
+
+.page1 {
+  background-image: url("/images/dpa/fond-accueil.jpg");
+  background-repeat: no-repeat;
+  height: 830px;
+  padding-bottom: 100px;
+}
+
+.page1 .ancre_page1 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 400px;
+  right: 50px;
+}
+
+.page1 .ancre_page1 img {
+  margin-bottom: 10px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.page1__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 320px 0px 0px 0px;
+}
+
+.page1__container--text h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 70px;
+  color: white;
+}
+
+.page1__container--text h2 {
+  font-weight: 700;
+  font-size: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.page1__container--text p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 0px 0px 20px 0px;
+  color: white;
+}
+
+.page1__container--icone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 25px;
+}
+
+.page1__container--icone div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid white;
+  padding: 0px 35px 0px 35px;
+}
+
+.page1__container--icone div a {
+  padding: 15px 20px 0px 20px;
+  color: white;
+}
+
+.page2 {
+  background-image: url("/images/dpa/fond-page2.png");
+}
+
+.page2 .ancre_page2 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 83em;
+  right: 50px;
+}
+
+.page2 .ancre_page2 img {
+  margin-bottom: 10px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.page2__container {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.page2__container h2 {
+  font-size: 35px;
+  color: #0725bd;
+}
+
+.page2__container p {
+  width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.page2__container__dcw {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.page2__container__dcw--design {
+  background-image: url("/images/dcw/image-design");
+  background-size: 195%;
+  background-position: left 580px top 0px;
+  padding: 160px 167px 160px 167px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid black;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page2__container__dcw--design h2 {
+  font-size: 25px;
+  color: white;
+}
+
+.page2__container__dcw--consulting h2 {
+  color: white;
+}
+
+.page2__container__dcw--web h2 {
+  color: white;
+}
+
+.page2__container__dcw--consulting {
+  background-image: url("/images/dcw/image-consulting");
+  background-size: 195%;
+  padding: 160px 40px 160px 40px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid black;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page2__container__dcw--consulting h2 {
+  font-size: 25px;
+}
+
+.page2__container__dcw--web {
+  background-image: url("/images/dcw/image-web");
+  background-size: 195%;
+  padding: 160px 188px 160px 188px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid black;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page2__container__dcw--web h2 {
+  font-size: 25px;
+}
+
+.page2__container button {
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  background-color: #0725bd;
+  border-color: #0725bd;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.page2__container button:hover {
+  background-color: white;
+  color: #0725bd;
+  border-color: #0725bd;
+}
+
+.page3 {
+  background-image: url("/images/dpa/font-page3.png");
+  background-size: 100%;
+}
+
+.page3 .ancre_page3 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 139.3em;
+  right: 50px;
+}
+
+.page3 .ancre_page3 img {
+  margin-bottom: 10px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.page3__container {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.page3__container p {
+  width: 1000px;
+  margin: auto;
+  margin-top: 27px;
+}
+
+.page3__container h2 {
+  color: #0725bd;
+  font-size: 35px;
+}
+
+.page3__container__slide {
+  margin-top: 41px;
+}
+
+.page3__container__slide h3 {
+  background-image: url("/images/fondprojet/streampack_fond.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 60%;
+  height: 500px;
+  font-size: 100px;
+  color: white;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 27px;
+}
+
+.page3__container__slide__arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10%;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.page3__container__slide__arrow p {
+  font-weight: 300;
+  font-size: 25px;
+  margin-top: 8px;
+}
+
+.page3__container__slide__arrow i {
+  font-size: 50px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.page3__container__slide__arrow i:hover {
+  color: #0725bd;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.page3__container__slide__arrow #left_arrow {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.page3__container__slide__arrow #right_arrow {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  cursor: pointer;
+}
+
+.page3__container__slide2 {
+  display: none;
+}
+
+.page3__container__slide2 h3 {
+  background-image: url("/images/fondprojet/test.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 60%;
+  height: 500px;
+  font-size: 100px;
+  color: white;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 27px;
+}
+/*# sourceMappingURL=main.css.map */

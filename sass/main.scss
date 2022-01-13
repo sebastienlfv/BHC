@@ -69,12 +69,13 @@ header{
 .page1{
     background-image: url("/images/dpa/fond-accueil.jpg");
     background-repeat: no-repeat;
+    background-position: right;
     height: 830px;
     padding-bottom: 100px;
 
 
     .ancre_page1{
-        position: absolute;
+        position: fixed;
         display: flex;
         flex-direction: column;
         top: 400px;
@@ -96,13 +97,13 @@ header{
             & h1{
                 text-align: center;
                 font-weight: 700;
-                font-size: 70px;
+                font-size: 50px;
                 color: white;
             }
 
             & h2{
                 font-weight: 700;
-                font-size: 70px;
+                font-size: 50px;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
@@ -140,25 +141,10 @@ header{
 
 .page2{
     background-image: url("/images/dpa/fond-page2.png");
-
-    .ancre_page2{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        top: 77em;
-        right: 50px;
-        
-
-        img{
-            margin-bottom: 10px;
-            width: 25px;
-            cursor: pointer;
-        }
-    }
     
     &__container{
         text-align: center;
-        margin-top: 51px;
+        padding-top: 150px;
 
         & h2{
             font-size: 35px;
@@ -173,14 +159,15 @@ header{
 
         &__dcw{
             display: flex;
-            justify-content: center;
+            justify-content: space-evenly;
             margin-top: 50px;
             margin-bottom: 50px;
+
 
             &--design{
                 background-image: url("/images/dcw/image-design");
                 background-size: 195%;
-                margin-right: 80px;
+                background-position: left 580px top 0px;
                 padding: 160px 167px 160px 167px;
                 border-radius: 20px;
                 color: white;
@@ -206,8 +193,8 @@ header{
             &--consulting{
                 background-image: url("/images/dcw/image-consulting");
                 background-size: 195%;
+                background-position: left 720px top -60px;
                 padding: 160px 40px 160px 40px;
-                margin-right: 80px;
                 border-radius: 20px;
                 color: white;
                 border: 1px solid black;
@@ -216,6 +203,7 @@ header{
                 align-items: center;
 
                 & h2{
+                    width: 340px;
                     font-size: 25px;
                 }
             }
@@ -223,6 +211,7 @@ header{
             &--web{
                 background-image: url("/images/dcw/image-web");
                 background-size: 195%;
+                background-position: left 600px top -40px;
                 padding: 160px 188px 160px 188px;
                 border-radius: 20px;
                 color: white;
@@ -238,8 +227,9 @@ header{
         }
 
         button{
-            margin-bottom: 40px;
+            margin-bottom: 50px;
             font-size: 20px;
+            font-weight: 500;
             padding: 5px 10px 5px 10px;
             color: white;
             background-color: #0725bd;
@@ -252,6 +242,357 @@ header{
                 color: #0725bd;
                 border-color: #0725bd;
             }
+        }
+    }
+}
+
+.page3{
+    background-image: url("/images/dpa/font-page3.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    &__container{   
+        text-align: center;
+        padding-top: 100px;
+
+        p{
+            width: 1000px;
+            margin: auto;
+            margin-top: 27px;
+        }
+
+        h2{
+            color: #0725bd;
+            font-size: 35px;
+            margin-top: 40px;
+        }
+
+        &__slide{
+            margin-top: 41px;;
+            h3{
+                background-image: url("/images/fondprojet/streampack_fond.jpg");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 60%;
+                height: 500px;
+                font-size: 100px;
+                color: white;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 27px;
+            }
+
+            &__arrow{
+                display: flex;
+                width: 10%;
+                margin: auto;
+                margin-top: 20px;
+                padding-bottom: 50px;
+
+                p{
+                    font-weight: 300;
+                    font-size: 25px;
+                    margin-top: 8px;
+                }
+
+                i{
+                    font-size: 50px;
+                    transition: 0.2s;
+                }
+
+                i:hover{
+                    color: #0725bd;
+                    transition: 0.2s;
+                }
+
+                #left_arrow{
+                    transform: rotate(90deg);
+                    cursor: pointer;
+                }
+
+                #right_arrow{
+                    transform: rotate(-90deg);
+                    cursor: pointer;
+                }
+            }
+        }
+        
+
+        &__slide2{
+            display: none;
+            h3{
+                background-image: url("/images/fondprojet/test.jpg");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 60%;
+                height: 500px;
+                font-size: 100px;
+                color: white;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 27px;
+            }
+        }
+    }
+}
+
+.page4{
+    background-image: url("/images/avis/fond-avis.jpg");
+    height: 100vh;
+
+    #bottom_arrow{
+        width: 70px;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+
+    &__container{
+        padding-top: 100px;
+        text-align: center;
+
+        h2{
+            color: white;
+            font-size: 35px;
+            margin-top: 25px;
+        }
+
+        &__avis{
+            background-color: white;
+            width: 1125px;
+            margin: auto;
+            margin-top: 35px;
+            border-radius: 20px;
+            display: flex;
+            box-shadow: 10px 10px 20px black;
+
+            &__style{
+                display: flex;
+                padding: 40px 100px 40px 100px;
+                justify-content: space-between;
+
+                &__info{
+
+
+                    img{
+                        width: 120px;
+                        border-radius: 20px;
+                    }
+
+                    h4{
+                        font-size: 25px;
+                        font-weight: 100;
+                    }
+
+                    p{
+                        font-weight: 200;
+                    }
+                }
+
+                &__type{
+                    width: 22%;
+                    text-align: left;
+
+                    &--desc{
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 65px;
+
+                        h4{
+                            font-size: 25px;
+                            color: #0725bd;
+                        }
+
+                        p{
+                            font-weight: 200;
+                        }
+                    }
+
+                    &--note{
+
+                        font-size: 25px;
+                        h4{
+                            color: #0725bd;
+                        }
+
+
+                        div{
+                            display: flex;
+                            align-items: center;
+
+                            img{
+                                width: 10px;
+                                margin-right: 3px;
+                            }
+
+                            p{
+                                font-size: 25px;
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+
+                &__com{
+                    text-align: left;
+                    width: 30%;
+
+                    h4{
+                        color: #0725bd;
+                        font-size: 25px;
+                    }
+
+                    p{
+                        font-weight: 300;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.page5{
+    background-image: url("/images/dpa/fond-page2.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    .page5__container{
+        text-align: center;
+        padding-top: 100px;
+
+        h2{
+            color: #0725bd;
+            font-size: 35px;
+            margin-top: 50px;
+        }
+
+        &__content{
+            width: 1400px;
+            margin: auto;
+            margin-top: 50px;
+
+            &__desc{
+                display: flex;
+                justify-content: space-between;
+
+                p{
+                    text-align: left;
+                    font-weight: 300;
+                    width: 50%;
+                }
+
+                img{
+                    width: 450px;
+                }
+            }
+
+            &__chiffre{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 150px;
+
+                &__esport{
+                    width: 15%;
+                }
+
+                h4{
+                   font-size: 60px;
+                   font-weight: 500;
+                   color: #0725bd;
+                }
+
+                p{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    text-align: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 35%, rgba(26,26,26,1) 48%, rgba(0,0,0,1) 64%);
+    height: 100vh;
+    color: white;
+    background-position: right -50px;
+
+    .footer__container{
+        &__arrow{
+            display: flex;
+            flex-direction: column;
+            width: 30px;
+            margin: auto;
+            padding-top: 120px;
+
+            img{
+                margin-top: 15px;
+            }
+        }
+
+        p{
+            font-size: 40px;
+            font-weight: 800;
+            width: 60%;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        &__info{
+            display: flex;
+            justify-content: space-between;
+            width: 600px;
+            margin: auto;
+            margin-top: 150px;
+
+            p{
+                font-size: 15px;
+                margin-top: 0;
+                width: 100%;
+            }
+            
+            h4{
+                font-size: 25px;
+
+            }
+            
+
+            &__reseaux__icone{
+                margin-top: 15px;
+                border-top: solid 2px #0725bd;
+                
+                a{
+                    color: white;
+                    font-size: 25px;
+
+                    i{
+                        margin-top: 20px;
+                        padding: 0px 7px 0px 7px;
+                    }
+                }
+            }
+
+            &__contact{
+
+
+                p{
+                    padding-top: 15px;
+                    margin-top: 15px;
+                    border-top: solid 2px #0725bd;
+                    font-weight: 100;
+                }
+            }
+        }
+
+        .agence{
+            font-size: 30px;
+            font-weight: 100;
+            margin-top: 100px;
         }
     }
 }
