@@ -3,6 +3,20 @@
   font-family: "Poppins";
   src: url("/fonts/Poppins-ExtraLight.ttf") format("truetype");
 }
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/fonts/BebasNeue.otf") format("truetype");
+}
+@keyframes apparition {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -55,7 +69,7 @@ header nav .header-icon i {
 }
 
 .page1 {
-  background-image: url("/images/dpa/fond-accueil.jpg");
+  background-image: url("/images/accueil/dpa/fond-accueil.jpg");
   background-repeat: no-repeat;
   background-position: right;
   height: 830px;
@@ -116,7 +130,7 @@ header nav .header-icon i {
 }
 
 .page2 {
-  background-image: url("/images/dpa/fond-page2.png");
+  background-image: url("/images/accueil/dpa/fond-page2.png");
 }
 .page2__container {
   text-align: center;
@@ -138,7 +152,7 @@ header nav .header-icon i {
   margin-bottom: 50px;
 }
 .page2__container__dcw--design {
-  background-image: url("/images/dcw/image-design");
+  background-image: url("/images/accueil/dcw/image-design");
   background-size: 195%;
   background-position: left 580px top 0px;
   padding: 160px 167px 160px 167px;
@@ -160,7 +174,7 @@ header nav .header-icon i {
   color: white;
 }
 .page2__container__dcw--consulting {
-  background-image: url("/images/dcw/image-consulting");
+  background-image: url("/images/accueil/dcw/image-consulting");
   background-size: 195%;
   background-position: left 720px top -60px;
   padding: 160px 40px 160px 40px;
@@ -176,7 +190,7 @@ header nav .header-icon i {
   font-size: 25px;
 }
 .page2__container__dcw--web {
-  background-image: url("/images/dcw/image-web");
+  background-image: url("/images/accueil/dcw/image-web");
   background-size: 195%;
   background-position: left 600px top -40px;
   padding: 160px 188px 160px 188px;
@@ -208,7 +222,7 @@ header nav .header-icon i {
 }
 
 .page3 {
-  background-image: url("/images/dpa/font-page3.png");
+  background-image: url("/images/accueil/dpa/font-page3.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -230,7 +244,7 @@ header nav .header-icon i {
   margin-top: 41px;
 }
 .page3__container__slide h3 {
-  background-image: url("/images/fondprojet/streampack_fond.jpg");
+  background-image: url("/images/accueil/fondprojet/streampack_fond.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 60%;
@@ -275,7 +289,7 @@ header nav .header-icon i {
   display: none;
 }
 .page3__container__slide2 h3 {
-  background-image: url("/images/fondprojet/test.jpg");
+  background-image: url("/images/accueil/fondprojet/test.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 60%;
@@ -290,7 +304,7 @@ header nav .header-icon i {
 }
 
 .page4 {
-  background-image: url("/images/avis/fond-avis.jpg");
+  background-image: url("/images/accueil/avis/fond-avis.jpg");
   height: 100vh;
 }
 .page4 #bottom_arrow {
@@ -380,7 +394,7 @@ header nav .header-icon i {
 }
 
 .page5 {
-  background-image: url("/images/dpa/fond-page2.png");
+  background-image: url("/images/accueil/dpa/fond-page2.png");
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -427,7 +441,7 @@ header nav .header-icon i {
   font-size: 30px;
 }
 
-footer {
+#footer {
   text-align: center;
   background: black;
   background: linear-gradient(90deg, black 35%, #1a1a1a 48%, black 64%);
@@ -435,60 +449,426 @@ footer {
   color: white;
   background-position: right -50px;
 }
-footer .footer__container__arrow {
+#footer .footer__container__arrow {
   display: flex;
   flex-direction: column;
   width: 30px;
   margin: auto;
   padding-top: 120px;
 }
-footer .footer__container__arrow img {
+#footer .footer__container__arrow img {
   margin-top: 15px;
 }
-footer .footer__container p {
+#footer .footer__container p {
   font-size: 40px;
   font-weight: 800;
   width: 60%;
   margin: auto;
   margin-top: 50px;
 }
-footer .footer__container__info {
+#footer .footer__container__info {
   display: flex;
   justify-content: space-between;
   width: 600px;
   margin: auto;
   margin-top: 150px;
 }
-footer .footer__container__info p {
+#footer .footer__container__info p {
   font-size: 15px;
   margin-top: 0;
   width: 100%;
 }
-footer .footer__container__info h4 {
+#footer .footer__container__info h4 {
   font-size: 25px;
 }
-footer .footer__container__info__reseaux__icone {
+#footer .footer__container__info__reseaux__icone {
   margin-top: 15px;
   border-top: solid 2px #0725bd;
 }
-footer .footer__container__info__reseaux__icone a {
+#footer .footer__container__info__reseaux__icone a {
   color: white;
   font-size: 25px;
 }
-footer .footer__container__info__reseaux__icone a i {
+#footer .footer__container__info__reseaux__icone a i {
   margin-top: 20px;
   padding: 0px 7px 0px 7px;
 }
-footer .footer__container__info__contact p {
+#footer .footer__container__info__contact p {
   padding-top: 15px;
   margin-top: 15px;
   border-top: solid 2px #0725bd;
   font-weight: 100;
 }
-footer .footer__container .agence {
+#footer .footer__container .agence {
   font-size: 30px;
   font-weight: 100;
   margin-top: 100px;
+}
+
+.page1-services {
+  background: linear-gradient(180deg, #595959 0%, rgba(196, 196, 196, 0) 100%);
+  height: 100vh;
+}
+.page1-services .ancre_page1 {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 400px;
+  right: 50px;
+}
+.page1-services .ancre_page1 img {
+  margin-bottom: 10px;
+  width: 25px;
+  cursor: pointer;
+}
+.page1-services__container {
+  padding-top: 150px;
+  text-align: center;
+}
+.page1-services__container h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+.page1-services__container h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+.page1-services__container p {
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+  width: 29%;
+  margin: auto;
+  margin-top: 30px;
+}
+.page1-services__container__dsw {
+  display: flex;
+  width: 1400px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.page1-services__container__dsw__details:nth-child(1) {
+  background-image: url("/images/services/page1/design.png");
+  background-size: 100%;
+  padding: 108px 30px 108px 30px;
+  border-radius: 27px;
+  font-weight: 400;
+  font-size: 30px;
+  width: 20%;
+  color: white;
+}
+.page1-services__container__dsw__details:nth-child(1) .fleche-page1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+.page1-services__container__dsw__details:nth-child(1) .fleche-page1 img {
+  width: 70px;
+}
+.page1-services__container__dsw__details:nth-child(1):hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/design.png");
+  background-size: 100%;
+}
+.page1-services__container__dsw__details:nth-child(2) {
+  background-image: url("/images/services/page1/strategie.png");
+  background-size: 100%;
+  padding: 108px 30px 108px 30px;
+  border-radius: 27px;
+  font-weight: 400;
+  font-size: 30px;
+  width: 20%;
+  color: white;
+}
+.page1-services__container__dsw__details:nth-child(2) .fleche-page1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+.page1-services__container__dsw__details:nth-child(2) .fleche-page1 img {
+  width: 70px;
+}
+.page1-services__container__dsw__details:nth-child(2):hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/strategie.png");
+  background-size: 100%;
+}
+.page1-services__container__dsw__details:nth-child(3) {
+  background-image: url("/images/services/page1/web.png");
+  background-size: 100%;
+  padding: 108px 30px 108px 30px;
+  border-radius: 27px;
+  font-weight: 400;
+  font-size: 30px;
+  width: 20%;
+  color: white;
+}
+.page1-services__container__dsw__details:nth-child(3) .fleche-page1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+.page1-services__container__dsw__details:nth-child(3) .fleche-page1 img {
+  width: 70px;
+}
+.page1-services__container__dsw__details:nth-child(3):hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/web.png");
+  background-size: 100%;
+}
+.page1-services__container__dsw__details:hover {
+  padding: 58px 30px 48px 30px;
+}
+.page1-services__container__dsw__details:hover h3 {
+  padding-bottom: 40px;
+}
+.page1-services__container__dsw__details:hover .fleche-page1 {
+  display: flex;
+}
+.page1-services__container__dsw__details:hover .fleche-page1 img:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.page2-services {
+  background-image: url("/images/services/page2/font-page2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+.page2-services .page-2-services__container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1800px;
+}
+.page2-services .page-2-services__container__liste ul {
+  margin-top: 190px;
+}
+.page2-services .page-2-services__container__liste ul li {
+  font-family: "BebasNeue";
+  font-size: 37px;
+  font-weight: 400;
+  border: solid 1px white;
+  border-radius: 20px;
+  padding-left: 20px;
+  height: 120px;
+  width: 350px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.4s;
+}
+.page2-services .page-2-services__container__liste ul li div {
+  margin-top: 60px;
+  margin-right: 15px;
+  display: none;
+}
+.page2-services .page-2-services__container__liste ul li div img {
+  width: 10px;
+}
+.page2-services .page-2-services__container__liste ul li:hover {
+  margin-left: 70px;
+  transition: 0.4s;
+}
+.page2-services .page-2-services__container__liste ul li:hover div {
+  display: flex;
+  transition: 0.4s;
+}
+.page2-services .page-2-services__container__liste ul .onglet1-page2 {
+  background-image: url("/images/services/page2/liste/streampack.png");
+  background-size: 100%;
+}
+.page2-services .page-2-services__container__liste ul .onglet2-page2 {
+  background-image: url("/images/services/page2/liste/logo.png");
+  background-size: 100%;
+}
+.page2-services .page-2-services__container__liste ul .onglet3-page2 {
+  background-image: url("/images/services/page2/liste/header.png");
+  background-size: 100%;
+}
+.page2-services .page-2-services__container__liste ul .onglet4-page2 {
+  background-image: url("/images/services/page2/liste/affiches.png");
+  background-size: 100%;
+}
+.page2-services .page-2-services__container__liste ul .onglet5-page2 {
+  background-image: url("/images/services/page2/liste/autres.png");
+  background-size: 100%;
+}
+.page2-services .page-2-services__container__details {
+  text-align: right;
+  margin-top: 320px;
+  margin-right: 10%;
+}
+.page2-services .page-2-services__container__details h2 {
+  font-family: "BebasNeue";
+  font-size: 135px;
+}
+.page2-services .page-2-services__container__details button {
+  margin-top: 50px;
+  border: solid 2px white;
+  color: white;
+  font-size: 25px;
+  background-color: #0725bd;
+  padding: 7px 13px 7px 13px;
+}
+
+.page3-services {
+  background-image: url("/images/services/page3/fond-page3.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+.page3-services .page-3-services__container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1800px;
+}
+.page3-services .page-3-services__container__liste ul {
+  margin-top: 190px;
+}
+.page3-services .page-3-services__container__liste ul li {
+  font-family: "BebasNeue";
+  font-size: 37px;
+  font-weight: 400;
+  border: solid 1px white;
+  border-radius: 20px;
+  padding-left: 20px;
+  height: 120px;
+  width: 350px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.4s;
+}
+.page3-services .page-3-services__container__liste ul li div {
+  margin-top: 60px;
+  margin-right: 15px;
+  display: none;
+}
+.page3-services .page-3-services__container__liste ul li div img {
+  width: 10px;
+}
+.page3-services .page-3-services__container__liste ul li:hover {
+  margin-left: 70px;
+  transition: 0.4s;
+}
+.page3-services .page-3-services__container__liste ul li:hover div {
+  display: flex;
+  transition: 0.4s;
+}
+.page3-services .page-3-services__container__liste ul .onglet1-page2 {
+  background-image: url("/images/services/page3/onglet-venasty 1.png");
+  background-size: 100%;
+}
+.page3-services .page-3-services__container__liste ul .onglet2-page2 {
+  background-image: url("/images/services/page3/onglet-onestesport 1.png");
+  background-size: 100%;
+}
+.page3-services .page-3-services__container__liste ul .onglet3-page2 {
+  background-image: url("/images/services/page3/onglet-dreags 1.png");
+  background-size: 100%;
+}
+.page3-services .page-3-services__container__liste ul .onglet4-page2 {
+  background-image: url("/images/services/page3/onglet-dreags 1.png");
+  background-size: 100%;
+}
+.page3-services .page-3-services__container__details {
+  text-align: right;
+  margin-top: 250px;
+  margin-right: 10%;
+}
+.page3-services .page-3-services__container__details h2 {
+  font-family: "BebasNeue";
+  font-size: 135px;
+}
+.page3-services .page-3-services__container__details button {
+  margin-top: 50px;
+  border: solid 2px white;
+  color: white;
+  font-size: 25px;
+  background-color: #0725bd;
+  padding: 7px 13px 7px 13px;
+}
+
+.page4-services {
+  background-image: url("/images/services/page4/fond-page4.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+.page4-services .page-4-services__container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1800px;
+}
+.page4-services .page-4-services__container__liste ul {
+  margin-top: 190px;
+}
+.page4-services .page-4-services__container__liste ul li {
+  font-family: "BebasNeue";
+  font-size: 37px;
+  font-weight: 400;
+  border: solid 1px white;
+  border-radius: 20px;
+  padding-left: 20px;
+  height: 120px;
+  width: 350px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.4s;
+}
+.page4-services .page-4-services__container__liste ul li div {
+  margin-top: 60px;
+  margin-right: 15px;
+  display: none;
+}
+.page4-services .page-4-services__container__liste ul li div img {
+  width: 10px;
+}
+.page4-services .page-4-services__container__liste ul li:hover {
+  margin-left: 70px;
+  transition: 0.4s;
+}
+.page4-services .page-4-services__container__liste ul li:hover div {
+  display: flex;
+  transition: 0.4s;
+}
+.page4-services .page-4-services__container__liste ul .onglet1-page2 {
+  background-image: url("/images/services/page4/onglet-site-vitrine 1.png");
+  background-size: 100%;
+}
+.page4-services .page-4-services__container__liste ul .onglet2-page2 {
+  background-image: url("/images/services/page4/onglet-site-vitrine 1.png");
+  background-size: 100%;
+}
+.page4-services .page-4-services__container__details {
+  text-align: right;
+  margin-top: 250px;
+  margin-right: 10%;
+}
+.page4-services .page-4-services__container__details h2 {
+  font-family: "BebasNeue";
+  font-size: 135px;
+}
+.page4-services .page-4-services__container__details button {
+  margin-top: 50px;
+  border: solid 2px white;
+  color: white;
+  font-size: 25px;
+  background-color: #0725bd;
+  padding: 7px 13px 7px 13px;
 }
 
 /*# sourceMappingURL=styles.css.map */
