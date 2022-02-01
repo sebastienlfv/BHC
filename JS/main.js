@@ -1,10 +1,9 @@
-let streampack = document.getElementsByClassName("onglet1-page2");
-let streampackDetails = document.getElementsByClassName("page-2-services__container__streampack");
-
-streampack.addEventListener("click", () => {
-    if(getComputedStyle(d1).display != "none"){
-        streampackDetails.style.display = "none";
-    } else {
-        streampackDetails.style.display = "block";
-    }
-  })
+new fullpage('main', {
+    navigation: true,
+    responsiveWidth: 700,
+    anchors: ['#page1', '#page2', '#page3'],
+    parallax: true,
+    onLeave: function(origin, destination, direction){
+        console.log("Leaving section" + origin.index);
+    },
+});
