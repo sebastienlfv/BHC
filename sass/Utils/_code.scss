@@ -40,7 +40,7 @@ header{
                     color: black;
                     font-weight: 100;
 
-                    & .active{
+                    .active{
                         color: #0725bd;
                     }
 
@@ -892,8 +892,8 @@ header{
                     font-family: "BebasNeue";
                     font-size: 37px;
                     font-weight: 400;
-                    border: solid 1px #0725bd;
-                    border-radius: 20px;
+                    border: solid 1px white;
+                    border-radius: 30px;
                     padding-left: 20px;
                     height: 120px;
                     width: 350px;
