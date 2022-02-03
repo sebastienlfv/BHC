@@ -74,7 +74,7 @@ header{
 }
 
 .page1{
-    background-image: url("/images/accueil/dpa/fond-accueil.jpg");
+    background-image: url("./images/accueil/dpa/fond-accueil.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100vh;
@@ -146,7 +146,7 @@ header{
 }
 
 .page2{
-    background-image: url("/images/accueil/dpa/fond-page2.png");
+    background-image: url("./images/accueil/dpa/fond-page2.png");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100vh;
@@ -174,7 +174,7 @@ header{
 
 
             &--design{
-                background-image: url("/images/accueil/dcw/image-design");
+                background-image: url("./images/accueil/dcw/image-design");
                 background-size: 195%;
                 background-position: left 580px top 0px;
                 border-radius: 20px;
@@ -207,7 +207,7 @@ header{
             }
 
             &--consulting{
-                background-image: url("/images/accueil/dcw/image-consulting");
+                background-image: url("./images/accueil/dcw/image-consulting");
                 background-size: 200%;
                 background-position: left 700px top -60px;
                 border-radius: 20px;
@@ -232,7 +232,7 @@ header{
             }
 
             &--web{
-                background-image: url("/images/accueil/dcw/image-web");
+                background-image: url("./images/accueil/dcw/image-web");
                 background-size: 195%;
                 background-position: left 520px top -30px;
                 border-radius: 20px;
@@ -277,7 +277,7 @@ header{
 }
 
 .page3{
-    background-image: url("/images/accueil/dpa/font-page3.png");
+    background-image: url("./images/accueil/dpa/font-page3.png");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100vh;
@@ -299,7 +299,7 @@ header{
         &__slide{
             margin-top: 41px;;
             h3{
-                background-image: url("/images/accueil/fondprojet/streampack_fond.jpg");
+                background-image: url("./images/accueil/fondprojet/streampack_fond.jpg");
                 background-size: 100%;
                 width: 1200px;
                 height: 500px;
@@ -350,7 +350,7 @@ header{
         &__slide2{
             display: none;
             h3{
-                background-image: url("/images/accueil/fondprojet/test.jpg");
+                background-image: url("./images/accueil/fondprojet/test.jpg");
                 background-repeat: no-repeat;
                 background-size: 100%;
                 width: 60%;
@@ -368,7 +368,7 @@ header{
 }
 
 .page4{
-    background-image: url("/images/accueil/avis/fond-avis.png");
+    background-image: url("./images/accueil/avis/fond-avis.png");
     background-size: 100%;
     background-position: right;
     height: 100vh;
@@ -486,7 +486,7 @@ header{
 }
 
 .page5{
-    background-image: url("/images/accueil/dpa/fond-page2.png");
+    background-image: url("./images/accueil/dpa/fond-page2.png");
     background-repeat: no-repeat;
     height: 100vh;
 
@@ -686,7 +686,7 @@ header{
             margin-top: 90px;
 
             &__details:nth-child(1){
-                background-image: url("/images/services/page1/design.png");
+                background-image: url("./images/services/page1/design.png");
                 background-size: 100%;
                 padding: 108px 30px 108px 30px;
                 border-radius: 27px;
@@ -707,13 +707,13 @@ header{
                 }
 
                 &:hover{
-                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/design.png");
+                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/services/page1/design.png");
                     background-size: 100%;
                 }
             }
 
             &__details:nth-child(2){
-                background-image: url("/images/services/page1/strategie.png");
+                background-image: url("./images/services/page1/strategie.png");
                 background-size: 100%;
                 padding: 108px 30px 108px 30px;
                 border-radius: 27px;
@@ -734,13 +734,13 @@ header{
                 }
 
                 &:hover{
-                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/strategie.png");
+                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/services/page1/strategie.png");
                     background-size: 100%;
                 }
             }
 
             &__details:nth-child(3){
-                background-image: url("/images/services/page1/web.png");
+                background-image: url("./images/services/page1/web.png");
                 background-size: 100%;
                 padding: 108px 30px 108px 30px;
                 border-radius: 27px;
@@ -761,7 +761,7 @@ header{
                 }
 
                 &:hover{
-                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/web.png");
+                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/services/page1/web.png");
                     background-size: 100%;
                 }
             }
@@ -786,7 +786,7 @@ header{
 }
 
 .page2-services{
-    background-image: url("/images/services/page2/font-page2.png");
+    background-image: url("./images/services/page2/font-page2.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -811,7 +811,7 @@ header{
         }
 
         &__left{
-            background-image: url("/images/services/page2/details/steampack/Fond\ 1.png");
+            background-image: url("./images/services/page2/details/steampack/Fond\ 1.png");
             background-color: white;
             color: black;
             padding: 120px 70px 120px 90px;
@@ -925,31 +925,31 @@ header{
                 }
 
                 .onglet1-page2{
-                    background-image: url("/images/services/page2/liste/streampack.png");
+                    background-image: url("./images/services/page2/liste/streampack.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet2-page2{
-                    background-image: url("/images/services/page2/liste/logo.png");
+                    background-image: url("./images/services/page2/liste/logo.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet3-page2{
-                    background-image: url("/images/services/page2/liste/header.png");
+                    background-image: url("./images/services/page2/liste/header.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet4-page2{
-                    background-image: url("/images/services/page2/liste/affiches.png");
+                    background-image: url("./images/services/page2/liste/affiches.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet5-page2{
-                    background-image: url("/images/services/page2/liste/autres.png");
+                    background-image: url("./images/services/page2/liste/autres.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
@@ -980,7 +980,7 @@ header{
 }
 
 .page3-services{
-    background-image: url("/images/services/page3/fond-page3.png");
+    background-image: url("./images/services/page3/fond-page3.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1006,7 +1006,7 @@ header{
         }
 
         &__left{
-            background-image: url("/images/services/page2/details/steampack/Fond\ 1.png");
+            background-image: url("./images/services/page2/details/steampack/Fond\ 1.png");
             background-color: white;
             color: black;
             padding: 120px 70px 120px 90px;
@@ -1121,25 +1121,25 @@ header{
                 }
 
                 .onglet1-page2{
-                    background-image: url("/images/services/page3/onglet-venasty\ 1.png");
+                    background-image: url("./images/services/page3/onglet-venasty\ 1.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet2-page2{
-                    background-image: url("/images/services/page3/onglet-onestesport\ 1.png");
+                    background-image: url("./images/services/page3/onglet-onestesport\ 1.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet3-page2{
-                    background-image: url("/images/services/page3/onglet-dreags\ 1.png");
+                    background-image: url("./images/services/page3/onglet-dreags\ 1.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet4-page2{
-                    background-image: url("/images/services/page3/onglet-dreags\ 1.png");
+                    background-image: url("./images/services/page3/onglet-dreags\ 1.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
@@ -1170,7 +1170,7 @@ header{
 }
 
 .page4-services{
-    background-image: url("/images/services/page4/fond-page4.png");
+    background-image: url("./images/services/page4/fond-page4.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1195,7 +1195,7 @@ header{
         }
 
         &__left{
-            background-image: url("/images/services/page2/details/steampack/Fond\ 1.png");
+            background-image: url("./images/services/page2/details/steampack/Fond\ 1.png");
             background-color: white;
             color: black;
             padding: 120px 0px 120px 90px;
@@ -1308,13 +1308,13 @@ header{
 
 
                 .onglet1-page2{
-                    background-image: url("/images/services/page4/onglet-site-vitrine\ 1.png");
+                    background-image: url("./images/services/page4/onglet-site-vitrine\ 1.png");
                     background-size: 100%;
                     cursor: pointer;      
                 }
 
                 .onglet2-page2{
-                    background-image: url("/images/services/page4/onglet-site-vitrine\ 1.png");
+                    background-image: url("./images/services/page4/onglet-site-vitrine\ 1.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
