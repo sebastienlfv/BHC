@@ -74,7 +74,7 @@ header{
 }
 
 .page1{
-    background-image: url("./images/accueil/dpa/fond-accueil.jpg");
+    background-image: url("/images/accueil/dpa/fond-accueil.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100vh;
@@ -146,7 +146,7 @@ header{
 }
 
 .page2{
-    background-image: url("./images/accueil/dpa/fond-page2.png");
+    background-image: url("/images/accueil/dpa/fond-page2.png");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100vh;
@@ -161,7 +161,7 @@ header{
         }
 
         & p{
-            width: 1000px;
+            width: 800px;
             margin: auto;
             margin-top: 20px;
         }
@@ -174,7 +174,7 @@ header{
 
 
             &--design{
-                background-image: url("./images/accueil/dcw/image-design");
+                background-image: url("/images/accueil/dcw/image-design");
                 background-size: 195%;
                 background-position: left 580px top 0px;
                 border-radius: 20px;
@@ -186,7 +186,7 @@ header{
                 align-items: center;
                 justify-content: center;
 
-                & h2{
+                h2{
                     font-size: 25px;
                     color: white;
                     transition: 0.4s;
@@ -207,7 +207,7 @@ header{
             }
 
             &--consulting{
-                background-image: url("./images/accueil/dcw/image-consulting");
+                background-image: url("/images/accueil/dcw/image-consulting");
                 background-size: 200%;
                 background-position: left 700px top -60px;
                 border-radius: 20px;
@@ -232,7 +232,7 @@ header{
             }
 
             &--web{
-                background-image: url("./images/accueil/dcw/image-web");
+                background-image: url("/images/accueil/dcw/image-web");
                 background-size: 195%;
                 background-position: left 520px top -30px;
                 border-radius: 20px;
@@ -277,8 +277,7 @@ header{
 }
 
 .page3{
-    background-image: url("./images/accueil/dpa/font-page3.png");
-    background-repeat: no-repeat;
+    background-image: url("/images/accueil/dpa/font-page3.png");
     background-size: 100%;
     height: 100vh;
 
@@ -299,7 +298,7 @@ header{
         &__slide{
             margin-top: 41px;;
             h3{
-                background-image: url("./images/accueil/fondprojet/streampack_fond.jpg");
+                background-image: url("/images/accueil/fondprojet/streampack_fond.jpg");
                 background-size: 100%;
                 width: 1200px;
                 height: 500px;
@@ -350,7 +349,7 @@ header{
         &__slide2{
             display: none;
             h3{
-                background-image: url("./images/accueil/fondprojet/test.jpg");
+                background-image: url("/images/accueil/fondprojet/test.jpg");
                 background-repeat: no-repeat;
                 background-size: 100%;
                 width: 60%;
@@ -368,9 +367,8 @@ header{
 }
 
 .page4{
-    background-image: url("./images/accueil/avis/fond-avis.png");
+    background-image: url("/images/accueil/avis/fond-avis.png");
     background-size: 100%;
-    background-position: right;
     height: 100vh;
 
     #bottom_arrow{
@@ -486,7 +484,7 @@ header{
 }
 
 .page5{
-    background-image: url("./images/accueil/dpa/fond-page2.png");
+    background-image: url("/images/accueil/dpa/fond-page2.png");
     background-repeat: no-repeat;
     height: 100vh;
 
@@ -510,7 +508,7 @@ header{
                 justify-content: space-between;
 
                 p{
-                    text-align: left;
+                    text-align: justify;
                     font-weight: 300;
                     width: 50%;
                 }
@@ -523,7 +521,7 @@ header{
             &__chiffre{
                 display: flex;
                 justify-content: space-between;
-                margin-top: 120px;
+                margin-top: 100px;
 
                 &__esport{
                     width: 15%;
@@ -567,9 +565,14 @@ header{
         p{
             font-size: 40px;
             font-weight: 800;
-            width: 60%;
+            width: 65%;
             margin: auto;
-            margin-top: 50px;
+            margin-top: 80px;
+            color: #0725bd;
+
+            span{
+                color: white;
+            }
         }
 
         &__info{
@@ -577,7 +580,7 @@ header{
             justify-content: space-between;
             width: 600px;
             margin: auto;
-            margin-top: 150px;
+            margin-top: 120px;
 
             p{
                 font-size: 15px;
@@ -620,6 +623,7 @@ header{
                     margin-top: 15px;
                     border-top: solid 2px #0725bd;
                     font-weight: 100;
+                    color: white;
                 }
             }
         }
@@ -628,6 +632,7 @@ header{
             font-size: 30px;
             font-weight: 100;
             margin-top: 100px;
+            color: white;
         }
     }
 }
@@ -673,7 +678,7 @@ header{
             color: black;
             font-weight: 300;
             font-size: 18px;
-            width: 29%;
+            width: 45%;
             margin: auto;
             margin-top: 20px;
         }
@@ -686,7 +691,7 @@ header{
             margin-top: 90px;
 
             &__details:nth-child(1){
-                background-image: url("./images/services/page1/design.png");
+                background-image: url("/images/services/page1/design.png");
                 background-size: 100%;
                 padding: 108px 30px 108px 30px;
                 border-radius: 27px;
@@ -707,13 +712,13 @@ header{
                 }
 
                 &:hover{
-                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/services/page1/design.png");
+                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/design.png");
                     background-size: 100%;
                 }
             }
 
             &__details:nth-child(2){
-                background-image: url("./images/services/page1/strategie.png");
+                background-image: url("/images/services/page1/strategie.png");
                 background-size: 100%;
                 padding: 108px 30px 108px 30px;
                 border-radius: 27px;
@@ -734,13 +739,13 @@ header{
                 }
 
                 &:hover{
-                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/services/page1/strategie.png");
+                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/strategie.png");
                     background-size: 100%;
                 }
             }
 
             &__details:nth-child(3){
-                background-image: url("./images/services/page1/web.png");
+                background-image: url("/images/services/page1/web.png");
                 background-size: 100%;
                 padding: 108px 30px 108px 30px;
                 border-radius: 27px;
@@ -761,7 +766,7 @@ header{
                 }
 
                 &:hover{
-                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/services/page1/web.png");
+                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/web.png");
                     background-size: 100%;
                 }
             }
@@ -786,7 +791,7 @@ header{
 }
 
 .page2-services{
-    background-image: url("./images/services/page2/font-page2.png");
+    background-image: url("/images/services/page2/font-page2.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -811,7 +816,7 @@ header{
         }
 
         &__left{
-            background-image: url("./images/services/page2/details/steampack/Fond\ 1.png");
+            background-image: url("/images/services/page2/details/steampack/Fond\ 1.png");
             background-color: white;
             color: black;
             padding: 120px 70px 120px 90px;
@@ -925,31 +930,31 @@ header{
                 }
 
                 .onglet1-page2{
-                    background-image: url("./images/services/page2/liste/streampack.png");
+                    background-image: url("/images/services/page2/liste/streampack.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet2-page2{
-                    background-image: url("./images/services/page2/liste/logo.png");
+                    background-image: url("/images/services/page2/liste/logo.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet3-page2{
-                    background-image: url("./images/services/page2/liste/header.png");
+                    background-image: url("/images/services/page2/liste/header.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet4-page2{
-                    background-image: url("./images/services/page2/liste/affiches.png");
+                    background-image: url("/images/services/page2/liste/affiches.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet5-page2{
-                    background-image: url("./images/services/page2/liste/autres.png");
+                    background-image: url("/images/services/page2/liste/autres.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
@@ -980,7 +985,7 @@ header{
 }
 
 .page3-services{
-    background-image: url("./images/services/page3/fond-page3.png");
+    background-image: url("/images/services/page3/fond-page3.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1006,7 +1011,7 @@ header{
         }
 
         &__left{
-            background-image: url("./images/services/page2/details/steampack/Fond\ 1.png");
+            background-image: url("/images/services/page2/details/steampack/Fond\ 1.png");
             background-color: white;
             color: black;
             padding: 120px 70px 120px 90px;
@@ -1121,25 +1126,25 @@ header{
                 }
 
                 .onglet1-page2{
-                    background-image: url("./images/services/page3/onglet-venasty\ 1.png");
+                    background-image: url("/images/services/page3/onglet-venasty\ 1.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet2-page2{
-                    background-image: url("./images/services/page3/onglet-onestesport\ 1.png");
+                    background-image: url("/images/services/page3/onglet-onestesport\ 1.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet3-page2{
-                    background-image: url("./images/services/page3/onglet-dreags\ 1.png");
+                    background-image: url("/images/services/page3/onglet-dreags\ 1.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet4-page2{
-                    background-image: url("./images/services/page3/onglet-dreags\ 1.png");
+                    background-image: url("/images/services/page3/onglet-dreags\ 1.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
@@ -1147,14 +1152,20 @@ header{
         }
 
         &__details{
-            text-align: right;
             margin-top: 250px;
-            margin-right: 10%;
+            margin: 150px;
+            text-align: right;
 
             h2{
                 font-family: "BebasNeue";
                 font-size: 135px;
 
+            }
+
+            p{
+                text-align: justify;
+                width: 500px;
+                margin-top: 30px;
             }
 
             button{
@@ -1164,13 +1175,14 @@ header{
                 font-size: 25px;
                 background-color: #0725bd;
                 padding: 7px 13px 7px 13px;
+                cursor: pointer;
             }
         }
     }
 }
 
 .page4-services{
-    background-image: url("./images/services/page4/fond-page4.png");
+    background-image: url("/images/services/page4/fond-page4.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1195,7 +1207,7 @@ header{
         }
 
         &__left{
-            background-image: url("./images/services/page2/details/steampack/Fond\ 1.png");
+            background-image: url("/images/services/page2/details/steampack/Fond\ 1.png");
             background-color: white;
             color: black;
             padding: 120px 0px 120px 90px;
@@ -1308,13 +1320,13 @@ header{
 
 
                 .onglet1-page2{
-                    background-image: url("./images/services/page4/onglet-site-vitrine\ 1.png");
+                    background-image: url("/images/services/page4/onglet-site-vitrine\ 1.png");
                     background-size: 100%;
                     cursor: pointer;      
                 }
 
                 .onglet2-page2{
-                    background-image: url("./images/services/page4/onglet-site-vitrine\ 1.png");
+                    background-image: url("/images/services/page4/onglet-site-vitrine\ 1.png");
                     background-size: 100%;
                     cursor: pointer;
                 }

@@ -146,7 +146,7 @@ header nav .header-icon i:hover {
   color: #0725bd;
 }
 .page2__container p {
-  width: 1000px;
+  width: 800px;
   margin: auto;
   margin-top: 20px;
 }
@@ -246,7 +246,6 @@ header nav .header-icon i:hover {
 
 .page3 {
   background-image: url("/images/accueil/dpa/font-page3.png");
-  background-repeat: no-repeat;
   background-size: 100%;
   height: 100vh;
 }
@@ -326,7 +325,6 @@ header nav .header-icon i:hover {
 .page4 {
   background-image: url("/images/accueil/avis/fond-avis.png");
   background-size: 100%;
-  background-position: right;
   height: 100vh;
 }
 .page4 #bottom_arrow {
@@ -439,7 +437,7 @@ header nav .header-icon i:hover {
   justify-content: space-between;
 }
 .page5 .page5__container__content__desc p {
-  text-align: left;
+  text-align: justify;
   font-weight: 300;
   width: 50%;
 }
@@ -449,7 +447,7 @@ header nav .header-icon i:hover {
 .page5 .page5__container__content__chiffre {
   display: flex;
   justify-content: space-between;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 .page5 .page5__container__content__chiffre__esport {
   width: 15%;
@@ -484,16 +482,20 @@ header nav .header-icon i:hover {
 #footer .footer__container p {
   font-size: 40px;
   font-weight: 800;
-  width: 60%;
+  width: 65%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 80px;
+  color: #0725bd;
+}
+#footer .footer__container p span {
+  color: white;
 }
 #footer .footer__container__info {
   display: flex;
   justify-content: space-between;
   width: 600px;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 #footer .footer__container__info p {
   font-size: 15px;
@@ -525,11 +527,13 @@ header nav .header-icon i:hover {
   margin-top: 15px;
   border-top: solid 2px #0725bd;
   font-weight: 100;
+  color: white;
 }
 #footer .footer__container .agence {
   font-size: 30px;
   font-weight: 100;
   margin-top: 100px;
+  color: white;
 }
 
 .page1-services {
@@ -567,7 +571,7 @@ header nav .header-icon i:hover {
   color: black;
   font-weight: 300;
   font-size: 18px;
-  width: 29%;
+  width: 45%;
   margin: auto;
   margin-top: 20px;
 }
@@ -965,13 +969,18 @@ header nav .header-icon i:hover {
   cursor: pointer;
 }
 .page3-services .page-3-services__container__details {
-  text-align: right;
   margin-top: 250px;
-  margin-right: 10%;
+  margin: 150px;
+  text-align: right;
 }
 .page3-services .page-3-services__container__details h2 {
   font-family: "BebasNeue";
   font-size: 135px;
+}
+.page3-services .page-3-services__container__details p {
+  text-align: justify;
+  width: 500px;
+  margin-top: 30px;
 }
 .page3-services .page-3-services__container__details button {
   margin-top: 50px;
@@ -980,6 +989,7 @@ header nav .header-icon i:hover {
   font-size: 25px;
   background-color: #0725bd;
   padding: 7px 13px 7px 13px;
+  cursor: pointer;
 }
 
 .page4-services {
