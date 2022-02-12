@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Poppins";
   src: url("/fonts/Poppins-ExtraLight.ttf") format("truetype");
@@ -38,6 +39,31 @@ header nav .header-nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
+}
+header nav .header-nav ul div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+header nav .header-nav ul div .border-nav {
+  background-color: #0725bd;
+  width: 20px;
+  height: 2px;
+  display: none;
+  position: absolute;
+  top: 28px;
+}
+header nav .header-nav ul div:hover .border-nav {
+  display: flex;
+}
+header nav .header-nav ul div .active-border {
+  background-color: #0725bd;
+  width: 20px;
+  height: 2px;
+  display: flex;
+  position: absolute;
+  top: 28px;
 }
 header nav .header-nav ul img {
   width: 90px;
@@ -479,7 +505,13 @@ header nav .header-icon i:hover {
 #footer .footer__container__arrow img {
   margin-top: 15px;
 }
-#footer .footer__container p {
+#footer .footer__container__p {
+  display: flex;
+  width: 1400px;
+  justify-content: space-around;
+  margin: auto;
+}
+#footer .footer__container__p p {
   font-size: 40px;
   font-weight: 800;
   width: 65%;
@@ -487,7 +519,7 @@ header nav .header-icon i:hover {
   margin-top: 80px;
   color: #0725bd;
 }
-#footer .footer__container p span {
+#footer .footer__container__p p span {
   color: white;
 }
 #footer .footer__container__info {
@@ -681,7 +713,10 @@ header nav .header-icon i:hover {
 .page2-services .page-2-services__container__info {
   position: absolute;
   top: 180px;
-  left: 150px;
+  left: 80px;
+  display: flex;
+}
+.page2-services .page-2-services__container .display-none {
   display: none;
 }
 .page2-services .page-2-services__container__streampack {
@@ -728,6 +763,7 @@ header nav .header-icon i:hover {
   font-size: 20px;
   margin-top: 15px;
   transition: 0.4s;
+  cursor: pointer;
 }
 .page2-services .page-2-services__container__left button:hover {
   transform: scale(1.2);
@@ -749,6 +785,7 @@ header nav .header-icon i:hover {
   width: 25px;
   margin-right: 10px;
   padding-bottom: 1px;
+  cursor: pointer;
 }
 .page2-services .page-2-services__container__liste ul {
   margin-top: 130px;
@@ -785,22 +822,22 @@ header nav .header-icon i:hover {
   transition: 0.4s;
 }
 .page2-services .page-2-services__container__liste ul .onglet1-page2 {
-  background-image: url("/images/services/page2/liste/streampack.png");
-  background-size: 100%;
-  cursor: pointer;
-}
-.page2-services .page-2-services__container__liste ul .onglet2-page2 {
   background-image: url("/images/services/page2/liste/logo.png");
   background-size: 100%;
   cursor: pointer;
 }
-.page2-services .page-2-services__container__liste ul .onglet3-page2 {
+.page2-services .page-2-services__container__liste ul .onglet2-page2 {
   background-image: url("/images/services/page2/liste/header.png");
   background-size: 100%;
   cursor: pointer;
 }
-.page2-services .page-2-services__container__liste ul .onglet4-page2 {
+.page2-services .page-2-services__container__liste ul .onglet3-page2 {
   background-image: url("/images/services/page2/liste/affiches.png");
+  background-size: 100%;
+  cursor: pointer;
+}
+.page2-services .page-2-services__container__liste ul .onglet4-page2 {
+  background-image: url("/images/services/page2/liste/streampack.png");
   background-size: 100%;
   cursor: pointer;
 }
@@ -817,6 +854,11 @@ header nav .header-icon i:hover {
 .page2-services .page-2-services__container__details h2 {
   font-family: "BebasNeue";
   font-size: 135px;
+}
+.page2-services .page-2-services__container__details p {
+  text-align: justify right;
+  width: 500px;
+  margin-top: 30px;
 }
 .page2-services .page-2-services__container__details button {
   margin-top: 50px;
@@ -918,7 +960,6 @@ header nav .header-icon i:hover {
   margin-top: 130px;
 }
 .page3-services .page-3-services__container__liste ul li {
-  font-family: "BebasNeue";
   font-size: 37px;
   font-weight: 400;
   border: solid 1px white;
@@ -931,6 +972,10 @@ header nav .header-icon i:hover {
   align-items: center;
   justify-content: space-between;
   transition: 0.4s;
+}
+.page3-services .page-3-services__container__liste ul li p {
+  font-family: "BebasNeue";
+  width: 60%;
 }
 .page3-services .page-3-services__container__liste ul li div {
   margin-top: 60px;
@@ -949,17 +994,17 @@ header nav .header-icon i:hover {
   transition: 0.4s;
 }
 .page3-services .page-3-services__container__liste ul .onglet1-page2 {
-  background-image: url("/images/services/page3/onglet-venasty 1.png");
+  background-image: url("/images/services/page3/Élaboration de dossier 2.png");
   background-size: 100%;
   cursor: pointer;
 }
 .page3-services .page-3-services__container__liste ul .onglet2-page2 {
-  background-image: url("/images/services/page3/onglet-onestesport 1.png");
+  background-image: url("/images/services/page3/Conseil-Stratégique 2.png");
   background-size: 100%;
   cursor: pointer;
 }
 .page3-services .page-3-services__container__liste ul .onglet3-page2 {
-  background-image: url("/images/services/page3/onglet-dreags 1.png");
+  background-image: url("/images/services/page3/Gestions de projets et event 2.png");
   background-size: 100%;
   cursor: pointer;
 }
@@ -978,7 +1023,7 @@ header nav .header-icon i:hover {
   font-size: 135px;
 }
 .page3-services .page-3-services__container__details p {
-  text-align: justify;
+  text-align: justify right;
   width: 500px;
   margin-top: 30px;
 }
@@ -1110,12 +1155,12 @@ header nav .header-icon i:hover {
   transition: 0.4s;
 }
 .page4-services .page-4-services__container__liste ul .onglet1-page2 {
-  background-image: url("/images/services/page4/onglet-site-vitrine 1.png");
+  background-image: url("/images/services/page4/vitrine.png");
   background-size: 100%;
   cursor: pointer;
 }
 .page4-services .page-4-services__container__liste ul .onglet2-page2 {
-  background-image: url("/images/services/page4/onglet-site-vitrine 1.png");
+  background-image: url("/images/services/page4/e-commerce.png");
   background-size: 100%;
   cursor: pointer;
 }
@@ -1128,6 +1173,11 @@ header nav .header-icon i:hover {
   font-family: "BebasNeue";
   font-size: 135px;
 }
+.page4-services .page-4-services__container__details p {
+  text-align: justify right;
+  width: 500px;
+  margin-top: 30px;
+}
 .page4-services .page-4-services__container__details button {
   margin-top: 50px;
   border: solid 2px white;
@@ -1135,6 +1185,25 @@ header nav .header-icon i:hover {
   font-size: 25px;
   background-color: #0725bd;
   padding: 7px 13px 7px 13px;
+}
+
+.page-contact {
+  background-image: url("/images/contact/fond-1.png");
+  height: 100vh;
+}
+.page-contact__titre {
+  display: flex;
+  padding-top: 200px;
+  color: white;
+  width: 1600px;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.page-contact__titre h1 {
+  font-size: 40px;
+  width: 1200px;
+  text-align: center;
 }
 
 @keyframes apparition {

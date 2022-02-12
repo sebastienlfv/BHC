@@ -14,7 +14,6 @@ a{
 }
 
 header{
-    // margin-bottom: 100px;
     & nav{
         display: flex;
         align-items: center;
@@ -31,6 +30,37 @@ header{
                 display: flex;
                 align-items: center;
                 list-style-type: none;
+
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    position: relative;
+
+                    .border-nav{
+                        background-color: #0725bd;
+                        width: 20px;
+                        height: 2px;
+                        display: none;
+                        position: absolute;
+                        top: 28px
+                    }
+
+                    &:hover{
+                        .border-nav{
+                            display: flex;
+                        }
+                    }
+
+                    .active-border{
+                        background-color: #0725bd;
+                        width: 20px;
+                        height: 2px;
+                        display: flex;
+                        position: absolute;
+                        top: 28px;
+                    }
+                }
 
                 & img{
                     width: 90px;
@@ -562,16 +592,22 @@ header{
             }
         }
 
-        p{
-            font-size: 40px;
-            font-weight: 800;
-            width: 65%;
+        &__p{
+            display: flex;
+            width: 1400px;
+            justify-content: space-around;
             margin: auto;
-            margin-top: 80px;
-            color: #0725bd;
-
-            span{
-                color: white;
+            p{
+                font-size: 40px;
+                font-weight: 800;
+                width: 65%;
+                margin: auto;
+                margin-top: 80px;
+                color: #0725bd;
+    
+                span{
+                    color: white;
+                }
             }
         }
 
@@ -807,7 +843,11 @@ header{
         &__info{
             position: absolute;
             top: 180px;
-            left: 150px;
+            left: 80px;
+            display: flex;
+        }
+
+        .display-none{
             display: none;
         }
 
@@ -862,6 +902,7 @@ header{
                 font-size: 20px;
                 margin-top: 15px;
                 transition: 0.4s;
+                cursor: pointer;
 
                 &:hover{
                     transform: scale(1.2);
@@ -886,6 +927,7 @@ header{
                     width: 25px;
                     margin-right: 10px;
                     padding-bottom: 1px;
+                    cursor: pointer;
                 }
             }
         }
@@ -930,25 +972,25 @@ header{
                 }
 
                 .onglet1-page2{
-                    background-image: url("/images/services/page2/liste/streampack.png");
-                    background-size: 100%;
-                    cursor: pointer;
-                }
-
-                .onglet2-page2{
                     background-image: url("/images/services/page2/liste/logo.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
-                .onglet3-page2{
+                .onglet2-page2{
                     background-image: url("/images/services/page2/liste/header.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
-                .onglet4-page2{
+                .onglet3-page2{
                     background-image: url("/images/services/page2/liste/affiches.png");
+                    background-size: 100%;
+                    cursor: pointer;
+                }
+
+                .onglet4-page2{
+                    background-image: url("/images/services/page2/liste/streampack.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
@@ -970,6 +1012,12 @@ header{
                 font-family: "BebasNeue";
                 font-size: 135px;
 
+            }
+
+            p{
+                text-align: justify right;
+                width: 500px;
+                margin-top: 30px;
             }
 
             button{
@@ -1090,7 +1138,6 @@ header{
             ul{
                 margin-top: 130px;
                 li{
-                    font-family: "BebasNeue";
                     font-size: 37px;
                     font-weight: 400;
                     border: solid 1px white;
@@ -1103,6 +1150,11 @@ header{
                     align-items: center;
                     justify-content: space-between;
                     transition: 0.4s;
+
+                    p{
+                        font-family: "BebasNeue";
+                        width: 60%;
+                    }
 
                     div{
                         margin-top: 60px;
@@ -1126,19 +1178,19 @@ header{
                 }
 
                 .onglet1-page2{
-                    background-image: url("/images/services/page3/onglet-venasty\ 1.png");
+                    background-image: url("/images/services/page3/Élaboration\ de\ dossier\ 2.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet2-page2{
-                    background-image: url("/images/services/page3/onglet-onestesport\ 1.png");
+                    background-image: url("/images/services/page3/Conseil-Stratégique\ 2.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
 
                 .onglet3-page2{
-                    background-image: url("/images/services/page3/onglet-dreags\ 1.png");
+                    background-image: url("/images/services/page3/Gestions\ de\ projets\ et\ event\ 2.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
@@ -1163,7 +1215,7 @@ header{
             }
 
             p{
-                text-align: justify;
+                text-align: justify right;
                 width: 500px;
                 margin-top: 30px;
             }
@@ -1320,13 +1372,13 @@ header{
 
 
                 .onglet1-page2{
-                    background-image: url("/images/services/page4/onglet-site-vitrine\ 1.png");
+                    background-image: url("/images/services/page4/vitrine.png");
                     background-size: 100%;
                     cursor: pointer;      
                 }
 
                 .onglet2-page2{
-                    background-image: url("/images/services/page4/onglet-site-vitrine\ 1.png");
+                    background-image: url("/images/services/page4/e-commerce.png");
                     background-size: 100%;
                     cursor: pointer;
                 }
@@ -1344,6 +1396,12 @@ header{
 
             }
 
+            p{
+                text-align: justify right;
+                width: 500px;
+                margin-top: 30px;
+            }
+
             button{
                 margin-top: 50px;
                 border: solid 2px white;
@@ -1352,6 +1410,29 @@ header{
                 background-color: #0725bd;
                 padding: 7px 13px 7px 13px;
             }
+        }
+    }
+}
+
+// PAGE CONTACT
+
+.page-contact{
+    background-image: url("/images/contact/fond-1.png");
+    height: 100vh;
+
+    &__titre{
+        display: flex;
+        padding-top: 200px;
+        color: white;
+        width: 1600px;
+        margin: auto;
+        justify-content: space-around;
+        align-items: center;
+
+        h1{
+            font-size: 40px;
+            width: 1200px;
+            text-align: center;
         }
     }
 }
