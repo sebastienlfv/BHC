@@ -1,0 +1,71 @@
+@media screen and (max-width: 1768px) {
+    .page2{
+        &__container{
+            padding-top: 150px;
+        }
+    }
+
+    .page3{
+        &__container{
+            padding-top: 150px;
+        }
+    }
+
+    .page4{
+        &__container{
+            padding-top: 150px;
+        }
+    }
+
+    .page5{
+        &__container{
+            h2{
+                padding-top: 50px;
+            }
+        }
+    }
+
+    #footer{
+        .agence{
+            padding-top: 70px;
+        }
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .page1{
+        &__container{
+            padding-top: 390px;
+        }
+    }
+
+    .page2{
+        &__container{
+            padding-top: 200px;
+        }
+    }
+
+    .page3{
+        &__container{
+            padding-top: 200px;
+        }
+    }
+
+    .page4{
+        &__container{
+            padding-top: 200px;
+        }
+    }
+
+    .page5{
+        &__container{
+            padding-top: 150px;
+        }
+    }
+
+    #footer{
+        .agence{
+            padding-top: 130px;
+        }
+    }
+}

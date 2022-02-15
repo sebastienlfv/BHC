@@ -11,6 +11,16 @@
   font-family: "Houschka";
   src: url("/fonts/Houschka.ttf") format("truetype");
 }
+@keyframes apparition {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -66,20 +76,20 @@ header nav .header-nav ul div {
 }
 header nav .header-nav ul div .border-nav {
   background-color: #0725bd;
-  width: 20px;
+  width: 0px;
   height: 2px;
-  display: none;
   position: absolute;
   top: 28px;
+  transition: 0.4s;
 }
 header nav .header-nav ul div:hover .border-nav {
-  display: flex;
+  transition: 0.4s;
+  width: 20px;
 }
 header nav .header-nav ul div .active-border {
   background-color: #0725bd;
   width: 20px;
   height: 2px;
-  display: flex;
   position: absolute;
   top: 28px;
 }
@@ -115,7 +125,7 @@ header nav .header-icon i:hover {
 }
 
 .page1 {
-  background-image: url("/images/accueil/dpa/fond-accueil.jpg");
+  background-image: url("/images/accueil/dpa/fond-accueil-1650.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 100vh;
@@ -165,7 +175,6 @@ header nav .header-icon i:hover {
 .page2 {
   background-image: url("/images/accueil/dpa/fond-page2.png");
   background-repeat: no-repeat;
-  background-size: 100%;
   height: 100vh;
   position: relative;
 }
@@ -195,8 +204,8 @@ header nav .header-icon i:hover {
   border-radius: 20px;
   color: white;
   border: 1px solid black;
-  height: 400px;
-  width: 350px;
+  height: 500px;
+  width: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -218,13 +227,13 @@ header nav .header-icon i:hover {
 }
 .page2__container__dcw--consulting {
   background-image: url("/images/accueil/dcw/image-consulting");
-  background-size: 200%;
+  background-size: 210%;
   background-position: left 700px top -60px;
   border-radius: 20px;
   color: white;
   border: 1px solid black;
-  height: 400px;
-  width: 350px;
+  height: 500px;
+  width: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -240,13 +249,13 @@ header nav .header-icon i:hover {
 }
 .page2__container__dcw--web {
   background-image: url("/images/accueil/dcw/image-web");
-  background-size: 195%;
+  background-size: 200%;
   background-position: left 520px top -30px;
   border-radius: 20px;
   color: white;
   border: 1px solid black;
-  height: 400px;
-  width: 350px;
+  height: 500px;
+  width: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -278,7 +287,6 @@ header nav .header-icon i:hover {
 
 .page3 {
   background-image: url("/images/accueil/dpa/font-page3.png");
-  background-size: 100%;
   height: 100vh;
   position: relative;
 }
@@ -368,7 +376,6 @@ header nav .header-icon i:hover {
 
 .page4 {
   background-image: url("/images/accueil/avis/fond-avis.png");
-  background-size: 100%;
   height: 100vh;
   position: relative;
 }
@@ -505,7 +512,7 @@ header nav .header-icon i:hover {
   color: #0725bd;
 }
 .page5 .page5__container__content__desc img {
-  width: 450px;
+  width: 550px;
 }
 .page5 .page5__container__content__chiffre {
   display: flex;
@@ -604,38 +611,48 @@ header nav .header-icon i:hover {
   color: white;
 }
 #footer .footer__container .agence {
+  text-align: center;
   font-size: 30px;
   font-weight: 100;
-  margin-top: 100px;
+  margin-top: 150px;
+  margin-bottom: 20px;
   color: white;
 }
 #footer .footer__container .mention-legal {
   display: flex;
   justify-content: center;
   margin-right: 80px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 #footer .footer__container .mention-legal a {
   color: #3A3A3A;
   margin: 0 40px;
+  font-weight: 200;
+}
+#footer .footer__container .agence-services {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  color: white;
+}
+#footer .footer__container .mention-legal-services {
+  display: flex;
+  justify-content: center;
+  margin-right: 80px;
+  margin-top: 100px;
+}
+#footer .footer__container .mention-legal-services a {
+  color: #3A3A3A;
+  margin: 0 40px;
+  font-weight: 200;
 }
 
 .page1-services {
   background-image: url("/images/services/page1/fond.png");
   height: 100vh;
-}
-.page1-services .ancre_page1 {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  top: 400px;
-  right: 50px;
-  z-index: 1;
-}
-.page1-services .ancre_page1 img {
-  margin-bottom: 10px;
-  width: 25px;
-  cursor: pointer;
+  position: relative;
 }
 .page1-services__container {
   padding-top: 150px;
@@ -754,6 +771,7 @@ header nav .header-icon i:hover {
   background-repeat: no-repeat;
   height: 100vh;
   color: white;
+  position: relative;
 }
 .page2-services .page-2-services__container {
   display: flex;
@@ -769,6 +787,9 @@ header nav .header-icon i:hover {
   display: flex;
 }
 .page2-services .page-2-services__container__streampack {
+  display: none;
+}
+.page2-services .page-2-services__container__banniere {
   display: none;
 }
 .page2-services .page-2-services__container__left {
@@ -925,6 +946,7 @@ header nav .header-icon i:hover {
   background-repeat: no-repeat;
   height: 100vh;
   color: white;
+  position: relative;
 }
 .page3-services .page-3-services__container {
   display: flex;
@@ -1094,6 +1116,7 @@ header nav .header-icon i:hover {
   background-repeat: no-repeat;
   height: 100vh;
   color: white;
+  position: relative;
 }
 .page4-services .page-4-services__container {
   display: flex;
@@ -1278,7 +1301,7 @@ header nav .header-icon i:hover {
   justify-content: space-between;
   width: 1000px;
   margin: auto;
-  margin-top: 120px;
+  margin-top: 320px;
 }
 .page-contact__info p {
   font-size: 15px;
@@ -1327,6 +1350,7 @@ header nav .header-icon i:hover {
   font-size: 15px;
   padding: 5px 5px;
   margin: 15px 0px;
+  width: 150px;
 }
 .page-contact__info__send__info div {
   display: flex;
@@ -1340,6 +1364,7 @@ header nav .header-icon i:hover {
   font-weight: 400;
   font-size: 15px;
   padding: 5px 2px;
+  width: 150px;
 }
 .page-contact__info__send__info input::-webkit-input-placeholder {
   color: #fff;
@@ -1355,15 +1380,116 @@ header nav .header-icon i:hover {
   font-size: 15px;
   cursor: pointer;
 }
+.page-contact .mention-legal-contact {
+  display: flex;
+  justify-content: center;
+  margin-right: 80px;
+}
+.page-contact .mention-legal-contact a {
+  color: #3A3A3A;
+  margin: 0 40px;
+  font-weight: 200;
+}
+.page-contact .agence-contact {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: white;
+}
 
-@keyframes apparition {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
+.page-connect {
+  background-image: url("/images/connect/background.png");
+  height: 100vh;
+}
+.page-connect .mention-legal-connect {
+  display: flex;
+  justify-content: center;
+  margin-right: 80px;
+}
+.page-connect .mention-legal-connect a {
+  color: #3A3A3A;
+  margin: 0 40px;
+  font-weight: 200;
+}
+.page-connect .agence-connect {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: #3A3A3A;
+}
+.page-connect__container {
+  padding-top: 150px;
+  text-align: center;
+}
+.page-connect__container h1 {
+  color: #0725bd;
+  font-size: 40px;
+}
+.page-connect__container .time {
+  width: 90px;
+}
+.page-connect__container__info {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.page-connect__container__info__details p {
+  width: 45%;
+  margin: auto;
+  font-weight: 300;
+}
+.page-connect__container__info__details .male-user {
+  width: 130px;
+}
+
+@media screen and (max-width: 1768px) {
+  .page2__container {
+    padding-top: 150px;
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
+
+  .page3__container {
+    padding-top: 150px;
+  }
+
+  .page4__container {
+    padding-top: 150px;
+  }
+
+  .page5__container h2 {
+    padding-top: 50px;
+  }
+
+  #footer .agence {
+    padding-top: 70px;
+  }
+}
+@media screen and (max-width: 1650px) {
+  .page1__container {
+    padding-top: 390px;
+  }
+
+  .page2__container {
+    padding-top: 200px;
+  }
+
+  .page3__container {
+    padding-top: 200px;
+  }
+
+  .page4__container {
+    padding-top: 200px;
+  }
+
+  .page5__container {
+    padding-top: 150px;
+  }
+
+  #footer .agence {
+    padding-top: 130px;
   }
 }
 
