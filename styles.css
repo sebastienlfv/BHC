@@ -901,7 +901,7 @@ header nav .header-icon i:hover {
 }
 
 .page1-services {
-  background-image: url("/images/services/page1/fond.png");
+  background-image: url("./images/services/page1/fond.png");
   height: 100vh;
   position: relative;
 }
@@ -935,7 +935,7 @@ header nav .header-icon i:hover {
   margin-top: 90px;
 }
 .page1-services__container__dsw__details:nth-child(1) {
-  background-image: url("/images/services/page1/design.png");
+  background-image: url("./images/services/page1/design.png");
   background-size: 100%;
   padding: 108px 30px 108px 30px;
   border-radius: 27px;
@@ -954,11 +954,11 @@ header nav .header-icon i:hover {
   width: 70px;
 }
 .page1-services__container__dsw__details:nth-child(1):hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/design.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/services/page1/design.png");
   background-size: 100%;
 }
 .page1-services__container__dsw__details:nth-child(2) {
-  background-image: url("/images/services/page1/strategie.png");
+  background-image: url("./images/services/page1/strategie.png");
   background-size: 100%;
   padding: 108px 30px 108px 30px;
   border-radius: 27px;
@@ -977,11 +977,11 @@ header nav .header-icon i:hover {
   width: 70px;
 }
 .page1-services__container__dsw__details:nth-child(2):hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/strategie.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/services/page1/strategie.png");
   background-size: 100%;
 }
 .page1-services__container__dsw__details:nth-child(3) {
-  background-image: url("/images/services/page1/web.png");
+  background-image: url("./images/services/page1/web.png");
   background-size: 100%;
   padding: 108px 30px 108px 30px;
   border-radius: 27px;
@@ -1000,7 +1000,7 @@ header nav .header-icon i:hover {
   width: 70px;
 }
 .page1-services__container__dsw__details:nth-child(3):hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/web.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/services/page1/web.png");
   background-size: 100%;
 }
 .page1-services__container__dsw__details:hover {
@@ -1017,7 +1017,7 @@ header nav .header-icon i:hover {
 }
 
 .page2-services {
-  background-image: url("/images/services/page2/font-page2.png");
+  background-image: url("./images/services/page2/font-page2.png");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 100vh;
@@ -1044,7 +1044,7 @@ header nav .header-icon i:hover {
   display: none;
 }
 .page2-services .page-2-services__container__left {
-  background-image: url("/images/services/page2/details/steampack/Fond 1.png");
+  background-image: url("./images/services/page2/details/steampack/Fond 1.png");
   background-color: white;
   color: black;
   padding: 120px 70px 120px 90px;
@@ -1143,27 +1143,27 @@ header nav .header-icon i:hover {
   transition: 0.4s;
 }
 .page2-services .page-2-services__container__liste ul .onglet1-page2 {
-  background-image: url("/images/services/page2/liste/logo.png");
+  background-image: url("./images/services/page2/liste/logo.png");
   background-size: 100%;
   cursor: pointer;
 }
 .page2-services .page-2-services__container__liste ul .onglet2-page2 {
-  background-image: url("/images/services/page2/liste/header.png");
+  background-image: url("./images/services/page2/liste/header.png");
   background-size: 100%;
   cursor: pointer;
 }
 .page2-services .page-2-services__container__liste ul .onglet3-page2 {
-  background-image: url("/images/services/page2/liste/affiches.png");
+  background-image: url("./images/services/page2/liste/affiches.png");
   background-size: 100%;
   cursor: pointer;
 }
 .page2-services .page-2-services__container__liste ul .onglet4-page2 {
-  background-image: url("/images/services/page2/liste/streampack.png");
+  background-image: url("./images/services/page2/liste/streampack.png");
   background-size: 100%;
   cursor: pointer;
 }
 .page2-services .page-2-services__container__liste ul .onglet5-page2 {
-  background-image: url("/images/services/page2/liste/autres.png");
+  background-image: url("./images/services/page2/liste/autres.png");
   background-size: 100%;
   cursor: pointer;
 }
@@ -1192,7 +1192,7 @@ header nav .header-icon i:hover {
 }
 
 .page3-services {
-  background-image: url("/images/services/page3/fond-page3.png");
+  background-image: url("./images/services/page3/fond-page3.png");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 100vh;
@@ -1217,7 +1217,7 @@ header nav .header-icon i:hover {
   flex-direction: row-reverse;
 }
 .page3-services .page-3-services__container__left {
-  background-image: url("/images/services/page2/details/steampack/Fond 1.png");
+  background-image: url("./images/services/page2/details/steampack/Fond 1.png");
   background-color: white;
   color: black;
   padding: 120px 70px 120px 90px;
@@ -1318,22 +1318,22 @@ header nav .header-icon i:hover {
   transition: 0.4s;
 }
 .page3-services .page-3-services__container__liste ul .onglet1-page2 {
-  background-image: url("/images/services/page3/Élaboration de dossier 2.png");
+  background-image: url("./images/services/page3/Élaboration de dossier 2.png");
   background-size: 100%;
   cursor: pointer;
 }
 .page3-services .page-3-services__container__liste ul .onglet2-page2 {
-  background-image: url("/images/services/page3/Conseil-Stratégique 2.png");
+  background-image: url("./images/services/page3/Conseil-Stratégique 2.png");
   background-size: 100%;
   cursor: pointer;
 }
 .page3-services .page-3-services__container__liste ul .onglet3-page2 {
-  background-image: url("/images/services/page3/Gestions de projets et event 2.png");
+  background-image: url("./images/services/page3/Gestions de projets et event 2.png");
   background-size: 100%;
   cursor: pointer;
 }
 .page3-services .page-3-services__container__liste ul .onglet4-page2 {
-  background-image: url("/images/services/page3/onglet-dreags 1.png");
+  background-image: url("./images/services/page3/onglet-dreags 1.png");
   background-size: 100%;
   cursor: pointer;
 }
@@ -1362,7 +1362,7 @@ header nav .header-icon i:hover {
 }
 
 .page4-services {
-  background-image: url("/images/services/page4/fond-page4.png");
+  background-image: url("./images/services/page4/fond-page4.png");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 100vh;
@@ -1386,7 +1386,7 @@ header nav .header-icon i:hover {
   display: flex;
 }
 .page4-services .page-4-services__container__left {
-  background-image: url("/images/services/page2/details/steampack/Fond 1.png");
+  background-image: url("./images/services/page2/details/steampack/Fond 1.png");
   background-color: white;
   color: black;
   padding: 120px 0px 120px 90px;
@@ -1481,12 +1481,12 @@ header nav .header-icon i:hover {
   transition: 0.4s;
 }
 .page4-services .page-4-services__container__liste ul .onglet1-page2 {
-  background-image: url("/images/services/page4/vitrine.png");
+  background-image: url("./images/services/page4/vitrine.png");
   background-size: 100%;
   cursor: pointer;
 }
 .page4-services .page-4-services__container__liste ul .onglet2-page2 {
-  background-image: url("/images/services/page4/e-commerce.png");
+  background-image: url("./images/services/page4/e-commerce.png");
   background-size: 100%;
   cursor: pointer;
 }
@@ -1515,7 +1515,7 @@ header nav .header-icon i:hover {
 }
 
 .page-contact {
-  background-image: url("/images/contact/fond-1.png");
+  background-image: url("./images/contact/fond-1.png");
   height: 100vh;
 }
 .page-contact__titre {
@@ -1651,7 +1651,7 @@ header nav .header-icon i:hover {
 }
 
 .page-connect {
-  background-image: url("/images/connect/background.png");
+  background-image: url("./images/connect/background.png");
   height: 100vh;
 }
 .page-connect .mention-legal-connect {
