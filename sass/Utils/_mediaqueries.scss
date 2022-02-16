@@ -1,19 +1,22 @@
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1600px){
     .page2{
-        &__container{
-            &__dcw{
-                &--design{
+        .page2__container{
+            .page2__container__dcw{
+                .page2__container__dcw--design{
                     width: 320px;
+                    height: 420px;
                     background-size: 250%;
                 }
 
-                &--consulting{
+                .page2__container__dcw--consulting{
                     width: 320px;
+                    height: 420px;
                     background-size: 270%;
                 }
 
-                &--web{
+                .page2__container__dcw--web{
                     width: 320px;
+                    height: 420px;
                     background-size: 250%;
                 }
             }
@@ -21,12 +24,23 @@
     }
 
     .page5{
-        &__container{
+        .page5__container{
             .page5__container__content{
                 max-width: 1200px;
 
                 &__chiffre{
-                    margin-top: 20px;
+                    margin-top: 30px;
+
+                    h4{
+                        font-size: 40px;
+                    }
+                }
+
+                &__desc{
+                    img{
+                        width: 400px;
+                        height: 350px;
+                    }
                 }
             }
         }
