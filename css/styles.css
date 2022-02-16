@@ -133,12 +133,15 @@
     font-size: 15px;
   }
 
+  #footer .ancre_page {
+    top: 300px;
+  }
   #footer .footer__container .footer__container__p p {
     font-size: 30px;
     margin-top: 40px;
   }
   #footer .footer__container .footer__container__info {
-    margin: 70px auto;
+    margin: 60px auto;
   }
 }
 html {

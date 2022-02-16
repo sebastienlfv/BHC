@@ -154,6 +154,10 @@
     }
 
     #footer{
+        .ancre_page{
+            top: 300px;
+        }
+
         .footer__container{
             .footer__container__p p{
                 font-size: 30px;
@@ -161,7 +165,7 @@
             }
         
             .footer__container__info{
-                margin: 70px auto;
+                margin: 60px auto;
             }
         }
     }
