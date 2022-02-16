@@ -792,13 +792,16 @@ header{
             margin-top: 90px;
 
             &__details:nth-child(1){
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
                 background-image: url("/images/services/page1/design.png");
-                background-size: 100%;
-                padding: 108px 30px 108px 30px;
+                background-size: cover;
                 border-radius: 27px;
                 font-weight: 400;
                 font-size: 30px;
-                width: 20%;
+                width: 350px;
+                height: 350px;
                 color: white;
 
                 .fleche-page1{
@@ -814,18 +817,21 @@ header{
 
                 &:hover{
                     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/design.png");
-                    background-size: 100%;
+                    background-size: cover;
                 }
             }
 
             &__details:nth-child(2){
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
                 background-image: url("/images/services/page1/strategie.png");
-                background-size: 100%;
-                padding: 108px 30px 108px 30px;
+                background-size: cover;
                 border-radius: 27px;
                 font-weight: 400;
                 font-size: 30px;
-                width: 20%;
+                width: 350px;
+                height: 350px;
                 color: white;
 
                 .fleche-page1{
@@ -841,18 +847,21 @@ header{
 
                 &:hover{
                     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/strategie.png");
-                    background-size: 100%;
+                    background-size: cover;
                 }
             }
 
             &__details:nth-child(3){
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
                 background-image: url("/images/services/page1/web.png");
-                background-size: 100%;
-                padding: 108px 30px 108px 30px;
+                background-size: cover;
                 border-radius: 27px;
                 font-weight: 400;
                 font-size: 30px;
-                width: 20%;
+                width: 350px;
+                height: 350px;
                 color: white;
 
                 .fleche-page1{
@@ -868,13 +877,11 @@ header{
 
                 &:hover{
                     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/web.png");
-                    background-size: 100%;
+                    background-size: cover;
                 }
             }
 
             &__details:hover{
-                padding: 58px 30px 48px 30px;
-
                 h3{
                     padding-bottom: 40px;
                 }

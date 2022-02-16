@@ -169,6 +169,90 @@
             }
         }
     }
+
+    // PAGE SERVICES
+
+    .page1-services{
+        .ancre_page{
+            top: 300px;
+        }
+
+        .page1-services__container{
+            padding-top: 110px;
+
+            p{
+                margin-top: 10 auto auto;
+                font-size: 16px;
+            }
+
+            .page1-services__container__dsw{
+                margin-top: 30px;
+                max-width: 1200px;
+
+                &__details{
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    .page2-services{
+        .page-2-services__container__details{
+            margin-top: 150px !important;
+        }
+
+        .page-2-services__container__liste ul{
+            padding-left: 20px;
+        }
+
+        .page-2-services__container__liste ul li{
+            height: 100px !important;
+            width: 260px !important;
+            background-size: cover!important;
+        }
+    }
+
+    .page3-services{
+        .page-3-services__container__details{
+            margin-top: 150px !important;
+        }
+
+        .page-3-services__container__liste ul{
+            padding-left: 20px;
+        }
+
+        .page-3-services__container__liste ul li{
+            height: 100px !important;
+            width: 280px !important;
+            background-size: cover!important;
+
+            p{
+                width: 80%!important;
+            }
+       }
+    }
+
+    .page4-services{
+        .page-4-services__container__details{
+            margin-top: 150px !important;
+        }
+
+        .page-4-services__container__liste ul{
+            padding-left: 20px;
+        }
+
+        .page-4-services__container__liste ul li{
+            height: 100px !important;
+            width: 280px !important;
+            background-size: cover!important;
+
+            p{
+                width: 80%!important;
+            }
+       }
+    }
+
+
 }
 
 

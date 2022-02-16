@@ -1,4 +1,4 @@
-@media screen and (max-width: 1800px){    
+@media screen and (max-width: 1800px){   
     .page1{
         .ancre_page{
             top: 350px;
@@ -13,7 +13,7 @@
 
     .page2{
         .ancre_page{
-            top: 300px;
+            top: 350px;
         }
 
         .page2__container{
@@ -48,8 +48,9 @@
 
     .page3{
         background-size: cover;
+
         .ancre_page{
-            top: 400px;
+            top: 350px;
         }
 
         .page3__container{
@@ -87,8 +88,9 @@
 
     .page4{
         background-size: cover;
+
         .ancre_page{
-            top: 400px;
+            top: 350px;
         }
 
         .page4__container{
@@ -117,10 +119,11 @@
 
     .page5{
         .ancre_page{
-            top: 400px;
+            top: 350px;
         }
 
         .page5__container{
+
             .page5__container__content{
                 max-width: 1300px;
 
@@ -159,7 +162,7 @@
 
     #footer{
         .ancre_page{
-            top: 400px;
+            top: 350px;
         }
 
         .footer__container{
@@ -173,6 +176,46 @@
             }
         }
     }
+
+    // PAGE SERVICES
+
+    .page1-services{
+        .ancre_page{
+            top: 350px;
+        }
+
+        .page1-services__container{
+            padding-top: 120px;
+        }
+    }
+
+    .page2-services{
+        .ancre_page{
+            top: 350px;
+        }
+
+        .page-2-services__container__liste ul{
+            margin-top: 130px!important;
+        }
+
+    }
+
+    .page3-services{
+        .ancre_page{
+            top: 350px;
+        }
+    }
+
+    .page4-services{
+        .ancre_page{
+            top: 350px;
+        }
+    }
 }
+
+
+
+
+
 
 

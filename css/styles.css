@@ -109,7 +109,7 @@
     margin-top: 40px;
   }
 
-  .page5 .ancre_page {
+  .page5 .page5__container .ancre_page {
     top: 350px;
   }
   .page5 .page5__container .page5__container__content {
@@ -136,7 +136,7 @@
     font-size: 15px;
   }
 
-  #footer .ancre_page {
+  #footer .footer__container .ancre_page {
     top: 350px;
   }
   #footer .footer__container .footer__container__p p {
@@ -145,28 +145,6 @@
   }
   #footer .footer__container .footer__container__info {
     margin: 150px auto;
-  }
-
-  .page1-services .ancre_page {
-    top: 350px;
-  }
-  .page1-services .page1-services__container {
-    padding-top: 120px;
-  }
-
-  .page2-services .ancre_page {
-    top: 350px;
-  }
-  .page2-services .page-2-services__container__liste ul {
-    margin-top: 130px !important;
-  }
-
-  .page3-services .ancre_page {
-    top: 350px;
-  }
-
-  .page4-services .ancre_page {
-    top: 350px;
   }
 }
 @media screen and (max-width: 1600px) {
@@ -290,66 +268,6 @@
   }
   #footer .footer__container .footer__container__info {
     margin: 60px auto;
-  }
-
-  .page1-services .ancre_page {
-    top: 300px;
-  }
-  .page1-services .page1-services__container {
-    padding-top: 110px;
-  }
-  .page1-services .page1-services__container p {
-    margin-top: 10 auto auto;
-    font-size: 16px;
-  }
-  .page1-services .page1-services__container .page1-services__container__dsw {
-    margin-top: 30px;
-    max-width: 1200px;
-  }
-  .page1-services .page1-services__container .page1-services__container__dsw__details {
-    background-size: cover;
-  }
-
-  .page2-services .page-2-services__container__details {
-    margin-top: 150px !important;
-  }
-  .page2-services .page-2-services__container__liste ul {
-    padding-left: 20px;
-  }
-  .page2-services .page-2-services__container__liste ul li {
-    height: 100px !important;
-    width: 260px !important;
-    background-size: cover !important;
-  }
-
-  .page3-services .page-3-services__container__details {
-    margin-top: 150px !important;
-  }
-  .page3-services .page-3-services__container__liste ul {
-    padding-left: 20px;
-  }
-  .page3-services .page-3-services__container__liste ul li {
-    height: 100px !important;
-    width: 280px !important;
-    background-size: cover !important;
-  }
-  .page3-services .page-3-services__container__liste ul li p {
-    width: 80% !important;
-  }
-
-  .page4-services .page-4-services__container__details {
-    margin-top: 150px !important;
-  }
-  .page4-services .page-4-services__container__liste ul {
-    padding-left: 20px;
-  }
-  .page4-services .page-4-services__container__liste ul li {
-    height: 100px !important;
-    width: 280px !important;
-    background-size: cover !important;
-  }
-  .page4-services .page-4-services__container__liste ul li p {
-    width: 80% !important;
   }
 }
 html {
@@ -1017,16 +935,13 @@ header nav .header-icon i:hover {
   margin-top: 90px;
 }
 .page1-services__container__dsw__details:nth-child(1) {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-image: url("/images/services/page1/design.png");
-  background-size: cover;
+  background-size: 100%;
+  padding: 108px 30px 108px 30px;
   border-radius: 27px;
   font-weight: 400;
   font-size: 30px;
-  width: 350px;
-  height: 350px;
+  width: 20%;
   color: white;
 }
 .page1-services__container__dsw__details:nth-child(1) .fleche-page1 {
@@ -1040,19 +955,16 @@ header nav .header-icon i:hover {
 }
 .page1-services__container__dsw__details:nth-child(1):hover {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/design.png");
-  background-size: cover;
+  background-size: 100%;
 }
 .page1-services__container__dsw__details:nth-child(2) {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-image: url("/images/services/page1/strategie.png");
-  background-size: cover;
+  background-size: 100%;
+  padding: 108px 30px 108px 30px;
   border-radius: 27px;
   font-weight: 400;
   font-size: 30px;
-  width: 350px;
-  height: 350px;
+  width: 20%;
   color: white;
 }
 .page1-services__container__dsw__details:nth-child(2) .fleche-page1 {
@@ -1066,19 +978,16 @@ header nav .header-icon i:hover {
 }
 .page1-services__container__dsw__details:nth-child(2):hover {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/strategie.png");
-  background-size: cover;
+  background-size: 100%;
 }
 .page1-services__container__dsw__details:nth-child(3) {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-image: url("/images/services/page1/web.png");
-  background-size: cover;
+  background-size: 100%;
+  padding: 108px 30px 108px 30px;
   border-radius: 27px;
   font-weight: 400;
   font-size: 30px;
-  width: 350px;
-  height: 350px;
+  width: 20%;
   color: white;
 }
 .page1-services__container__dsw__details:nth-child(3) .fleche-page1 {
@@ -1092,7 +1001,10 @@ header nav .header-icon i:hover {
 }
 .page1-services__container__dsw__details:nth-child(3):hover {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/web.png");
-  background-size: cover;
+  background-size: 100%;
+}
+.page1-services__container__dsw__details:hover {
+  padding: 58px 30px 48px 30px;
 }
 .page1-services__container__dsw__details:hover h3 {
   padding-bottom: 40px;
