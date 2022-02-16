@@ -1446,4 +1446,26 @@ header nav .header-icon i:hover {
   width: 130px;
 }
 
+@media screen and (max-width: 1600px) {
+  .page2__container__dcw--design {
+    width: 320px;
+    background-size: 250%;
+  }
+  .page2__container__dcw--consulting {
+    width: 320px;
+    background-size: 270%;
+  }
+  .page2__container__dcw--web {
+    width: 320px;
+    background-size: 250%;
+  }
+
+  .page5__container .page5__container__content {
+    max-width: 1200px;
+  }
+  .page5__container .page5__container__content__chiffre {
+    margin-top: 20px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

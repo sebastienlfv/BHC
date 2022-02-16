@@ -1,0 +1,34 @@
+@media screen and (max-width: 1600px) {
+    .page2{
+        &__container{
+            &__dcw{
+                &--design{
+                    width: 320px;
+                    background-size: 250%;
+                }
+
+                &--consulting{
+                    width: 320px;
+                    background-size: 270%;
+                }
+
+                &--web{
+                    width: 320px;
+                    background-size: 250%;
+                }
+            }
+        }
+    }
+
+    .page5{
+        &__container{
+            .page5__container__content{
+                max-width: 1200px;
+
+                &__chiffre{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
