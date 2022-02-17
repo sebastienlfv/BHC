@@ -198,10 +198,47 @@
             top: 350px;
         }
 
-        .page-2-services__container__liste ul{
-            margin-top: 130px!important;
-        }
+        .page-2-services__container{
+            .page-2-services__container__liste ul{
+                margin-top: 130px!important;
+            }
+    
+            .page-2-services__container__info{
+                top: 125px !important;
+                left: 150px !important;
+            }
 
+            .page-2-services__container__left{
+                padding: 110px 60px 110px 80px;
+
+                p:nth-child(3){
+                    font-size: 16px;
+                    font-weight: 300;
+                    width: 70%;
+                    font-family: "Poppins";
+                    margin-top: 15px;
+                }
+    
+                p:nth-child(4){
+                    font-size: 16px;
+                    font-weight: 300;
+                    margin-top: 25px;
+                }
+            }
+
+            .page-2-services__container__right{
+                .streampack-service{
+                    width: 700px;
+                    padding: 80px 30px 0px 30px;
+                }
+
+                div{
+                    img{
+                        width: 20px;
+                    }
+                }
+            }
+        }
     }
 
     .page3-services{
@@ -226,7 +263,7 @@
         }
 
         &__info{
-            margin: 260px auto auto !important;
+            margin: 180px auto auto !important;
         }
     }
 
