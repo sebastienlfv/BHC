@@ -168,6 +168,10 @@
                 margin: 60px auto;
             }
         }
+
+        .agence-mention{
+            left: 350px !important;
+        }
     }
 
     // PAGE SERVICES
@@ -190,6 +194,8 @@
                 max-width: 1200px;
 
                 &__details{
+                    height: 320px;
+                    width: 320px;
                     background-size: cover;
                 }
             }
@@ -197,6 +203,10 @@
     }
 
     .page2-services{
+        .ancre_page{
+            top: 300px;
+        }
+
         .page-2-services__container__details{
             margin-top: 150px !important;
         }
@@ -213,6 +223,10 @@
     }
 
     .page3-services{
+        .ancre_page{
+            top: 300px;
+        }
+
         .page-3-services__container__details{
             margin-top: 150px !important;
         }
@@ -233,6 +247,10 @@
     }
 
     .page4-services{
+        .ancre_page{
+            top: 300px;
+        }
+
         .page-4-services__container__details{
             margin-top: 150px !important;
         }
@@ -252,7 +270,54 @@
        }
     }
 
+    // PAGE CONTACT
 
+    .page-contact{
+
+        &__titre{
+            width: 1350px !important;
+        }
+
+        .page-contact__titre__p{
+            p{
+                font-size: 25px;
+            }
+        }
+
+        &__info{
+            margin: 160px auto auto !important;
+        }
+    }
+
+    // PAGE CONNECT
+
+    .page-connect{
+        &__container{
+            padding-top: 105px !important;
+            .time{
+                width: 65px !important;
+            }
+
+            h1{
+                font-size: 30px !important;
+            }
+
+            &__info{
+                width: 1400px;
+                margin: auto;
+                margin-top: 25px !important;
+
+                &__details p{
+                    width: 55% !important;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .agence-connect{
+            margin-top: 40px !important;
+        }
+    }
 }
 
 

@@ -706,6 +706,12 @@ header{
             }
         }
 
+        .agence-mention{
+            position: absolute;
+            bottom: 15px;
+            left: 550px;
+        }
+
         .agence{
             text-align: center;
             font-size: 30px;
@@ -720,28 +726,6 @@ header{
             justify-content: center;
             margin-right: 80px;
             margin-top: 40px;
-
-            a{
-                color: #3A3A3A;
-                margin: 0 40px;
-                font-weight: 200;
-            }
-        }
-
-        .agence-services{
-            text-align: center;
-            font-size: 30px;
-            font-weight: 100;
-            margin-top: 150px;
-            margin-bottom: 20px;
-            color: white;
-        }
-
-        .mention-legal-services{
-            display: flex;
-            justify-content: center;
-            margin-right: 80px;
-            margin-top: 100px;
 
             a{
                 color: #3A3A3A;
@@ -1496,6 +1480,7 @@ header{
 
 .page-contact{
     background-image: url("/images/contact/fond-1.png");
+    background-size: cover;
     height: 100vh;
 
     &__titre{
@@ -1652,7 +1637,7 @@ header{
         text-align: center;
         font-size: 20px;
         font-weight: 100;
-        margin-top: 60px;
+        margin-top: 70px;
         margin-bottom: 20px;
         color: white;
     }
@@ -1680,7 +1665,7 @@ header{
         text-align: center;
         font-size: 20px;
         font-weight: 100;
-        margin-top: 60px;
+        margin-top: 70px;
         margin-bottom: 20px;
         color: #3A3A3A;
     }

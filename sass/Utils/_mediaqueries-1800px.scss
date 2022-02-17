@@ -175,6 +175,10 @@
                 margin: 150px auto;
             }
         }
+
+        .agence-mention{
+            left: 450px !important;
+        }
     }
 
     // PAGE SERVICES
@@ -209,6 +213,50 @@
     .page4-services{
         .ancre_page{
             top: 350px;
+        }
+    }
+
+    // PAGE CONTACT
+
+    .page-contact{
+        .page-contact__titre__p{
+            p{
+                font-size: 30px;
+            }
+        }
+
+        &__info{
+            margin: 260px auto auto !important;
+        }
+    }
+
+    // PAGE CONNECT
+
+    .page-connect{
+        &__container{
+            padding-top: 105px !important;
+            .time{
+                width: 80px !important;
+            }
+
+            h1{
+                font-size: 35px !important;
+            }
+
+            &__info{
+                width: 1700px;
+                margin: auto;
+                margin-top: 40px !important;
+
+                &__details p{
+                    width: 45% !important;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .agence-connect{
+            margin-top: 90px !important;
         }
     }
 }
