@@ -329,6 +329,7 @@ header{
 
         &__slide{
             margin-top: 41px;;
+            
             &--h3{
                 background-image: url("/images/accueil/fondprojet/projet-streampack\ 1.png");
                 background-size: 100%;
@@ -342,6 +343,7 @@ header{
                 align-items: center;
                 border-radius: 27px;
                 position: relative;
+                box-shadow: 10px 10px 20px black;
 
                 h3{
                     font-size: 60px;
@@ -696,10 +698,23 @@ header{
             }
 
             &__contact{
+                .footer-bordercontact{
+                    border-top: solid 2px #0725bd;
+                    margin-top: 15px;
+
+                    div{
+                        margin-top: 25px;
+                        display: none;
+                        i{
+                            font-size: 30px;
+                            margin-left: 20px;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+
                 p{
                     padding-top: 15px;
-                    margin-top: 15px;
-                    border-top: solid 2px #0725bd;
                     font-weight: 100;
                     color: white;
                 }

@@ -1118,10 +1118,6 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .page1 .ancre_page {
-    display: none;
-  }
-
   header nav {
     position: initial !important;
   }
@@ -1144,13 +1140,12 @@
     width: 50px !important;
   }
 
-  .page2, .page3, .page4, .page5, footer {
-    display: none;
-  }
-
   .page1 {
     background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1 2.png") !important;
     height: 92vh !important;
+  }
+  .page1 .ancre_page {
+    display: none;
   }
   .page1__container {
     padding: 80px 0px 0px 0px !important;
@@ -1174,6 +1169,246 @@
   }
   .page1__container--icone div {
     border-top: 1px solid #0725bd !important;
+  }
+
+  .page2 {
+    background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
+    background-size: 100% !important;
+    height: 130vh !important;
+    background-repeat: repeat !important;
+  }
+  .page2 .ancre_page {
+    display: none;
+  }
+  .page2__container {
+    padding-top: 80px !important;
+  }
+  .page2__container__dcw {
+    flex-direction: column;
+    display: flex;
+    padding: 0px 25px;
+  }
+  .page2__container__dcw--design {
+    background-image: url("/images/Téléphone/Accueil/Présentation/Design.png") !important;
+    background-size: 120% !important;
+    background-position: left 0 top 0px !important;
+    width: 300px !important;
+    height: 125px !important;
+    margin-bottom: 50px;
+  }
+  .page2__container__dcw--design h2 {
+    font-size: 20px !important;
+  }
+  .page2__container__dcw--consulting {
+    background-image: url("/images/Téléphone/Accueil/Présentation/Consulting.png") !important;
+    background-size: 120% !important;
+    background-position: left 0 top 0px !important;
+    width: 300px !important;
+    height: 125px !important;
+    margin-bottom: 50px;
+  }
+  .page2__container__dcw--consulting h2 {
+    font-size: 20px !important;
+  }
+  .page2__container__dcw--web {
+    background-image: url("/images/Téléphone/Accueil/Présentation/Develloppemen.png") !important;
+    background-size: 120% !important;
+    background-position: left 0 top 0px !important;
+    width: 300px !important;
+    height: 125px !important;
+  }
+  .page2__container__dcw--web h2 {
+    font-size: 20px !important;
+  }
+  .page2__container p {
+    width: 350px !important;
+  }
+
+  .page3 {
+    background-image: url("/images/Téléphone/Accueil/Fond/2.jpg") !important;
+    height: 65vh !important;
+  }
+  .page3 .ancre_page {
+    display: none;
+  }
+  .page3__container {
+    padding-top: 50px !important;
+  }
+  .page3__container p {
+    width: 85% !important;
+    font-weight: 100;
+  }
+  .page3__container p span {
+    color: #0725bd;
+  }
+  .page3__container__slide--h3 {
+    width: 325px !important;
+    height: 150px !important;
+  }
+  .page3__container__slide--h3 h3 {
+    font-size: 18px !important;
+    bottom: 10px !important;
+  }
+  .page3__container__slide__arrow {
+    display: none !important;
+  }
+
+  .page4 {
+    background-image: url("/images/Téléphone/Accueil/Fond/3.jpg") !important;
+    height: 70vh !important;
+  }
+  .page4 .ancre_page {
+    display: none !important;
+  }
+  .page4 #bottom_arrow {
+    display: none;
+  }
+  .page4__container {
+    padding-top: 60px !important;
+  }
+  .page4__container h2 {
+    font-size: 25px !important;
+  }
+  .page4__container .page4__container__avis {
+    width: 300px !important;
+    padding: 10px;
+  }
+  .page4__container .page4__container__avis__style {
+    flex-direction: column;
+    padding: 0 !important;
+  }
+  .page4__container .page4__container__avis__style__info {
+    display: flex;
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  .page4__container .page4__container__avis__style__info img {
+    width: 70px;
+    margin-right: 10px;
+  }
+  .page4__container .page4__container__avis__style__info h4 {
+    font-size: 20px;
+  }
+  .page4__container .page4__container__avis__style__type {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+  }
+  .page4__container .page4__container__avis__style__type--desc {
+    margin-bottom: 0;
+    width: 70%;
+  }
+  .page4__container .page4__container__avis__style__type--desc h4 {
+    font-size: 16px;
+  }
+  .page4__container .page4__container__avis__style__type--desc p {
+    font-size: 12px;
+  }
+  .page4__container .page4__container__avis__style__type--note h4 {
+    font-size: 16px;
+  }
+  .page4__container .page4__container__avis__style__type--note p {
+    font-size: 16px;
+  }
+  .page4__container .page4__container__avis__style__com {
+    width: 80%;
+  }
+  .page4__container .page4__container__avis__style__com h4 {
+    font-size: 16px;
+  }
+  .page4__container .page4__container__avis__style__com p {
+    font-size: 13px;
+  }
+  .page4__container .avis2 {
+    display: none !important;
+  }
+
+  .page5 {
+    background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
+    background-repeat: repeat !important;
+    height: 170vh !important;
+  }
+  .page5 .ancre_page {
+    display: none !important;
+  }
+  .page5__container {
+    padding-top: 80px !important;
+  }
+  .page5__container h2 {
+    font-size: 25px !important;
+  }
+  .page5__container__content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .page5__container__content__desc img {
+    display: none;
+  }
+  .page5__container__content__desc p {
+    margin: auto;
+    text-align: center !important;
+    width: 90% !important;
+  }
+  .page5__container__content__desc ul {
+    padding: 0px 20px;
+  }
+  .page5__container__content__chiffre {
+    margin: auto;
+    flex-wrap: wrap !important;
+    padding: 0px 30px;
+    margin-bottom: 50px;
+  }
+  .page5__container__content__chiffre__esport {
+    padding-left: 70px;
+    margin-top: 20px;
+    width: 50% !important;
+  }
+
+  footer {
+    background-image: url("/images/Téléphone/Accueil/Fond/Rectangle 4.png") !important;
+    height: 103vh !important;
+  }
+  footer .ancre_page {
+    display: none !important;
+  }
+  footer .footer__container__arrow {
+    padding-top: 80px !important;
+  }
+  footer .footer__container__p {
+    flex-direction: column;
+    width: 90% !important;
+  }
+  footer .footer__container__p p {
+    font-size: 25px !important;
+    width: 100% !important;
+  }
+  footer .footer__container__info {
+    justify-content: center !important;
+    width: 100% !important;
+  }
+  footer .footer__container__info__reseaux {
+    display: none;
+  }
+  footer .footer__container__info__contact .footer-bordercontact div {
+    display: flex !important;
+  }
+  footer .footer__container .agence-mention {
+    position: static !important;
+  }
+  footer .footer__container .agence-mention .agence {
+    font-size: 15px !important;
+    margin-top: 50px !important;
+  }
+  footer .footer__container .agence-mention .mention-legal {
+    margin: auto;
+    margin-right: 0 !important;
+    font-size: 8px !important;
+    justify-content: space-between !important;
+    padding: 0px 20px;
+  }
+  footer .footer__container .agence-mention .mention-legal a {
+    margin: 0 !important;
   }
 }
 html {
@@ -1476,6 +1711,7 @@ header nav .header-icon i:hover {
   align-items: center;
   border-radius: 27px;
   position: relative;
+  box-shadow: 10px 10px 20px black;
 }
 .page3__container__slide--h3 h3 {
   font-size: 60px;
@@ -1760,10 +1996,21 @@ header nav .header-icon i:hover {
   transform: scale(1.2);
   transition: 0.4s;
 }
+#footer .footer__container__info__contact .footer-bordercontact {
+  border-top: solid 2px #0725bd;
+  margin-top: 15px;
+}
+#footer .footer__container__info__contact .footer-bordercontact div {
+  margin-top: 25px;
+  display: none;
+}
+#footer .footer__container__info__contact .footer-bordercontact div i {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 #footer .footer__container__info__contact p {
   padding-top: 15px;
-  margin-top: 15px;
-  border-top: solid 2px #0725bd;
   font-weight: 100;
   color: white;
 }

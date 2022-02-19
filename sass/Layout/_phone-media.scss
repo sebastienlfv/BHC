@@ -1,9 +1,4 @@
 @media screen and (max-width: 500px) {
-    .page1{
-        .ancre_page{
-            display: none;
-        }
-    }
 
     header{
         nav{
@@ -37,13 +32,13 @@
         }
     }
 
-    .page2, .page3, .page4, .page5, footer{
-        display: none;
-    }
-
     .page1{
         background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1\ 2.png") !important;
         height: 92vh !important;
+
+        .ancre_page{
+            display: none;
+        }
 
         &__container{
             padding: 80px 0px 0px 0px !important;
@@ -72,6 +67,311 @@
             &--icone{
                 div{
                     border-top: 1px solid #0725bd !important;
+                }
+            }
+        }
+    }
+
+    .page2{
+        background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
+        background-size: 100% !important;
+        height: 130vh !important;
+        background-repeat: repeat !important;
+
+        .ancre_page{
+            display: none;
+        }
+
+        &__container{
+            padding-top: 80px !important;
+
+            &__dcw{
+                flex-direction: column;
+                display: flex;
+                padding: 0px 25px;
+                
+                &--design{
+                    background-image: url("/images/Téléphone/Accueil/Présentation/Design.png") !important;
+                    background-size: 120% !important;
+                    background-position: left 0 top 0px!important;
+                    width: 300px !important;
+                    height: 125px !important;
+                    margin-bottom: 50px;
+
+                    h2{
+                        font-size: 20px !important;
+                    }
+                }
+
+                &--consulting{
+                    background-image: url("/images/Téléphone/Accueil/Présentation/Consulting.png") !important;
+                    background-size: 120% !important;
+                    background-position: left 0 top 0px!important;
+                    width: 300px !important;
+                    height: 125px !important;
+                    margin-bottom: 50px;
+
+                    h2{
+                        font-size: 20px !important;
+                    }
+                }
+
+                &--web{
+                    background-image: url("/images/Téléphone/Accueil/Présentation/Develloppemen.png") !important;
+                    background-size: 120% !important;
+                    background-position: left 0 top 0px!important;
+                    width: 300px !important;
+                    height: 125px !important;
+
+                    h2{
+                        font-size: 20px !important;
+                    }
+                }
+            }
+
+            p{
+                width: 350px !important;
+            }
+        }
+    }
+
+    .page3{
+        background-image: url("/images/Téléphone/Accueil/Fond/2.jpg") !important;
+        height: 65vh !important;
+
+        .ancre_page{
+            display: none;
+        }
+
+        &__container{
+            padding-top: 50px !important;
+
+            p{
+                width: 85% !important;
+                font-weight: 100;
+
+                span{
+                    color: #0725bd;
+                }
+            }
+
+            &__slide{
+                &--h3{
+                    width: 325px !important;
+                    height: 150px !important;
+
+                    h3{
+                        font-size: 18px !important;
+                        bottom: 10px !important;
+                    }
+                }
+
+                &__arrow{
+                    display: none !important;
+                }
+            }
+        }
+    }
+
+    .page4{
+        background-image: url("/images/Téléphone/Accueil/Fond/3.jpg") !important;
+        height: 70vh !important;
+
+        .ancre_page{
+            display: none !important;
+        }
+
+        #bottom_arrow{
+            display: none;
+        }
+
+        &__container{
+            padding-top: 60px !important;
+
+            h2{
+                font-size: 25px !important;
+            }
+
+            .page4__container__avis{
+                width: 300px !important;
+                padding: 10px;
+
+                &__style{
+                    flex-direction: column;
+                    padding: 0 !important;
+
+                    &__info{
+                        display: flex;
+                        width: 30%;
+                        margin-bottom: 10px;
+                        img{
+                            width: 70px;
+                            margin-right: 10px;
+                        }
+
+                        h4{
+                            font-size: 20px;
+                        }
+                    }
+
+                    &__type{
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        height: 60px;
+
+                        &--desc{
+                            margin-bottom: 0;
+                            width: 70%;
+
+                            h4{
+                                font-size: 16px;
+                            }
+
+                            p{
+                                font-size: 12px;
+                            }
+                        }
+
+                        &--note{
+                            h4{
+                                font-size: 16px;
+                            }
+
+                            p{
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    &__com{
+                        width: 80%;
+
+                        h4{
+                            font-size: 16px;
+                        }
+
+                        p{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+
+            .avis2{
+                display: none !important;
+            }
+        }
+    }
+
+    .page5{
+        background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
+        background-repeat: repeat !important;
+        height: 170vh !important;
+
+        .ancre_page{
+            display: none !important;
+        }
+
+        &__container{
+            padding-top: 80px !important;
+            h2{
+                font-size: 25px !important;
+            }
+
+            &__content{
+                display: flex;
+                flex-direction: column-reverse;
+                &__desc{
+                    img{
+                        display: none;
+                    }
+
+                    p{
+                        margin: auto;
+                        text-align: center !important;
+                        width: 90% !important;
+                    }
+
+                    ul{
+                        padding: 0px 20px;
+                    }
+                }
+
+                &__chiffre{
+                    margin: auto;
+                    flex-wrap: wrap !important;
+                    padding: 0px 30px;
+                    margin-bottom: 50px;
+
+                    &__esport{
+                        padding-left: 70px;
+                        margin-top: 20px;
+                        width: 50% !important;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        background-image: url("/images/Téléphone/Accueil/Fond/Rectangle\ 4.png") !important;
+        height: 103vh !important;
+
+        .ancre_page{
+            display: none !important;
+        }
+        .footer__container{
+
+            &__arrow{
+                padding-top: 80px !important;
+            }
+
+            &__p{
+                flex-direction: column;
+                width: 90% !important;
+
+                p{
+                    font-size: 25px !important;
+                    width: 100% !important;
+                }
+            }
+
+            &__info{
+                justify-content: center !important;
+                width: 100% !important;
+
+                &__reseaux{
+                    display: none;
+                }
+
+                &__contact{
+                    .footer-bordercontact{
+                        div{
+                            display: flex !important;
+                        }
+                    }
+                }
+            }
+
+            .agence-mention{
+                position: static !important;
+
+                .agence{
+                    font-size: 15px !important;
+                    margin-top: 50px !important;
+                }
+
+                .mention-legal{
+                    margin: auto;
+                    margin-right: 0 !important;
+                    font-size: 8px !important;
+                    justify-content: space-between !important;
+                    padding: 0px 20px;
+
+                    a{
+                        margin: 0 !important;
+                    }
                 }
             }
         }
