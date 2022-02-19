@@ -1117,6 +1117,65 @@
     margin-top: 40px !important;
   }
 }
+@media screen and (max-width: 500px) {
+  .page1 .ancre_page {
+    display: none;
+  }
+
+  header nav {
+    position: initial !important;
+  }
+  header nav .header-nav {
+    margin-left: 0 !important;
+  }
+  header nav .header-icon {
+    right: 1em !important;
+  }
+  header nav .header-icon i {
+    font-size: 15px !important;
+  }
+  header nav ul li {
+    padding: 0px !important;
+  }
+  header nav ul div {
+    display: none !important;
+  }
+  header nav ul img {
+    width: 50px !important;
+  }
+
+  .page2, .page3, .page4, .page5, footer {
+    display: none;
+  }
+
+  .page1 {
+    background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1 2.png") !important;
+    height: 92vh !important;
+  }
+  .page1__container {
+    padding: 80px 0px 0px 0px !important;
+  }
+  .page1__container--text {
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+  }
+  .page1__container--text span {
+    color: #0725bd;
+  }
+  .page1__container--text h1 {
+    font-size: 30px !important;
+  }
+  .page1__container--text h2 {
+    font-size: 30px !important;
+  }
+  .page1__container--text p {
+    margin-top: 20px;
+    font-size: 20px !important;
+  }
+  .page1__container--icone div {
+    border-top: 1px solid #0725bd !important;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
