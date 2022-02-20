@@ -229,7 +229,7 @@
 }
 
 .page-2-services__container__esport {
-  display: none;
+  display: flex;
 }
 .page-2-services__container__esport__left {
   background-image: url("/images/services/page2/details/steampack/Fond 1.png");
@@ -1128,6 +1128,7 @@
     top: 15px;
     background: transparent;
     border: none;
+    display: flex !important;
   }
   header nav .header-nav {
     margin-left: 0 !important;
@@ -1150,7 +1151,8 @@
 
   .page1 {
     background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1 2.png") !important;
-    height: 92vh !important;
+    height: auto !important;
+    padding-bottom: 250px;
   }
   .page1 .ancre_page {
     display: none;
@@ -1182,8 +1184,9 @@
   .page2 {
     background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
     background-size: 100% !important;
-    height: 130vh !important;
+    height: auto !important;
     background-repeat: repeat !important;
+    padding-bottom: 80px;
   }
   .page2 .ancre_page {
     display: none;
@@ -1194,13 +1197,13 @@
   .page2__container__dcw {
     flex-direction: column;
     display: flex;
-    padding: 0px 25px;
+    align-items: center;
   }
   .page2__container__dcw--design {
     background-image: url("/images/Téléphone/Accueil/Présentation/Design.png") !important;
     background-size: 120% !important;
     background-position: left 0 top 0px !important;
-    width: 300px !important;
+    width: 90% !important;
     height: 125px !important;
     margin-bottom: 50px;
   }
@@ -1211,7 +1214,7 @@
     background-image: url("/images/Téléphone/Accueil/Présentation/Consulting.png") !important;
     background-size: 120% !important;
     background-position: left 0 top 0px !important;
-    width: 300px !important;
+    width: 90% !important;
     height: 125px !important;
     margin-bottom: 50px;
   }
@@ -1222,7 +1225,7 @@
     background-image: url("/images/Téléphone/Accueil/Présentation/Develloppemen.png") !important;
     background-size: 120% !important;
     background-position: left 0 top 0px !important;
-    width: 300px !important;
+    width: 90% !important;
     height: 125px !important;
   }
   .page2__container__dcw--web h2 {
@@ -1234,7 +1237,8 @@
 
   .page3 {
     background-image: url("/images/Téléphone/Accueil/Fond/2.jpg") !important;
-    height: 65vh !important;
+    height: auto !important;
+    padding-bottom: 80px;
   }
   .page3 .ancre_page {
     display: none;
@@ -1263,7 +1267,8 @@
 
   .page4 {
     background-image: url("/images/Téléphone/Accueil/Fond/3.jpg") !important;
-    height: 70vh !important;
+    height: auto !important;
+    padding-bottom: 80px;
   }
   .page4 .ancre_page {
     display: none !important;
@@ -1335,7 +1340,8 @@
   .page5 {
     background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
     background-repeat: repeat !important;
-    height: 170vh !important;
+    height: auto !important;
+    padding-bottom: 80px;
   }
   .page5 .ancre_page {
     display: none !important;
@@ -1375,13 +1381,14 @@
 
   footer {
     background-image: url("/images/Téléphone/Accueil/Fond/Rectangle 4.png") !important;
-    height: 103vh !important;
+    height: auto !important;
+    background-position: 0 !important;
   }
   footer .ancre_page {
     display: none !important;
   }
   footer .footer__container__arrow {
-    padding-top: 80px !important;
+    padding-top: 70px !important;
   }
   footer .footer__container__p {
     flex-direction: column;
@@ -1413,7 +1420,7 @@
     margin-right: 0 !important;
     font-size: 8px !important;
     justify-content: space-between !important;
-    padding: 0px 20px;
+    padding: 20px 20px;
   }
   footer .footer__container .agence-mention .mention-legal a {
     margin: 0 !important;
@@ -1457,6 +1464,9 @@ header nav {
   position: fixed;
   width: 100%;
   z-index: 99;
+}
+header nav button {
+  display: none;
 }
 header nav .header-nav {
   margin-left: 48px;
@@ -2447,7 +2457,7 @@ header nav .header-icon i:hover {
 }
 
 .page-contact {
-  background-image: url("/images/contact/fond-1.png");
+  background-image: url("/images/contact/fond-contact.png");
   background-size: cover;
   height: 100vh;
 }

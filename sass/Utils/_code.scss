@@ -38,6 +38,10 @@ header{
         position: fixed;
         width: 100%;
         z-index: 99;
+
+        button{
+            display: none;
+        }
         
         & .header-nav{          
             margin-left: 48px;
@@ -1229,7 +1233,7 @@ header{
 // PAGE CONTACT
 
 .page-contact{
-    background-image: url("/images/contact/fond-1.png");
+    background-image: url("/images/contact/fond-contact.png");
     background-size: cover;
     height: 100vh;
 

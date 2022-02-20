@@ -11,6 +11,7 @@
                 top: 15px;
                 background: transparent;
                 border: none;
+                display: flex !important;
             }
 
             .header-nav{
@@ -43,7 +44,8 @@
 
     .page1{
         background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1\ 2.png") !important;
-        height: 92vh !important;
+        height: auto !important;
+        padding-bottom: 250px;
 
         .ancre_page{
             display: none;
@@ -84,8 +86,9 @@
     .page2{
         background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
         background-size: 100% !important;
-        height: 130vh !important;
+        height: auto !important;
         background-repeat: repeat !important;
+        padding-bottom: 80px;
 
         .ancre_page{
             display: none;
@@ -97,13 +100,13 @@
             &__dcw{
                 flex-direction: column;
                 display: flex;
-                padding: 0px 25px;
+                align-items: center;
                 
                 &--design{
                     background-image: url("/images/Téléphone/Accueil/Présentation/Design.png") !important;
                     background-size: 120% !important;
                     background-position: left 0 top 0px!important;
-                    width: 300px !important;
+                    width: 90% !important;
                     height: 125px !important;
                     margin-bottom: 50px;
 
@@ -116,7 +119,7 @@
                     background-image: url("/images/Téléphone/Accueil/Présentation/Consulting.png") !important;
                     background-size: 120% !important;
                     background-position: left 0 top 0px!important;
-                    width: 300px !important;
+                    width: 90% !important;
                     height: 125px !important;
                     margin-bottom: 50px;
 
@@ -129,7 +132,7 @@
                     background-image: url("/images/Téléphone/Accueil/Présentation/Develloppemen.png") !important;
                     background-size: 120% !important;
                     background-position: left 0 top 0px!important;
-                    width: 300px !important;
+                    width: 90% !important;
                     height: 125px !important;
 
                     h2{
@@ -146,7 +149,8 @@
 
     .page3{
         background-image: url("/images/Téléphone/Accueil/Fond/2.jpg") !important;
-        height: 65vh !important;
+        height: auto !important;
+        padding-bottom: 80px;
 
         .ancre_page{
             display: none;
@@ -184,7 +188,8 @@
 
     .page4{
         background-image: url("/images/Téléphone/Accueil/Fond/3.jpg") !important;
-        height: 70vh !important;
+        height: auto !important;
+        padding-bottom: 80px;
 
         .ancre_page{
             display: none !important;
@@ -276,7 +281,8 @@
     .page5{
         background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
         background-repeat: repeat !important;
-        height: 170vh !important;
+        height: auto !important;
+        padding-bottom: 80px;
 
         .ancre_page{
             display: none !important;
@@ -325,7 +331,8 @@
 
     footer{
         background-image: url("/images/Téléphone/Accueil/Fond/Rectangle\ 4.png") !important;
-        height: 103vh !important;
+        height: auto !important;
+        background-position: 0 !important;
 
         .ancre_page{
             display: none !important;
@@ -333,7 +340,7 @@
         .footer__container{
 
             &__arrow{
-                padding-top: 80px !important;
+                padding-top: 70px !important;
             }
 
             &__p{
@@ -376,7 +383,7 @@
                     margin-right: 0 !important;
                     font-size: 8px !important;
                     justify-content: space-between !important;
-                    padding: 0px 20px;
+                    padding: 20px 20px;
 
                     a{
                         margin: 0 !important;
