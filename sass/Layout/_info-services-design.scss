@@ -241,7 +241,7 @@
 }
 
 .page-2-services__container__esport{
-    display: flex;
+    display: none;
 
     &__left{
         background-image: url("/images/services/page2/details/steampack/Fond\ 1.png");
@@ -394,6 +394,250 @@
                 padding-bottom: 1px;
                 cursor: pointer;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .page-2-services__container__streampack{  
+        &__right{ 
+            .streampack-service{
+                width: 700px;
+                padding: 120px 20px 0px 20px;
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 25px;
+                    margin-right: 10px;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .page-2-services__container__banniere{  
+        &__right{ 
+            .banniere-service{
+                width: 700px;
+                padding: 200px 20px 0px 20px;
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 25px;
+                    margin-right: 10px;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .page-2-services__container__affiche{  
+        &__right{ 
+            padding-bottom: 100px;
+            .affiche-service{
+                width: 700px;
+                padding: 150px 20px 0px 20px;
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 25px;
+                    margin-right: 10px;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .page-2-services__container__esport{  
+        &__right{ 
+            .esport-service{
+                width: 700px;
+                padding: 100px 20px 0px 20px;
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 25px;
+                    margin-right: 10px;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__left{
+            padding-bottom: 20px;
+        }
+    }
+
+    .page-2-services__container__logo{  
+        &__right{ 
+            .logo-service{
+                width: 700px;
+                padding: 100px 20px 0px 20px;
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 25px;
+                    margin-right: 10px;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__left{
+            padding-bottom: 90px;
+        }
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .page-2-services__container__streampack{  
+        &__right{ 
+            .streampack-service{
+                width: 600px;
+                padding: 120px 20px 0px 20px;
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 25px;
+                    margin-right: 10px;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__left{
+            padding-right: 0;
+            padding-bottom: 30px;
+        }
+    }
+
+    .page-2-services__container__banniere{  
+        &__right{ 
+            .banniere-service{
+                width: 700px;
+                padding: 200px 20px 0px 20px;
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 20px;
+                    margin-right: 10px;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .page-2-services__container__affiche{  
+        &__right{ 
+            padding-bottom: 0px;
+            .affiche-service{
+                width: 600px;
+                padding: 120px 20px 0px 20px;
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 20px;
+                    margin-right: 10px;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__left{
+            padding-bottom: 40px;
+            padding-left: 70px;
+        }
+    }
+
+    .page-2-services__container__esport{  
+        &__right{ 
+            .esport-service{
+                width: 600px;
+                padding: 100px 20px 0px 20px;
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 20px;
+                    margin-right: 10px;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__left{
+            padding-bottom: 40px;
+
+            img{
+                width: 70px;
+            }
+
+            ul{
+                font-size: 20px;
+            }
+
+            p{
+                margin-top: 70px;
+            }
+        }
+    }
+
+    .page-2-services__container__logo{  
+        &__right{ 
+            .logo-service{
+                width: 600px;
+                padding: 100px 20px 0px 20px;
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 20px;
+                    margin-right: 10px;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__left{
+            padding-bottom: 50px;
         }
     }
 }

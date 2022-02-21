@@ -2,8 +2,9 @@
 
     header{
         nav{
-            position: initial!important;
-
+            .dropdown{
+                display: flex !important;
+            }
             button{
                 width: 35px;
                 position: absolute !important;
@@ -45,14 +46,14 @@
     .page1{
         background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1\ 2.png") !important;
         height: auto !important;
-        padding-bottom: 250px;
+        padding-bottom: 350px;
 
         .ancre_page{
             display: none;
         }
 
         &__container{
-            padding: 80px 0px 0px 0px !important;
+            padding: 250px 0px 0px 0px !important;
             &--text{
                 text-align: center;
                 padding: 0px 5px 0px 5px;
@@ -62,11 +63,11 @@
                 }
 
                 h1{
-                    font-size: 30px !important;
+                    font-size: 25px !important;
                 }
 
                 h2{
-                    font-size: 30px !important;
+                    font-size: 25px !important;
                 }
 
                 p{
@@ -170,7 +171,7 @@
 
             &__slide{
                 &--h3{
-                    width: 325px !important;
+                    width: 80% !important;
                     height: 150px !important;
 
                     h3{
@@ -207,7 +208,7 @@
             }
 
             .page4__container__avis{
-                width: 300px !important;
+                width: 80% !important;
                 padding: 10px;
 
                 &__style{
@@ -320,7 +321,7 @@
                     margin-bottom: 50px;
 
                     &__esport{
-                        padding-left: 70px;
+                        padding-left: 90px;
                         margin-top: 20px;
                         width: 50% !important;
                     }
@@ -348,7 +349,7 @@
                 width: 90% !important;
 
                 p{
-                    font-size: 25px !important;
+                    font-size: 20px !important;
                     width: 100% !important;
                 }
             }
@@ -375,7 +376,7 @@
 
                 .agence{
                     font-size: 15px !important;
-                    margin-top: 50px !important;
+                    margin-top: 30px !important;
                 }
 
                 .mention-legal{
@@ -384,9 +385,122 @@
                     font-size: 8px !important;
                     justify-content: space-between !important;
                     padding: 20px 20px;
+                    margin-top: 20px !important;
 
                     a{
                         margin: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+    .page1{
+        &__container{
+            padding: 180px 0px 0px 0px !important;
+        }
+    }
+
+    .page5{
+        background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
+        background-repeat: repeat !important;
+        height: auto !important;
+        padding-bottom: 80px;
+
+        .ancre_page{
+            display: none !important;
+        }
+
+        &__container{
+            padding-top: 80px !important;
+            h2{
+                font-size: 25px !important;
+            }
+
+            &__content{
+                display: flex;
+                flex-direction: column-reverse;
+                &__desc{
+                    img{
+                        display: none;
+                    }
+
+                    p{
+                        margin: auto;
+                        text-align: center !important;
+                        width: 90% !important;
+                    }
+
+                    ul{
+                        padding: 0px 20px;
+                    }
+                }
+
+                &__chiffre{
+                    margin: auto;
+                    flex-wrap: wrap !important;
+                    padding: 0px 30px;
+                    margin-bottom: 50px;
+
+                    &__esport{
+                        padding-left: 80px;
+                        margin-top: 20px;
+                        width: 50% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 380px){
+    .page5{
+        background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
+        background-repeat: repeat !important;
+        height: auto !important;
+        padding-bottom: 80px;
+
+        .ancre_page{
+            display: none !important;
+        }
+
+        &__container{
+            padding-top: 80px !important;
+            h2{
+                font-size: 25px !important;
+            }
+
+            &__content{
+                display: flex;
+                flex-direction: column-reverse;
+                &__desc{
+                    img{
+                        display: none;
+                    }
+
+                    p{
+                        margin: auto;
+                        text-align: center !important;
+                        width: 90% !important;
+                    }
+
+                    ul{
+                        padding: 0px 20px;
+                    }
+                }
+
+                &__chiffre{
+                    margin: auto;
+                    flex-wrap: wrap !important;
+                    padding: 0px 30px;
+                    margin-bottom: 50px;
+
+                    &__esport{
+                        padding-left: 70px;
+                        margin-top: 20px;
+                        width: 50% !important;
                     }
                 }
             }

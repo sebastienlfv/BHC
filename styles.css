@@ -229,7 +229,7 @@
 }
 
 .page-2-services__container__esport {
-  display: flex;
+  display: none;
 }
 .page-2-services__container__esport__left {
   background-image: url("/images/services/page2/details/steampack/Fond 1.png");
@@ -362,6 +362,193 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1800px) {
+  .page-2-services__container__streampack__right .streampack-service {
+    width: 700px;
+    padding: 120px 20px 0px 20px;
+  }
+  .page-2-services__container__streampack__right div {
+    display: flex;
+    justify-content: center;
+  }
+  .page-2-services__container__streampack__right div img {
+    width: 25px;
+    margin-right: 10px;
+    padding-bottom: 1px;
+    cursor: pointer;
+  }
+
+  .page-2-services__container__banniere__right .banniere-service {
+    width: 700px;
+    padding: 200px 20px 0px 20px;
+  }
+  .page-2-services__container__banniere__right div {
+    display: flex;
+    justify-content: center;
+  }
+  .page-2-services__container__banniere__right div img {
+    width: 25px;
+    margin-right: 10px;
+    padding-bottom: 1px;
+    cursor: pointer;
+  }
+
+  .page-2-services__container__affiche__right {
+    padding-bottom: 100px;
+  }
+  .page-2-services__container__affiche__right .affiche-service {
+    width: 700px;
+    padding: 150px 20px 0px 20px;
+  }
+  .page-2-services__container__affiche__right div {
+    display: flex;
+    justify-content: center;
+  }
+  .page-2-services__container__affiche__right div img {
+    width: 25px;
+    margin-right: 10px;
+    padding-bottom: 1px;
+    cursor: pointer;
+  }
+
+  .page-2-services__container__esport__right .esport-service {
+    width: 700px;
+    padding: 100px 20px 0px 20px;
+  }
+  .page-2-services__container__esport__right div {
+    display: flex;
+    justify-content: center;
+  }
+  .page-2-services__container__esport__right div img {
+    width: 25px;
+    margin-right: 10px;
+    padding-bottom: 1px;
+    cursor: pointer;
+  }
+  .page-2-services__container__esport__left {
+    padding-bottom: 20px;
+  }
+
+  .page-2-services__container__logo__right .logo-service {
+    width: 700px;
+    padding: 100px 20px 0px 20px;
+  }
+  .page-2-services__container__logo__right div {
+    display: flex;
+    justify-content: center;
+  }
+  .page-2-services__container__logo__right div img {
+    width: 25px;
+    margin-right: 10px;
+    padding-bottom: 1px;
+    cursor: pointer;
+  }
+  .page-2-services__container__logo__left {
+    padding-bottom: 90px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .page-2-services__container__streampack__right .streampack-service {
+    width: 600px;
+    padding: 120px 20px 0px 20px;
+  }
+  .page-2-services__container__streampack__right div {
+    display: flex;
+    justify-content: center;
+  }
+  .page-2-services__container__streampack__right div img {
+    width: 25px;
+    margin-right: 10px;
+    padding-bottom: 1px;
+    cursor: pointer;
+  }
+  .page-2-services__container__streampack__left {
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+
+  .page-2-services__container__banniere__right .banniere-service {
+    width: 700px;
+    padding: 200px 20px 0px 20px;
+  }
+  .page-2-services__container__banniere__right div {
+    display: flex;
+    justify-content: center;
+  }
+  .page-2-services__container__banniere__right div img {
+    width: 20px;
+    margin-right: 10px;
+    padding-bottom: 1px;
+    cursor: pointer;
+  }
+
+  .page-2-services__container__affiche__right {
+    padding-bottom: 0px;
+  }
+  .page-2-services__container__affiche__right .affiche-service {
+    width: 600px;
+    padding: 120px 20px 0px 20px;
+  }
+  .page-2-services__container__affiche__right div {
+    display: flex;
+    justify-content: center;
+  }
+  .page-2-services__container__affiche__right div img {
+    width: 20px;
+    margin-right: 10px;
+    padding-bottom: 1px;
+    cursor: pointer;
+  }
+  .page-2-services__container__affiche__left {
+    padding-bottom: 40px;
+    padding-left: 70px;
+  }
+
+  .page-2-services__container__esport__right .esport-service {
+    width: 600px;
+    padding: 100px 20px 0px 20px;
+  }
+  .page-2-services__container__esport__right div {
+    display: flex;
+    justify-content: center;
+  }
+  .page-2-services__container__esport__right div img {
+    width: 20px;
+    margin-right: 10px;
+    padding-bottom: 1px;
+    cursor: pointer;
+  }
+  .page-2-services__container__esport__left {
+    padding-bottom: 40px;
+  }
+  .page-2-services__container__esport__left img {
+    width: 70px;
+  }
+  .page-2-services__container__esport__left ul {
+    font-size: 20px;
+  }
+  .page-2-services__container__esport__left p {
+    margin-top: 70px;
+  }
+
+  .page-2-services__container__logo__right .logo-service {
+    width: 600px;
+    padding: 100px 20px 0px 20px;
+  }
+  .page-2-services__container__logo__right div {
+    display: flex;
+    justify-content: center;
+  }
+  .page-2-services__container__logo__right div img {
+    width: 20px;
+    margin-right: 10px;
+    padding-bottom: 1px;
+    cursor: pointer;
+  }
+  .page-2-services__container__logo__left {
+    padding-bottom: 50px;
+  }
+}
 .page-3-services__container__info {
   position: absolute;
   top: 180px;
@@ -1029,16 +1216,25 @@
     max-width: 1200px;
   }
   .page1-services .page1-services__container .page1-services__container__dsw__details {
-    height: 320px;
-    width: 320px;
+    height: 300px;
+    width: 310px;
     background-size: cover;
+    border-radius: 25px;
+  }
+  .page1-services .page1-services__container .page1-services__container__dsw__details h3 {
+    font-size: 35px;
+    width: 50%;
+    margin: auto;
   }
 
   .page2-services .ancre_page {
     top: 300px;
   }
   .page2-services .page-2-services__container__details {
-    margin-top: 150px !important;
+    margin-top: 300px !important;
+  }
+  .page2-services .page-2-services__container__details h2 {
+    font-size: 80px !important;
   }
   .page2-services .page-2-services__container__liste ul {
     padding-left: 20px;
@@ -1053,7 +1249,10 @@
     top: 300px;
   }
   .page3-services .page-3-services__container__details {
-    margin-top: 150px !important;
+    margin-top: 300px !important;
+  }
+  .page3-services .page-3-services__container__details h2 {
+    font-size: 80px !important;
   }
   .page3-services .page-3-services__container__liste ul {
     padding-left: 20px;
@@ -1071,7 +1270,10 @@
     top: 300px;
   }
   .page4-services .page-4-services__container__details {
-    margin-top: 150px !important;
+    margin-top: 300px !important;
+  }
+  .page4-services .page-4-services__container__details h2 {
+    font-size: 80px !important;
   }
   .page4-services .page-4-services__container__liste ul {
     padding-left: 20px;
@@ -1118,8 +1320,8 @@
   }
 }
 @media screen and (max-width: 500px) {
-  header nav {
-    position: initial !important;
+  header nav .dropdown {
+    display: flex !important;
   }
   header nav button {
     width: 35px;
@@ -1152,13 +1354,13 @@
   .page1 {
     background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1 2.png") !important;
     height: auto !important;
-    padding-bottom: 250px;
+    padding-bottom: 350px;
   }
   .page1 .ancre_page {
     display: none;
   }
   .page1__container {
-    padding: 80px 0px 0px 0px !important;
+    padding: 250px 0px 0px 0px !important;
   }
   .page1__container--text {
     text-align: center;
@@ -1168,10 +1370,10 @@
     color: #0725bd;
   }
   .page1__container--text h1 {
-    font-size: 30px !important;
+    font-size: 25px !important;
   }
   .page1__container--text h2 {
-    font-size: 30px !important;
+    font-size: 25px !important;
   }
   .page1__container--text p {
     margin-top: 20px;
@@ -1254,7 +1456,7 @@
     color: #0725bd;
   }
   .page3__container__slide--h3 {
-    width: 325px !important;
+    width: 80% !important;
     height: 150px !important;
   }
   .page3__container__slide--h3 h3 {
@@ -1283,7 +1485,7 @@
     font-size: 25px !important;
   }
   .page4__container .page4__container__avis {
-    width: 300px !important;
+    width: 80% !important;
     padding: 10px;
   }
   .page4__container .page4__container__avis__style {
@@ -1374,7 +1576,7 @@
     margin-bottom: 50px;
   }
   .page5__container__content__chiffre__esport {
-    padding-left: 70px;
+    padding-left: 90px;
     margin-top: 20px;
     width: 50% !important;
   }
@@ -1395,7 +1597,7 @@
     width: 90% !important;
   }
   footer .footer__container__p p {
-    font-size: 25px !important;
+    font-size: 20px !important;
     width: 100% !important;
   }
   footer .footer__container__info {
@@ -1413,7 +1615,7 @@
   }
   footer .footer__container .agence-mention .agence {
     font-size: 15px !important;
-    margin-top: 50px !important;
+    margin-top: 30px !important;
   }
   footer .footer__container .agence-mention .mention-legal {
     margin: auto;
@@ -1421,9 +1623,100 @@
     font-size: 8px !important;
     justify-content: space-between !important;
     padding: 20px 20px;
+    margin-top: 20px !important;
   }
   footer .footer__container .agence-mention .mention-legal a {
     margin: 0 !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .page1__container {
+    padding: 180px 0px 0px 0px !important;
+  }
+
+  .page5 {
+    background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
+    background-repeat: repeat !important;
+    height: auto !important;
+    padding-bottom: 80px;
+  }
+  .page5 .ancre_page {
+    display: none !important;
+  }
+  .page5__container {
+    padding-top: 80px !important;
+  }
+  .page5__container h2 {
+    font-size: 25px !important;
+  }
+  .page5__container__content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .page5__container__content__desc img {
+    display: none;
+  }
+  .page5__container__content__desc p {
+    margin: auto;
+    text-align: center !important;
+    width: 90% !important;
+  }
+  .page5__container__content__desc ul {
+    padding: 0px 20px;
+  }
+  .page5__container__content__chiffre {
+    margin: auto;
+    flex-wrap: wrap !important;
+    padding: 0px 30px;
+    margin-bottom: 50px;
+  }
+  .page5__container__content__chiffre__esport {
+    padding-left: 80px;
+    margin-top: 20px;
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 380px) {
+  .page5 {
+    background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
+    background-repeat: repeat !important;
+    height: auto !important;
+    padding-bottom: 80px;
+  }
+  .page5 .ancre_page {
+    display: none !important;
+  }
+  .page5__container {
+    padding-top: 80px !important;
+  }
+  .page5__container h2 {
+    font-size: 25px !important;
+  }
+  .page5__container__content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .page5__container__content__desc img {
+    display: none;
+  }
+  .page5__container__content__desc p {
+    margin: auto;
+    text-align: center !important;
+    width: 90% !important;
+  }
+  .page5__container__content__desc ul {
+    padding: 0px 20px;
+  }
+  .page5__container__content__chiffre {
+    margin: auto;
+    flex-wrap: wrap !important;
+    padding: 0px 30px;
+    margin-bottom: 50px;
+  }
+  .page5__container__content__chiffre__esport {
+    padding-left: 70px;
+    margin-top: 20px;
+    width: 50% !important;
   }
 }
 html {
@@ -1439,6 +1732,14 @@ html {
 
 a {
   color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Houschka";
+}
+
+.show {
+  display: block;
 }
 
 .ancre_page {
@@ -1470,6 +1771,13 @@ header nav button {
 }
 header nav .header-nav {
   margin-left: 48px;
+}
+header nav .header-nav .dropdown {
+  display: none;
+}
+header nav .header-nav .dropdown-content {
+  display: none;
+  background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1 2.png");
 }
 header nav .header-nav ul {
   display: flex;
@@ -2097,12 +2405,15 @@ header nav .header-icon i:hover {
   justify-content: center;
   background-image: url("/images/services/page1/design.png");
   background-size: cover;
-  border-radius: 27px;
+  border-radius: 30px;
   font-weight: 400;
-  font-size: 30px;
-  width: 350px;
+  font-size: 50px;
+  width: 362px;
   height: 350px;
   color: white;
+}
+.page1-services__container__dsw__details:nth-child(1) h3 {
+  font-family: "BebasNeue";
 }
 .page1-services__container__dsw__details:nth-child(1) .fleche-page1 {
   display: flex;
@@ -2123,12 +2434,15 @@ header nav .header-icon i:hover {
   justify-content: center;
   background-image: url("/images/services/page1/strategie.png");
   background-size: cover;
-  border-radius: 27px;
   font-weight: 400;
-  font-size: 30px;
-  width: 350px;
+  font-size: 50px;
+  border-radius: 30px;
+  width: 362px;
   height: 350px;
   color: white;
+}
+.page1-services__container__dsw__details:nth-child(2) h3 {
+  font-family: "BebasNeue";
 }
 .page1-services__container__dsw__details:nth-child(2) .fleche-page1 {
   display: flex;
@@ -2149,12 +2463,15 @@ header nav .header-icon i:hover {
   justify-content: center;
   background-image: url("/images/services/page1/web.png");
   background-size: cover;
-  border-radius: 27px;
   font-weight: 400;
-  font-size: 30px;
-  width: 350px;
+  font-size: 50px;
+  border-radius: 30px;
+  width: 362px;
   height: 350px;
   color: white;
+}
+.page1-services__container__dsw__details:nth-child(3) h3 {
+  font-family: "BebasNeue";
 }
 .page1-services__container__dsw__details:nth-child(3) .fleche-page1 {
   display: flex;
@@ -2198,8 +2515,7 @@ header nav .header-icon i:hover {
   margin-top: 180px;
 }
 .page2-services .page-2-services__container__liste ul li {
-  font-family: "BebasNeue";
-  font-size: 37px;
+  font-size: 25px;
   font-weight: 400;
   border: solid 1px white;
   border-radius: 30px;
@@ -2259,8 +2575,7 @@ header nav .header-icon i:hover {
   margin-right: 10%;
 }
 .page2-services .page-2-services__container__details h2 {
-  font-family: "BebasNeue";
-  font-size: 135px;
+  font-size: 90px;
 }
 .page2-services .page-2-services__container__details p {
   text-align: justify right;
@@ -2296,7 +2611,7 @@ header nav .header-icon i:hover {
   margin-top: 130px;
 }
 .page3-services .page-3-services__container__liste ul li {
-  font-size: 37px;
+  font-size: 25px;
   font-weight: 400;
   border: solid 1px white;
   border-radius: 20px;
@@ -2310,7 +2625,6 @@ header nav .header-icon i:hover {
   transition: 0.4s;
 }
 .page3-services .page-3-services__container__liste ul li p {
-  font-family: "BebasNeue";
   width: 60%;
 }
 .page3-services .page-3-services__container__liste ul li div {
@@ -2355,8 +2669,7 @@ header nav .header-icon i:hover {
   text-align: right;
 }
 .page3-services .page-3-services__container__details h2 {
-  font-family: "BebasNeue";
-  font-size: 135px;
+  font-size: 90px;
 }
 .page3-services .page-3-services__container__details p {
   text-align: justify right;
@@ -2392,8 +2705,7 @@ header nav .header-icon i:hover {
   margin-top: 130px;
 }
 .page4-services .page-4-services__container__liste ul li {
-  font-family: "BebasNeue";
-  font-size: 37px;
+  font-size: 25px;
   font-weight: 400;
   border: solid 1px white;
   border-radius: 20px;
@@ -2438,8 +2750,7 @@ header nav .header-icon i:hover {
   text-align: right;
 }
 .page4-services .page-4-services__container__details h2 {
-  font-family: "BebasNeue";
-  font-size: 135px;
+  font-size: 90px;
 }
 .page4-services .page-4-services__container__details p {
   text-align: justify right;
@@ -2505,7 +2816,6 @@ header nav .header-icon i:hover {
 .page-contact__info h4 {
   font-size: 25px;
   color: white;
-  font-family: "Houschka";
 }
 .page-contact__info__reseaux__icone {
   margin-top: 15px;
@@ -2529,7 +2839,6 @@ header nav .header-icon i:hover {
   padding-bottom: 15px;
   border-bottom: solid 2px #0725bd;
   text-align: center;
-  font-family: "Houschka";
 }
 .page-contact__info__send__info {
   display: flex;

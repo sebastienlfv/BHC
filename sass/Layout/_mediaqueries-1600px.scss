@@ -194,9 +194,16 @@
                 max-width: 1200px;
 
                 &__details{
-                    height: 320px;
-                    width: 320px;
+                    height: 300px;
+                    width: 310px;
                     background-size: cover;
+                    border-radius: 25px;
+
+                    h3{
+                        font-size: 35px;
+                        width: 50%;
+                        margin: auto;
+                    }
                 }
             }
         }
@@ -208,7 +215,11 @@
         }
 
         .page-2-services__container__details{
-            margin-top: 150px !important;
+            margin-top: 300px !important;
+
+            h2{
+                font-size: 80px !important;
+            }
         }
 
         .page-2-services__container__liste ul{
@@ -228,7 +239,11 @@
         }
 
         .page-3-services__container__details{
-            margin-top: 150px !important;
+            margin-top: 300px !important;
+
+            h2{
+                font-size: 80px !important;
+            }
         }
 
         .page-3-services__container__liste ul{
@@ -252,7 +267,11 @@
         }
 
         .page-4-services__container__details{
-            margin-top: 150px !important;
+            margin-top: 300px !important;
+
+            h2{
+                font-size: 80px !important;
+            }
         }
 
         .page-4-services__container__liste ul{

@@ -13,6 +13,14 @@ a{
     color: white;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-family: "Houschka";
+}
+
+.show {
+	display: block;
+}
+
 .ancre_page{
     position: absolute;
     display: flex;
@@ -43,7 +51,16 @@ header{
             display: none;
         }
         
-        & .header-nav{          
+        & .header-nav{ 
+            .dropdown{
+                display: none;
+
+                &-content{
+                    display: none;
+                    background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1\ 2.png");
+                }
+            }
+            
             margin-left: 48px;
             & ul{
                 display: flex;
@@ -800,12 +817,16 @@ header{
                 justify-content: center;
                 background-image: url("/images/services/page1/design.png");
                 background-size: cover;
-                border-radius: 27px;
+                border-radius: 30px;
                 font-weight: 400;
-                font-size: 30px;
-                width: 350px;
+                font-size: 50px;
+                width: 362px;
                 height: 350px;
                 color: white;
+
+                h3{
+                    font-family: "BebasNeue";
+                }
 
                 .fleche-page1{
                     display: flex;
@@ -830,12 +851,16 @@ header{
                 justify-content: center;
                 background-image: url("/images/services/page1/strategie.png");
                 background-size: cover;
-                border-radius: 27px;
                 font-weight: 400;
-                font-size: 30px;
-                width: 350px;
+                font-size: 50px;
+                border-radius: 30px;
+                width: 362px;
                 height: 350px;
                 color: white;
+
+                h3{
+                    font-family: "BebasNeue";
+                }
 
                 .fleche-page1{
                     display: flex;
@@ -860,12 +885,16 @@ header{
                 justify-content: center;
                 background-image: url("/images/services/page1/web.png");
                 background-size: cover;
-                border-radius: 27px;
                 font-weight: 400;
-                font-size: 30px;
-                width: 350px;
+                font-size: 50px;
+                border-radius: 30px;
+                width: 362px;
                 height: 350px;
                 color: white;
+
+                h3{
+                    font-family: "BebasNeue";
+                }
 
                 .fleche-page1{
                     display: flex;
@@ -920,8 +949,7 @@ header{
             ul{
                 margin-top: 180px;
                 li{
-                    font-family: "BebasNeue";
-                    font-size: 37px;
+                    font-size: 25px;
                     font-weight: 400;
                     border: solid 1px white;
                     border-radius: 30px;
@@ -993,8 +1021,7 @@ header{
             margin-right: 10%;
 
             h2{
-                font-family: "BebasNeue";
-                font-size: 135px;
+                font-size: 90px;
 
             }
 
@@ -1037,7 +1064,7 @@ header{
             ul{
                 margin-top: 130px;
                 li{
-                    font-size: 37px;
+                    font-size: 25px;
                     font-weight: 400;
                     border: solid 1px white;
                     border-radius: 20px;
@@ -1051,7 +1078,6 @@ header{
                     transition: 0.4s;
 
                     p{
-                        font-family: "BebasNeue";
                         width: 60%;
                     }
 
@@ -1108,8 +1134,7 @@ header{
             text-align: right;
 
             h2{
-                font-family: "BebasNeue";
-                font-size: 135px;
+                font-size: 90px;
 
             }
 
@@ -1151,8 +1176,7 @@ header{
             ul{
                 margin-top: 130px;
                 li{
-                    font-family: "BebasNeue";
-                    font-size: 37px;
+                    font-size: 25px;
                     font-weight: 400;
                     border: solid 1px white;
                     border-radius: 20px;
@@ -1207,8 +1231,7 @@ header{
             text-align: right;
 
             h2{
-                font-family: "BebasNeue";
-                font-size: 135px;
+                font-size: 90px;
             }
 
             p{
@@ -1286,7 +1309,6 @@ header{
         h4{
             font-size: 25px;
             color: white;
-            font-family: 'Houschka';
         }
         
 
@@ -1317,7 +1339,6 @@ header{
                 padding-bottom: 15px;
                 border-bottom: solid 2px #0725bd;
                 text-align: center;
-                font-family: 'Houschka';
             }
 
             &__info{
