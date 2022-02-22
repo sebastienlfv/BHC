@@ -1231,7 +1231,7 @@
     top: 300px;
   }
   .page2-services .page-2-services__container__details {
-    margin-top: 300px !important;
+    margin-top: 250px !important;
   }
   .page2-services .page-2-services__container__details h2 {
     font-size: 80px !important;
@@ -1243,13 +1243,14 @@
     height: 100px !important;
     width: 260px !important;
     background-size: cover !important;
+    font-size: 20px !important;
   }
 
   .page3-services .ancre_page {
     top: 300px;
   }
   .page3-services .page-3-services__container__details {
-    margin-top: 300px !important;
+    margin-top: 250px !important;
   }
   .page3-services .page-3-services__container__details h2 {
     font-size: 80px !important;
@@ -1261,6 +1262,7 @@
     height: 100px !important;
     width: 280px !important;
     background-size: cover !important;
+    font-size: 20px !important;
   }
   .page3-services .page-3-services__container__liste ul li p {
     width: 80% !important;
@@ -1270,7 +1272,7 @@
     top: 300px;
   }
   .page4-services .page-4-services__container__details {
-    margin-top: 300px !important;
+    margin-top: 250px !important;
   }
   .page4-services .page-4-services__container__details h2 {
     font-size: 80px !important;
@@ -1282,6 +1284,7 @@
     height: 100px !important;
     width: 280px !important;
     background-size: cover !important;
+    font-size: 20px !important;
   }
   .page4-services .page-4-services__container__liste ul li p {
     width: 80% !important;
@@ -1778,6 +1781,8 @@ header nav .header-nav .dropdown {
 header nav .header-nav .dropdown-content {
   display: none;
   background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1 2.png");
+  height: 100px;
+  width: 400px;
 }
 header nav .header-nav ul {
   display: flex;
@@ -1857,6 +1862,7 @@ header nav .header-icon i:hover {
   font-weight: 700;
   font-size: 50px;
   color: white;
+  font-family: "Poppins";
 }
 .page1__container--text h2 {
   font-weight: 700;
@@ -1865,6 +1871,7 @@ header nav .header-icon i:hover {
   flex-direction: row;
   justify-content: center;
   color: white;
+  font-family: "Poppins";
 }
 .page1__container--text p {
   display: flex;
@@ -1886,6 +1893,11 @@ header nav .header-icon i:hover {
 .page1__container--icone div a {
   padding: 15px 20px 0px 20px;
   color: white;
+  transition: 0.4s;
+}
+.page1__container--icone div a:hover {
+  transform: scale(1.25);
+  transition: 0.4s;
 }
 
 .page2 {
@@ -1914,7 +1926,7 @@ header nav .header-icon i:hover {
   margin-bottom: 50px;
 }
 .page2__container__dcw--design {
-  background-image: url("/images/accueil/dcw/image-design");
+  background-image: url("/images/accueil/dcw/image-design.png");
   background-size: 150%;
   background-position: left 580px top 0px;
   border-radius: 20px;
@@ -1942,7 +1954,7 @@ header nav .header-icon i:hover {
   color: white;
 }
 .page2__container__dcw--consulting {
-  background-image: url("/images/accueil/dcw/image-consulting");
+  background-image: url("/images/accueil/dcw/image-consulting.png");
   background-size: 220%;
   background-position: left 700px bottom -200px;
   border-radius: 20px;
@@ -1964,7 +1976,7 @@ header nav .header-icon i:hover {
   transition: 0.4s;
 }
 .page2__container__dcw--web {
-  background-image: url("/images/accueil/dcw/image-web");
+  background-image: url("/images/accueil/dcw/image-web.png");
   background-size: 150%;
   background-position: left 520px top -30px;
   border-radius: 20px;
@@ -2232,6 +2244,8 @@ header nav .header-icon i:hover {
 }
 .page5 .page5__container__content__desc img {
   width: 550px;
+  border-radius: 20px;
+  box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.5);
 }
 .page5 .page5__container__content__chiffre {
   display: flex;
@@ -2411,6 +2425,7 @@ header nav .header-icon i:hover {
   width: 362px;
   height: 350px;
   color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 .page1-services__container__dsw__details:nth-child(1) h3 {
   font-family: "BebasNeue";
@@ -2440,6 +2455,7 @@ header nav .header-icon i:hover {
   width: 362px;
   height: 350px;
   color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 .page1-services__container__dsw__details:nth-child(2) h3 {
   font-family: "BebasNeue";
@@ -2469,6 +2485,7 @@ header nav .header-icon i:hover {
   width: 362px;
   height: 350px;
   color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 .page1-services__container__dsw__details:nth-child(3) h3 {
   font-family: "BebasNeue";
