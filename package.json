@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sebastienlfv/BHC#readme",
   "dependencies": {
+    "jquery": "^3.6.0",
     "locomotive-scroll": "^4.1.4"
   }
 }

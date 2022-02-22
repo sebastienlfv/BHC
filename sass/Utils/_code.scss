@@ -159,6 +159,10 @@ header{
                 font-size: 50px;
                 color: white;
                 font-family: "Poppins";
+
+                span{
+                    color: #0725bd;
+                }
             }
 
             & h2{
@@ -169,6 +173,10 @@ header{
                 justify-content: center;
                 color: white;
                 font-family: "Poppins";
+
+                span{
+                    color: #0725bd;
+                }
             }
 
             & p{
@@ -187,7 +195,7 @@ header{
 
             & div{
                 display: flex;
-                border-top: 1px solid white;
+                border-top: 1px solid #0725bd;
                 padding: 0px 35px 0px 35px;
 
                 & a{
@@ -975,6 +983,7 @@ header{
                     align-items: center;
                     justify-content: space-between;
                     transition: 0.4s;
+                    color: white;
 
                     div{
                         margin-top: 60px;
@@ -1466,6 +1475,7 @@ header{
         h1{
             color: #0725bd;
             font-size: 40px;
+            font-family: "Houschka";
         }
 
         .time{
@@ -1478,15 +1488,29 @@ header{
             justify-content: space-between;
 
             &__details{
+                width: 1400px;
                 p{
-                    width: 45%;
+                    width: 30%;
                     margin: auto;
                     font-weight: 300;
+                    margin-bottom: 100px;
                 }
 
-                .male-user{
-                    width: 130px;
+                .parrainage-user{
+                    width: 120px;
                 }
+
+                .p-desc{
+                    margin-top: 20px;
+                }
+
+                span{
+                    color: #0725bd;
+                }
+            }
+
+            div.connect-fleche{
+                margin-top: 200px;
             }
         }
     }
