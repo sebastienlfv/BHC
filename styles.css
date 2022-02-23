@@ -555,6 +555,7 @@
   top: 180px;
   left: 150px;
   display: flex;
+  z-index: 3;
 }
 
 .page-3-services__container__conseil-strategique {
@@ -778,6 +779,7 @@
   top: 140px;
   left: 60px;
   display: flex;
+  z-index: 3;
 }
 
 .page-4-services__container__site-vitrine {

@@ -57,22 +57,66 @@ function closeAllOngletEsport(){
 
 // CONSULTING
 
-const btnDossier = document.getElementById('btn-dossier');
-const btnConseil = document.getElementById('btn-conseil');
-const btnEvent = document.getElementById('btn-event');
 
-btnDossier.onclick = () => document.getElementById('onglet-dossier').style.display = "flex";
-btnConseil.onclick = () => document.getElementById('onglet-conseil').style.display = "flex";
-btnEvent.onclick = () => document.getElementById('onglet-event').style.display = "flex";
+function openDossier(){
+    document.getElementById('onglet-dossier').style.display = "flex";
+    document.getElementById('close-onglet-service').style.display = "flex";
+}
+
+function closeAllOngletDossier(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-dossier').style.display = "none";
+}
+
+function openConseil(){
+    document.getElementById('onglet-conseil').style.display = "flex";
+    document.getElementById('close-onglet-service').style.display = "flex";
+}
+
+function closeAllOngletConseil(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-conseil').style.display = "none";
+}
+
+function openEvent(){
+    document.getElementById('onglet-event').style.display = "flex";
+    document.getElementById('close-onglet-service').style.display = "flex";
+}
+
+function closeAllOngletEvent(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-event').style.display = "none";
+}
 
 // WEB
 
 
-const btnVitrine = document.getElementById('btn-vitrine');
-const btnEcommerce = document.getElementById('btn-ecommerce');
+function openVitrine(){
+    document.getElementById('onglet-vitrine').style.display = "flex";
+    document.getElementById('close-onglet-service').style.display = "flex";
+}
 
-btnVitrine.onclick = () => document.getElementById('onglet-vitrine').style.display = "flex";
-btnEcommerce.onclick = () => document.getElementById('onglet-ecommerce').style.display = "flex";
+function closeAllOngletVitrine(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-vitrine').style.display = "none";
+}
+
+function openEcommerce(){
+    document.getElementById('onglet-ecommerce').style.display = "flex";
+    document.getElementById('close-onglet-service').style.display = "flex";
+}
+
+function closeAllOngletEcommerce(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-ecommerce').style.display = "none";
+}
+
+
+// const btnVitrine = document.getElementById('btn-vitrine');
+// const btnEcommerce = document.getElementById('btn-ecommerce');
+
+// btnVitrine.onclick = () => document.getElementById('onglet-vitrine').style.display = "flex";
+// btnEcommerce.onclick = () => document.getElementById('onglet-ecommerce').style.display = "flex";
 
 
 // ANCRE DESIGN

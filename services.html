@@ -87,7 +87,8 @@
                 </div>
             </section>
             <div id="close-onglet-service" onclick="closeAllOngletLogo(); closeAllOngletBanniere(); closeAllOngletAffiches();
-            closeAllOngletStreampack(); closeAllOngletEsport()"></div>
+            closeAllOngletStreampack(); closeAllOngletEsport(); closeAllOngletDossier(); closeAllOngletConseil();
+            closeAllOngletEvent(); closeAllOngletVitrine(); closeAllOngletEcommerce();"></div>
             <section class="page2-services" id="page2-services">
                 <div class="ancre_page">
                     <a href="#page1-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre découvrer services" class="ancre-click"></a>
@@ -358,21 +359,21 @@
                     </div>
                     <div class="page-3-services__container__liste">
                         <ul>
-                            <li class="onglet1-page2" id="btn-dossier">
+                            <li class="onglet1-page2" id="btn-dossier" onclick="openDossier()">
                                 <p>ÉLABORATION DE DOSSIER</p>
                                 <div>
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                 </div>
                             </li>
-                            <li class="onglet2-page2" id="btn-conseil">
+                            <li class="onglet2-page2" id="btn-conseil" onclick="openConseil()">
                                 <p>CONSEIL STRATÉGIE</p>
                                 <div>
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                 </div>
                             </li>
-                            <li class="onglet3-page2" id="btn-event">
+                            <li class="onglet3-page2" id="btn-event" onclick="openEvent()">
                                 <p>GESTION DE PROJETS ET EVENT</p>
                                 <div>
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
@@ -440,14 +441,14 @@
                     </div>
                     <div class="page-4-services__container__liste">
                         <ul>
-                            <li class="onglet1-page2" id="btn-vitrine">
+                            <li class="onglet1-page2" id="btn-vitrine" onclick="openVitrine()">
                                 SITE VITRINE
                                 <div>
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                 </div>
                             </li>
-                            <li class="onglet2-page2" id="btn-ecommerce">
+                            <li class="onglet2-page2" id="btn-ecommerce" onclick="openEcommerce()">
                                 SITE E-COMMERCE
                                 <div>
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
