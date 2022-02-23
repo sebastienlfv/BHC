@@ -5,17 +5,55 @@
 
 // DESIGN
 
-const btnLogo = document.getElementById('btn-logo');
-const btnBanniere = document.getElementById('btn-banniere');
-const btnAffiches = document.getElementById('btn-affiches');
-const btnStreampack = document.getElementById('btn-streampack');
-const btnEsport = document.getElementById('btn-esport');
+function openLogo(){
+    document.getElementById('onglet-logo').style.display = "flex";
+    document.getElementById('close-onglet-service').style.display = "flex";
+}
 
-btnLogo.onclick = () => document.getElementById('onglet-logo').style.display = "flex";
-btnBanniere.onclick = () => document.getElementById('onglet-banniere').style.display = "flex";
-btnAffiches.onclick = () => document.getElementById('onglet-affiches').style.display = "flex";
-btnStreampack.onclick = () => document.getElementById('onglet-streampack').style.display = "flex";
-btnEsport.onclick = () => document.getElementById('onglet-esport').style.display = "flex";
+function closeAllOngletLogo(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-logo').style.display = "none";
+}
+
+function openBanniere(){
+    document.getElementById('onglet-banniere').style.display = "flex";
+    document.getElementById('close-onglet-service').style.display = "flex";
+}
+
+function closeAllOngletBanniere(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-banniere').style.display = "none";
+}
+
+function openAffiches(){
+    document.getElementById('onglet-affiches').style.display = "flex";
+    document.getElementById('close-onglet-service').style.display = "flex";
+}
+
+function closeAllOngletAffiches(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-affiches').style.display = "none";
+}
+
+function openStreampack(){
+    document.getElementById('onglet-streampack').style.display = "flex";
+    document.getElementById('close-onglet-service').style.display = "flex";
+}
+
+function closeAllOngletStreampack(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-streampack').style.display = "none";
+}
+
+function openEsport(){
+    document.getElementById('onglet-esport').style.display = "flex";
+    document.getElementById('close-onglet-service').style.display = "flex";
+}
+
+function closeAllOngletEsport(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-esport').style.display = "none";
+}
 
 // CONSULTING
 
@@ -52,6 +90,7 @@ function changeToStreampack05(){
     document.getElementById('AncreValorant').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreStreampack05').src="images/accueil/Ancre/blanche pleine.png";
 }
+
 
 function changeToDarkwin(){
     document.getElementById('AncreDarkwin').src="images/accueil/Ancre/blanche pleine.png";
@@ -176,7 +215,7 @@ function changToEsportDeathrow(){
     document.getElementById('AncreEsportDeathrow').src="images/accueil/Ancre/blanche pleine.png";
 }
 
-// LOGO
+// ANCRE LOGO
 
 function changeToLogoDynastie(){
     document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
@@ -272,6 +311,41 @@ function changeToLogoZiakCorp(){
     document.getElementById('AncreLogoRed').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoSN').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoZiakCorp').src="images/accueil/Ancre/blanche pleine.png";
+}
+
+// ANCRE AFFICHE
+
+
+function changeToAfficheConanExile(){
+    document.getElementById('AncreConanExile').src="images/accueil/Ancre/blanche pleine.png";
+    document.getElementById('img-affiche').src="/images/services/page2/details/affiche/Affiche_ConanExile.png";
+    document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreMax').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche vide.png";
+}
+
+function changeToAfficheDraz(){
+    document.getElementById('AncreConanExile').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('img-affiche').src="/images/services/page2/details/affiche/Affiche_Draz.png";
+    document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche pleine.png";
+    document.getElementById('AncreMax').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche vide.png";
+}
+
+function changeToAfficheMax(){
+    document.getElementById('AncreConanExile').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('img-affiche').src="/images/services/page2/details/affiche/Affiche_Max-Verstappen.png";
+    document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreMax').src="images/accueil/Ancre/blanche pleine.png";
+    document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche vide.png";
+}
+
+function changeToAfficheAfficheVenasty(){
+    document.getElementById('AncreConanExile').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('img-affiche').src="/images/services/page2/details/affiche/Affiche_Venasty.png";
+    document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreMax').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche pleine.png";
 }
 
 

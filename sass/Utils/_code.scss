@@ -21,6 +21,17 @@ h1,h2,h3,h4,h5,h6{
     cursor: pointer;
 }
 
+#close-onglet-service{
+    display: none;
+    position: absolute;
+    height: 2790px;
+    width: 1903px;
+    background-color: black;
+    z-index: 2;
+    opacity: 0.7;
+}
+
+
 
 .ancre_page{
     position: absolute;
@@ -373,8 +384,8 @@ header{
             
             &--h3{
                 background-image: url("/images/accueil/fondprojet/projet-streampack\ 1.png");
-                background-size: 100%;
-                width: 1200px;
+                background-size: cover;
+                width: 1000px;
                 height: 500px;
                 font-size: 100px;
                 color: white;
@@ -488,7 +499,7 @@ header{
                 justify-content: space-between;
 
                 &__info{
-
+                    width: 33%;
 
                     img{
                         width: 100px;
@@ -506,7 +517,7 @@ header{
                 }
 
                 &__type{
-                    width: 22%;
+                    width: 33%;
                     text-align: left;
 
                     &--desc{
@@ -551,7 +562,7 @@ header{
 
                 &__com{
                     text-align: left;
-                    width: 30%;
+                    width: 33%;
 
                     h4{
                         color: #0725bd;

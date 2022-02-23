@@ -86,6 +86,8 @@
                     </div>
                 </div>
             </section>
+            <div id="close-onglet-service" onclick="closeAllOngletLogo(); closeAllOngletBanniere(); closeAllOngletAffiches();
+            closeAllOngletStreampack(); closeAllOngletEsport()"></div>
             <section class="page2-services" id="page2-services">
                 <div class="ancre_page">
                     <a href="#page1-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre découvrer services" class="ancre-click"></a>
@@ -156,13 +158,12 @@
                                 <a href="https://discord.gg/mRkyGHqCsX" target="-blank"><button>DEVIS</button></a>
                             </div>
                             <div class="page-2-services__container__affiche__right">
-                                <img class="affiche-service" src="./images/services/page2/details/affiche/Affiche_ConanExile 1.png" alt="banniere">
+                                <img class="affiche-service" id="img-affiche" src="./images/services/page2/details/affiche/Affiche_ConanExile.png" alt="affiche">
                                 <div>
-                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre" class="ancre-click">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" class="ancre-click">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" class="ancre-click">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" class="ancre-click">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" class="ancre-click">
+                                    <img src="./images/accueil/Ancre/blanche pleine.png" id="AncreConanExile" alt="Ancre" class="ancre-click" onclick="changeToAfficheConanExile()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" id="AncreDraz" alt="Ancre" class="ancre-click" onclick="changeToAfficheDraz()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" id="AncreMax" alt="Ancre" class="ancre-click" onclick="changeToAfficheMax()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" id="AncreAfficheVenasty" alt="Ancre" class="ancre-click" onclick="changeToAfficheAfficheVenasty()">
                                 </div>
                             </div>
                         </div>
@@ -187,7 +188,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="page-2-services__container__logo" id="onglet-logo">
+                        <div class="page-2-services__container__logo closeWindow" id="onglet-logo">
                             <div class="page-2-services__container__logo__left">
                                 <ul>
                                     <li>Création de logo</li>
@@ -214,35 +215,35 @@
                     </div>
                     <div class="page-2-services__container__liste" id="liste-design">
                         <ul>
-                            <li class="onglet1-page2" id="btn-logo">
+                            <li class="onglet1-page2" id="btn-logo" onclick="openLogo()">
                                 LOGO
                                 <div>
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                 </div>
                             </li>
-                            <li class="onglet2-page2" id="btn-banniere">
+                            <li class="onglet2-page2" id="btn-banniere" onclick="openBanniere()">
                                 BANNIÈRE
                                 <div>
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                 </div>
                             </li>
-                            <li class="onglet3-page2" id="btn-affiches">
+                            <li class="onglet3-page2" id="btn-affiches" onclick="openAffiches()">
                                 AFFICHES
                                 <div>
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                 </div>
                             </li>
-                            <li class="onglet4-page2 streampack-onglet" id="btn-streampack">
+                            <li class="onglet4-page2 streampack-onglet" id="btn-streampack" onclick="openStreampack()">
                                 STREAMPACK
                                 <div>
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                 </div>
                             </li>
-                            <li class="onglet5-page2" id="btn-esport">
+                            <li class="onglet5-page2" id="btn-esport" onclick="openEsport()">
                                 ESPORT
                                 <div>
                                     <img src="./images/services/Polygone 1.png" alt="fleche">

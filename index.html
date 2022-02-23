@@ -131,13 +131,13 @@
                     <h2>PROJETS RÉALISÉS</h2>
                     <p>Nous tenons à ce que chaque personne soient <span>satisfaite</span> du travail que nous lui offrons. Voici ci-dessous des projets réalisés par BHC à ce jour.</p>
                     <div class="page3__container__slide">
-                        <div class="page3__container__slide--h3">
-                            <h3>STREAMPACK</h3>
+                        <div class="page3__container__slide--h3" id="img-projet">
+                            <h3 id="projet-h3">STREAMPACK</h3>
                         </div>
                         <div class="page3__container__slide__arrow">
-                            <i class="fas fa-sort-down" id="left_arrow"></i>
-                            <p class="arrow-slide">1/4</p>
-                            <i class="fas fa-sort-down" id="right_arrow"></i>
+                            <i class="fas fa-sort-down" id="left_arrow" onclick="modifyLeft()"></i>
+                            <p class="arrow-slide" id="arrowSlide">1/4</p>
+                            <i class="fas fa-sort-down" id="right_arrow" onclick="modifyRight()"></i>
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
                 </div>
                 <div class="page4__container">
                     <h2>AVIS CLIENT</h2>
-                    <div class="page4__container__avis avis1">
+                    <div class="page4__container__avis">
                         <div class="page4__container__avis__style">
                             <div class="page4__container__avis__style__info">
                                 <img src="./images/accueil/avis/user/light.jpg" alt="Profile">
@@ -182,7 +182,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="page4__container__avis avis2">
+                    <div class="page4__container__avis">
                         <div class="page4__container__avis__style">
                             <div class="page4__container__avis__style__info">
                                 <img src="./images/accueil/avis/user/onestesport.jpg" alt="Profile">
@@ -191,7 +191,7 @@
                             </div>
                             <div class="page4__container__avis__style__type">
                                 <div class="page4__container__avis__style__type--desc">
-                                    <h4>TYPE DE VISUELS</h4>
+                                    <h4>TYPE DE DOSSIER</h4>
                                     <p>DOSSIER DE SPONSORING</p>
                                 </div>
                                 <div class="page4__container__avis__style__type--note note-onest">
@@ -321,5 +321,5 @@
         </footer>
     </div>
 
-    <script src="./JS/main.js"></script>
+    <script src="./JS/index.js"></script>
 </body>
