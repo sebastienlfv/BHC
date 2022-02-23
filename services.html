@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:creator" content="@BHC_Com"> 
     <script src="https://kit.fontawesome.com/5432e60bc6.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="images/Logo/BHC-Communication-3.png">
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/rtu3zol.css">
-    <title>BHC Communication - Site en cours de construction</title>
-    <meta name="description" content="BHC Communication">
+    <title>BHC Communication - Agence Esport et Streaming</title>
+    <meta name="description" content="L'agence aux servoces des influenceurs, streamers, équipes esport pour des préstations de 
+    développements aux besoins de chacun.">
 </head>
 <body>
     <div class="block_page">
@@ -45,11 +47,11 @@
         <main>
             <section class="page1-services" id="page1-services">
                 <div class="ancre_page">
-                    <a href="#page1-services"><img src="./images/accueil/Ancre/ancre pleine.png" alt="ancre découvrer services"></a>
+                    <a href="#page1-services"><img src="./images/accueil/Ancre/ancre pleine.png" alt="ancre découvrer services" class="ancre-click"></a>
                     <a href="#page2-services"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre design"></a>
-                    <a href="#page3-services"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre consulting & stratégie"></a>
-                    <a href="#page4-services"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre développement web"></a>
-                    <a href="#footer"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre footer"></a>
+                    <a href="#page3-services"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre consulting & stratégie" class="ancre-click"></a>
+                    <a href="#page4-services"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre développement web" class="ancre-click"></a>
+                    <a href="#footer"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre footer" class="ancre-click"></a>
                 </div>
                 <div class="page1-services__container">
                     <h1>DÉCOUVRER</h1>
@@ -86,11 +88,11 @@
             </section>
             <section class="page2-services" id="page2-services">
                 <div class="ancre_page">
-                    <a href="#page1-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre découvrer services"></a>
-                    <a href="#page2-services"><img src="./images/accueil/Ancre/Vector plein.png" alt="ancre design"></a>
-                    <a href="#page3-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre consulting & stratégie"></a>
-                    <a href="#page4-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre développement web"></a>
-                    <a href="#footer"><img src="./images/accueil/Ancre/Vector.png" alt="ancre footer"></a>
+                    <a href="#page1-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre découvrer services" class="ancre-click"></a>
+                    <a href="#page2-services"><img src="./images/accueil/Ancre/Vector plein.png" alt="ancre design" class="ancre-click"></a>
+                    <a href="#page3-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre consulting & stratégie" class="ancre-click"></a>
+                    <a href="#page4-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre développement web" class="ancre-click"></a>
+                    <a href="#footer"><img src="./images/accueil/Ancre/Vector.png" alt="ancre footer" class="ancre-click"></a>
                 </div>
                 <div class="page-2-services__container">
                     <div class="page-2-services__container__info">
@@ -108,16 +110,18 @@
                                 </ul>
                                 <p>Pour tout éléments suplémentaires le tarif sera augmenté</p>
                                 <p>Je souhaite faire un devis :</p>
-                                <a href="https://discord.gg/mRkyGHqCsX " target="-blank"><button>DEVIS</button></a>
+                                <a href="https://discord.gg/mRkyGHqCsX" target="-blank"><button>DEVIS</button></a>
                             </div>
                             <div class="page-2-services__container__streampack__right">
-                                <img class="streampack-service" src="./images/services/page2/details/steampack/stream_pack-05 1.png" alt="streampack">
+                                <img class="streampack-service" id="img-streampack" src="./images/services/page2/details/steampack/stream_pack-05 1.png" alt="streampack">
                                 <div>
-                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
+                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre" id="AncreStreampack05" class="ancre-click" onclick="changeToStreampack05()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" id="AncreDarkwin" class="ancre-click" onclick="changeToDarkwin()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" id="AncreInsaw" class="ancre-click" onclick="changeToInsaw()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" id="AncreKalax" class="ancre-click" onclick="changeToKalax()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" id="AncreNature" class="ancre-click" onclick="changeToNature()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" id="AncreRed" class="ancre-click" onclick="changeToRed()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" id="AncreValorant" class="ancre-click" onclick="changeToValorant()">
                                 </div>
                             </div>
                         </div>
@@ -128,16 +132,15 @@
                                     <li>Refonte de bannière</li>
                                 </ul>
                                 <p>Je souhaite faire un devis :</p>
-                                <a href="https://discord.gg/mRkyGHqCsX "><button>DEVIS</button></a>
+                                <a href="https://discord.gg/mRkyGHqCsX" target="-blank"><button>DEVIS</button></a>
                             </div>
                             <div class="page-2-services__container__banniere__right">
-                                <img class="banniere-service" src="./images/services/page2/details/banniere/Bannière_Agrios.png" alt="banniere">
+                                <img class="banniere-service" id="img-banniere" src="./images/services/page2/details/banniere/Bannière_Agrios.png" alt="banniere">
                                 <div>
-                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
+                                    <img src="./images/accueil/Ancre/blanche pleine.png" id="AncreAgrios" alt="Ancre" class="ancre-click" onclick="changeToAgrios()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" id="AncreDeathrow" alt="Ancre" class="ancre-click" onclick="changeToDeathrow()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" id="AncreInsawBanniere" alt="Ancre" class="ancre-click" onclick="changeToInsawBanniere()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" id="AncreTestBanniere" alt="Ancre" class="ancre-click" onclick="changeToTestBanniere()">
                                 </div>
                             </div>
                         </div>
@@ -150,16 +153,16 @@
                                     <li>Pleins d'autres</li>
                                 </ul>
                                 <p>Je souhaite faire un devis :</p>
-                                <a href="https://discord.gg/mRkyGHqCsX "><button>DEVIS</button></a>
+                                <a href="https://discord.gg/mRkyGHqCsX" target="-blank"><button>DEVIS</button></a>
                             </div>
                             <div class="page-2-services__container__affiche__right">
                                 <img class="affiche-service" src="./images/services/page2/details/affiche/Affiche_ConanExile 1.png" alt="banniere">
                                 <div>
-                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
+                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre" class="ancre-click">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" class="ancre-click">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" class="ancre-click">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" class="ancre-click">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" class="ancre-click">
                                 </div>
                             </div>
                         </div>
@@ -173,14 +176,14 @@
                                     <li>Pleins dautres</li>
                                 </ul>
                                 <p>Je souhaite faire un devis :</p>
-                                <a href="https://discord.gg/mRkyGHqCsX "><button>DEVIS</button></a>
+                                <a href="https://discord.gg/mRkyGHqCsX" target="-blank"><button>DEVIS</button></a>
                             </div>
                             <div class="page-2-services__container__esport__right">
-                                <img class="esport-service" src="./images/services/page2/details/esport/Esport_Venasty 1.png" alt="souris">
+                                <img class="esport-service" id="img-esport" src="./images/services/page2/details/esport/Esport_Venasty 1.png" alt="souris">
                                 <div>
-                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
+                                    <img src="./images/accueil/Ancre/blanche pleine.png" id="AncreEsportVenasty" alt="Ancre" class="ancre-click" onclick="changToEsportVenasty()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" id="AncreEsportUbiteam" alt="Ancre" class="ancre-click" onclick="changToEsportUbiteam()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" id="AncreEsportDeathrow" alt="Ancre" class="ancre-click" onclick="changToEsportDeathrow()">
                                 </div>
                             </div>
                         </div>
@@ -192,14 +195,14 @@
                                     <li>Vectoriser un croquis</li>
                                 </ul>
                                 <p>Je souhaite faire un devis :</p>
-                                <a href="https://discord.gg/mRkyGHqCsX "><button>DEVIS</button></a>
+                                <a href="https://discord.gg/mRkyGHqCsX" target="-blank"><button>DEVIS</button></a>
                             </div>
                             <div class="page-2-services__container__logo__right">
                                 <img class="logo-service" src="./images/services/page2/details/logo/Logo_DarkWin 1.png" alt="logo">
                                 <div>
-                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
+                                    <img src="./images/accueil/Ancre/blanche pleine.png" id="AncreLogoDarkwin" alt="Ancre" class="ancre-click">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" class="ancre-click">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" class="ancre-click">
                                 </div>
                             </div>
                         </div>
@@ -207,7 +210,7 @@
                     <div class="page-2-services__container__liste" id="liste-design">
                         <ul>
                             <li class="onglet1-page2" id="btn-logo">
-                                Logo
+                                LOGO
                                 <div>
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
                                     <img src="./images/services/Polygone 1.png" alt="fleche">
@@ -256,11 +259,11 @@
             </section>
             <section class="page3-services" id="page3-services">
                 <div class="ancre_page">
-                    <a href="#page1-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre découvrer services"></a>
-                    <a href="#page2-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre design"></a>
-                    <a href="#page3-services"><img src="./images/accueil/Ancre/Vector plein.png" alt="ancre consulting & stratégie"></a>
-                    <a href="#page4-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre développement web"></a>
-                    <a href="#footer"><img src="./images/accueil/Ancre/Vector.png" alt="ancre footer"></a>
+                    <a href="#page1-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre découvrer services" class="ancre-click"></a>
+                    <a href="#page2-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre design" class="ancre-click"></a>
+                    <a href="#page3-services"><img src="./images/accueil/Ancre/Vector plein.png" alt="ancre consulting & stratégie" class="ancre-click"></a>
+                    <a href="#page4-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre développement web" class="ancre-click"></a>
+                    <a href="#footer"><img src="./images/accueil/Ancre/Vector.png" alt="ancre footer" class="ancre-click"></a>
                 </div>
                 <div class="page-3-services__container">
                     <div class="page-3-services__container__info">
@@ -275,14 +278,14 @@
                                     <li>Optimisation de l'oganisation</li>
                                 </ul>
                                 <p>Je souhaite faire un devis :</p>
-                                <button>DEVIS</button>
+                                <a href="https://discord.gg/mRkyGHqCsX" target="-blank"><button>DEVIS</button></a>
                             </div>
                             <div class="page-3-services__container__conseil-strategique__right">
-                                <img class="strategie-service" src="/images/services/page3/img produits/Stratégie-Marketing.jpg" alt="streampack">
+                                <img class="strategie-service" id="img-stratcom" src="/images/services/page3/img produits/Stratégie-Marketing.jpg" alt="streampack">
                                 <div>
-                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
+                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre" id="AncreMarketing" class="ancre-click" onclick="changeToMarketing()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" id="AncreStratCom" class="ancre-click" onclick="changeToStratCom()">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" id="AncreOptiOrga" class="ancre-click" onclick="changeToOptiOrga()">
                                 </div>
                             </div>
                         </div>
@@ -297,13 +300,14 @@
                                     <li>Dossier event</li>
                                 </ul>
                                 <p>Je souhaite faire un devis :</p>
-                                <button>DEVIS</button>
+                                <a href="https://discord.gg/mRkyGHqCsX" target="-blank"><button>DEVIS</button></a>
                             </div>
                             <div class="page-3-services__container__dossier__right">
-                                <img class="dossier-service" id="img-dossier" src="/images/services/page3/img produits/Etude de marché.jpg" alt="streampack">
+                                <img class="dossier-service" id="img-dossier" src="/images/services/page3/img produits/Etude-de-marché.jpg" alt="streampack">
                                 <div>
-                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre" id="AncreMarcheR6">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" id="AncreVenastyEvent">
+                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre Etude de marché" id="AncreMarcheR6" class="ancre-click" onclick="changeToDossierEtdMarche();">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre Dossier event" id="AncreVenastyEvent" class="ancre-click" onclick="changeToDossierEvent();">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre Dossier OnestEsport" id="AncreOnesEsport" class="ancre-click" onclick="changeToOnestEsport();">
                                 </div>
                             </div>
                         </div>
@@ -311,7 +315,7 @@
                             <div class="page-3-services__container__event__global">
                                 <div class="page-3-services__container__event__left">
                                     <div>
-                                        <img src="./images/services/page3/icone/gestion-de-projet-(1).png" alt="dossier">
+                                        <img src="./images/services/page3/icone/gestion-de-projet-(1).png" alt="gestion de projet">
                                     </div>
                                     <li>Gestion de projets</li>
                                     <p>Vous avez un proket quelconque à réaliser,<br>
@@ -323,10 +327,10 @@
                                         <li>La phase d'exécution</li>
                                         <li>La phase du bilan</li>
                                     </ul>
-                                    <button>DEVIS PERSONNALISÉ</button>
+                                    <a href="https://discord.gg/mRkyGHqCsX" target="-blank"><button>DEVIS PERSONNALISÉ</button></a>
                                 </div>
                                 <div class="page-3-services__container__event__right">
-                                    <img src="./images/services/page3/icone/Fichier 4 1.png" alt="">
+                                    <img src="./images/services/page3/icone/Fichier 4 1.png" alt="organisation d'événement">
                                     <li>Organisation d'événement</li>
                                     <p>On vous accompagne durant la création de votre événement.
                                         On vous aide au développement, puis au bon déroulement de 
@@ -385,11 +389,11 @@
             </section>
             <section class="page4-services" id="page4-services">
                 <div class="ancre_page">
-                    <a href="#page1-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre découvrer services"></a>
-                    <a href="#page2-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre design"></a>
-                    <a href="#page3-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre consulting & stratégie"></a>
-                    <a href="#page4-services"><img src="./images/accueil/Ancre/Vector plein.png" alt="ancre développement web"></a>
-                    <a href="#footer"><img src="./images/accueil/Ancre/Vector.png" alt="ancre footer"></a>
+                    <a href="#page1-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre découvrer services" class="ancre-click"></a>
+                    <a href="#page2-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre design" class="ancre-click"></a>
+                    <a href="#page3-services"><img src="./images/accueil/Ancre/Vector.png" alt="ancre consulting & stratégie" class="ancre-click"></a>
+                    <a href="#page4-services"><img src="./images/accueil/Ancre/Vector plein.png" alt="ancre développement web" class="ancre-click"></a>
+                    <a href="#footer"><img src="./images/accueil/Ancre/Vector.png" alt="ancre footer" class="ancre-click"></a>
                 </div>
                 <div class="page-4-services__container">
                     <div class="page-4-services__container__info">
@@ -412,10 +416,10 @@
                             <div class="page-4-services__container__site-vitrine__right">
                                 <img class="site-virtrine-service" src="/images/services/page4/pc-bhc 1 (1).png" alt="site vitrine">
                                 <div>
-                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
-                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre">
+                                    <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre" class="ancre-click">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" class="ancre-click">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" class="ancre-click">
+                                    <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" class="ancre-click">
                                 </div>
                             </div>
                         </div>
@@ -502,6 +506,6 @@
         </footer>
     </div>
 
-    <script src="./JS/main.js"></script>
+    <script src="./JS/services.js"></script>
 </body>
 </html>

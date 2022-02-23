@@ -1334,7 +1334,7 @@
   }
 }
 @media screen and (max-width: 500px) {
-  header nav .dropdown {
+  header nav .burger-container {
     display: flex !important;
   }
   header nav button {
@@ -1752,8 +1752,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Houschka";
 }
 
-.show {
-  display: block;
+.ancre-click {
+  cursor: pointer;
 }
 
 .ancre_page {
@@ -1786,12 +1786,13 @@ header nav button {
 header nav .header-nav {
   margin-left: 48px;
 }
-header nav .header-nav .dropdown {
+header nav .header-nav .burger-container {
   display: none;
 }
-header nav .header-nav .dropdown-content {
+header nav .header-nav .burger-container .burger-content {
   display: none;
   background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1 2.png");
+  background-color: white;
   height: 100px;
   width: 400px;
 }
@@ -2699,8 +2700,8 @@ header nav .header-icon i:hover {
   cursor: pointer;
 }
 .page3-services .page-3-services__container__details {
-  margin-top: 250px;
   margin: 150px;
+  margin-top: 320px;
   text-align: right;
 }
 .page3-services .page-3-services__container__details h2 {
@@ -2780,8 +2781,8 @@ header nav .header-icon i:hover {
   cursor: pointer;
 }
 .page4-services .page-4-services__container__details {
-  margin-top: 250px;
   margin: 150px;
+  margin-top: 320px;
   text-align: right;
 }
 .page4-services .page-4-services__container__details h2 {
@@ -2789,7 +2790,7 @@ header nav .header-icon i:hover {
 }
 .page4-services .page-4-services__container__details p {
   text-align: justify right;
-  width: 700px;
+  width: 800px;
   margin-top: 30px;
 }
 .page4-services .page-4-services__container__details button {

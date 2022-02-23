@@ -17,9 +17,10 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Houschka";
 }
 
-.show {
-	display: block;
+.ancre-click{
+    cursor: pointer;
 }
+
 
 .ancre_page{
     position: absolute;
@@ -52,12 +53,13 @@ header{
         }
         
         & .header-nav{ 
-            .dropdown{
+            .burger-container{
                 display: none;
 
-                &-content{
+                .burger-content{
                     display: none;
                     background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1\ 2.png");
+                    background-color: white;
                     height: 100px;
                     width: 400px;
                 }
@@ -1152,8 +1154,8 @@ header{
         }
 
         &__details{
-            margin-top: 250px;
             margin: 150px;
+            margin-top: 320px;
             text-align: right;
 
             h2{
@@ -1249,8 +1251,8 @@ header{
         }
 
         &__details{
-            margin-top: 250px;
             margin: 150px;
+            margin-top: 320px;
             text-align: right;
 
             h2{
@@ -1259,7 +1261,7 @@ header{
 
             p{
                 text-align: justify right;
-                width: 700px;
+                width: 800px;
                 margin-top: 30px;
             }
 
