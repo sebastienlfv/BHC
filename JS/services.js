@@ -176,6 +176,103 @@ function changToEsportDeathrow(){
     document.getElementById('AncreEsportDeathrow').src="images/accueil/Ancre/blanche pleine.png";
 }
 
+// LOGO
+
+function changeToLogoDynastie(){
+    document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_Dynastie.png";
+    document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche pleine.png";
+    document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoNotEldrie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoRed').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoSN').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoZiakCorp').src="images/accueil/Ancre/blanche vide.png";
+}
+
+function changeToLogoDarkwin(){
+    document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche pleine.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_DarkWin 1.png";
+    document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoNotEldrie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoRed').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoSN').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoZiakCorp').src="images/accueil/Ancre/blanche vide.png";
+}
+
+function changeToLogoEyxoo(){
+    document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_Eyxoo.png";
+    document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche pleine.png";
+    document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoNotEldrie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoRed').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoSN').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoZiakCorp').src="images/accueil/Ancre/blanche vide.png";
+}
+
+function changeToLogoKalax(){
+    document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_Kalax.png";
+    document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche pleine.png";
+    document.getElementById('AncreLogoNotEldrie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoRed').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoSN').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoZiakCorp').src="images/accueil/Ancre/blanche vide.png";
+}
+
+function changeToLogoNotEldrie(){
+    document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_NotEldrie.png";
+    document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoNotEldrie').src="images/accueil/Ancre/blanche pleine.png";
+    document.getElementById('AncreLogoRed').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoSN').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoZiakCorp').src="images/accueil/Ancre/blanche vide.png";
+}
+
+function changeToLogoReD(){
+    document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_ReD.png";
+    document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoNotEldrie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoRed').src="images/accueil/Ancre/blanche pleine.png";
+    document.getElementById('AncreLogoSN').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoZiakCorp').src="images/accueil/Ancre/blanche vide.png";
+}
+
+function changeToLogoSN(){
+    document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_SN.png";
+    document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoNotEldrie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoRed').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoSN').src="images/accueil/Ancre/blanche pleine.png";
+    document.getElementById('AncreLogoZiakCorp').src="images/accueil/Ancre/blanche vide.png";
+}
+
+function changeToLogoZiakCorp(){
+    document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_ZiakCorp.png";
+    document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoNotEldrie').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoRed').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoSN').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('AncreLogoZiakCorp').src="images/accueil/Ancre/blanche pleine.png";
+}
 
 
 // ANCRE PAGE CONSULTING
