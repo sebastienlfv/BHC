@@ -145,6 +145,7 @@ function changeToDarkwin(){
     document.getElementById('AncreRed').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreValorant').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreStreampack05').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('ancre-streampack').style.marginTop = "2px";
 }
 
 function changeToInsaw(){
@@ -156,6 +157,7 @@ function changeToInsaw(){
     document.getElementById('AncreRed').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreValorant').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreStreampack05').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('ancre-streampack').style.marginTop = "2px";
 }
 
 function changeToKalax(){
@@ -167,6 +169,7 @@ function changeToKalax(){
     document.getElementById('AncreRed').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreValorant').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreStreampack05').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('ancre-streampack').style.marginTop = "10px";
 }
 
 function changeToNature(){
@@ -178,6 +181,7 @@ function changeToNature(){
     document.getElementById('AncreRed').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreValorant').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreStreampack05').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('ancre-streampack').style.marginTop = "5px";
 }
 
 function changeToRed(){
@@ -189,6 +193,7 @@ function changeToRed(){
     document.getElementById('AncreRed').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('AncreValorant').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreStreampack05').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('ancre-streampack').style.marginTop = "5px";
 }
 
 function changeToValorant(){
@@ -200,6 +205,7 @@ function changeToValorant(){
     document.getElementById('AncreRed').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreValorant').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('AncreStreampack05').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('ancre-streampack').style.marginTop = "5px";
 }
 
 // ANCRE BANNIERE
@@ -214,7 +220,7 @@ function changeToDeathrow(){
 
 function changeToAgrios(){
     document.getElementById('AncreAgrios').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-banniere').src="images/services/page2/details/banniere/Bannière_Agrios.png";
+    document.getElementById('img-banniere').src="images/services/page2/details/banniere/Bannière_Agrios.webp";
     document.getElementById('AncreDeathrow').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreInsawBanniere').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreTestBanniere').src="images/accueil/Ancre/blanche vide.png";
@@ -271,6 +277,7 @@ function changeToLogoDynastie(){
     document.getElementById('AncreLogoRed').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoSN').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoZiakCorp').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('ancre-logo').style.marginTop = "8px";
 }
 
 function changeToLogoDarkwin(){
@@ -295,6 +302,7 @@ function changeToLogoEyxoo(){
     document.getElementById('AncreLogoRed').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoSN').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoZiakCorp').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('ancre-logo').style.marginTop = "8px";
 }
 
 function changeToLogoKalax(){
@@ -362,10 +370,13 @@ function changeToLogoZiakCorp(){
 
 function changeToAfficheConanExile(){
     document.getElementById('AncreConanExile').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-affiche').src="/images/services/page2/details/affiche/Affiche_ConanExile.png";
+    document.getElementById('img-affiche').src="/images/services/page2/details/affiche/Affiche_ConanExile-1.webp";
     document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreMax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('img-affiche').style.height = "455px";
+    document.getElementById('img-affiche').style.width = "800px";
+    document.getElementById('ancre-affiche').style.paddingBottom = "none";
 }
 
 function changeToAfficheDraz(){
@@ -374,6 +385,9 @@ function changeToAfficheDraz(){
     document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('AncreMax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('img-affiche').style.height = "455px";
+    document.getElementById('img-affiche').style.width = "800px";
+    document.getElementById('ancre-affiche').style.paddingBottom = "none";
 }
 
 function changeToAfficheMax(){
@@ -382,6 +396,9 @@ function changeToAfficheMax(){
     document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreMax').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche vide.png";
+    document.getElementById('img-affiche').style.height = "550px";
+    document.getElementById('img-affiche').style.width = "550px";
+    document.getElementById('ancre-affiche').style.paddingBottom = "60px";
 }
 
 function changeToAfficheAfficheVenasty(){

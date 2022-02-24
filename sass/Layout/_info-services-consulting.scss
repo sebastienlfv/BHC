@@ -173,6 +173,7 @@
 .page-3-services__container__event{
     background-image: url("/images/services/page3/overlay-projet-event-2.webp");
     height: 700px;
+    width: 1450px;
     display: none;
     border-radius: 20px;
 
@@ -227,8 +228,8 @@
             font-size: 20px;
             transition: 0.4s;
             position: absolute;
-            top: 500px;
-            right: 550px;
+            top: 560px;
+            right: 500px;
             font-weight: 100;
             cursor: pointer;
     
@@ -263,4 +264,193 @@
             }
         }
     }    
+}
+
+@media screen and (max-width: 1600px) {
+
+    .page-3-services__container__info{
+        position: absolute;
+        top: 120px;
+        left: 150px;
+        display: flex;
+        z-index: 3;
+    }
+
+    .page-3-services__container__conseil-strategique{
+    
+        &__left{
+            padding: 90px 150px 50px 150px;
+        
+            div{
+                img:nth-child(1){
+                    width: 60px !important;
+                    margin-right: 30px;
+                }
+            }
+        
+            ul{
+                font-size: 18px;
+                width: 95%;
+            }
+        
+            p{
+                font-size: 15px;
+            }
+        }
+        
+        &__right{
+        
+            .strategie-service{
+                width: 350px;
+                height: 400px;
+                padding: 80px 150px 0px 150px;
+            }
+        
+            div{
+                img{
+                    margin-top: 15px;
+                    width: 20px;
+                    margin-bottom: 40px;
+                }
+            }
+        }    
+    }
+
+    .page-3-services__container__dossier{
+    
+        &__left{
+            padding: 90px 200px 40px 150px !important;
+        
+            div{
+                img:nth-child(1){
+                    width: 60px !important;
+                    margin-right: 30px;
+                }
+            }
+        
+            ul{
+                font-size: 18px;
+                width: 95%;
+            }
+        
+            p{
+                font-size: 15px;
+            }
+        }
+        
+        &__right{
+        
+            .dossier-service{
+                width: 350px;
+                height: 400px;
+                padding: 80px 150px 0px 150px;
+            }
+        
+            div{
+                img{
+                    margin-top: 15px;
+                    width: 20px;
+                    margin-bottom: 40px;
+                }
+            }
+        }   
+    }
+
+    .page-3-services__container__event{
+        background-image: url("/images/services/page3/overlay-projet-event-2.webp");
+        height: 550px;
+        width: 1300px;
+        display: none;
+        border-radius: 20px;
+    
+        &__global{
+            display: flex;
+            flex-direction: row-reverse;
+            width: 90%;
+            margin: auto;
+            justify-content: space-between;
+            position: relative;
+        }
+    
+        &__left{
+            width: 35%;
+            color: black;
+        
+            div{
+                img{
+                    width: 76px;
+                }
+            }
+    
+            li{
+                margin: 10px 0 0px 25px;
+                font-size: 21px;
+                font-weight: 100;
+            }
+    
+            p{
+                margin-top: 16px !important;
+                font-weight: 100;
+            }
+    
+            ul{
+                p{
+                    font-size: 10px;
+                    font-weight: 100;
+                }
+    
+                li{
+                    margin: 5px 0 0px 30px;
+                    font-size: 17px;
+                    width: 70%;
+                }
+            }
+        
+            button{
+                color: white;
+                background-color: #0725bd;
+                border: solid 2px white;
+                box-shadow: 7px 10px 15px 1px rgb(61, 61, 61);
+                padding: 6px 20px 6px 20px;
+                font-size: 20px;
+                transition: 0.4s;
+                position: absolute;
+                top: 460px;
+                right: 500px;
+                font-weight: 100;
+                cursor: pointer;
+        
+                &:hover{
+                    transform: scale(1.2);
+                    transition: 0.4s;
+                }
+            }
+        }
+        
+        &__right{   
+            width: 40%;
+            li{
+                margin: 10px 0 0px 25px;
+                font-size: 18px !important;
+            }
+    
+            p{
+                width: 100%;
+                margin-top: 20px;
+                font-size: 15px !important;
+            }
+    
+            ul{
+                p{
+                    font-size: 14px !important;
+                }
+    
+                li{
+                    margin: 5px 0 0px 20px;
+                    font-size: 14px !important;
+                    width: 60%;
+                }
+            }
+        }    
+    }
 }

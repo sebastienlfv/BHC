@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="twitter:creator" content="@BHC_Com"> 
     <script src="https://kit.fontawesome.com/5432e60bc6.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" sizes="16x16" href="images/Logo/BHC-Communication-3.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/accueil/Logo/BHC-Communication-3.webp">
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/rtu3zol.css">
-    <title>BHC Communication - Agence Esport et Streaming</title>
-    <meta name="description" content="L'agence aux servoces des influenceurs, streamers, équipes esport pour des préstations de 
-    développements aux besoins de chacun.">
+    <title>BHC Communication - Découvrez nos services</title>
+    <meta name="description" content="Spécialisée dans le design, consulting et création de site web nous souhaitons 
+    combler vos problèmes rencontrés afin de vous accompagner dans votre forte envie de développement.">
 </head>
 <body>
     <div class="block_page">
@@ -27,7 +27,7 @@
                             <a href="services.html"><li class="border-bottom-li active">SERVICES</li></a>
                             <div class="border-nav active-border"></div>
                         </div>
-                            <a href="index.html"><li><img src="./images/accueil/Logo/BHC-Communication-3.png" alt="Logo BHC"></li></a>
+                            <a href="index.html"><li><img src="./images/accueil/Logo/BHC-Communication-3.webp" alt="Logo BHC"></li></a>
                         <div>
                             <a href="contact.html"><li class="border-bottom-li">CONTACT</li ></a>
                             <div class="border-nav"></div>
@@ -117,7 +117,7 @@
                             </div>
                             <div class="page-2-services__container__streampack__right">
                                 <img class="streampack-service" id="img-streampack" src="./images/services/page2/details/steampack/stream_pack-05 1.png" alt="streampack">
-                                <div>
+                                <div id="ancre-streampack">
                                     <img src="./images/accueil/Ancre/blanche pleine.png" alt="Ancre" id="AncreStreampack05" class="ancre-click" onclick="changeToStreampack05()">
                                     <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" id="AncreDarkwin" class="ancre-click" onclick="changeToDarkwin()">
                                     <img src="./images/accueil/Ancre/blanche vide.png" alt="Ancre" id="AncreInsaw" class="ancre-click" onclick="changeToInsaw()">
@@ -138,7 +138,7 @@
                                 <a href="https://discord.gg/mRkyGHqCsX" target="-blank"><button>DEVIS</button></a>
                             </div>
                             <div class="page-2-services__container__banniere__right">
-                                <img class="banniere-service" id="img-banniere" src="./images/services/page2/details/banniere/Bannière_Agrios.png" alt="banniere">
+                                <img class="banniere-service" id="img-banniere" src="./images/services/page2/details/banniere/Bannière_Agrios.webp" alt="banniere">
                                 <div>
                                     <img src="./images/accueil/Ancre/blanche pleine.png" id="AncreAgrios" alt="Ancre" class="ancre-click" onclick="changeToAgrios()">
                                     <img src="./images/accueil/Ancre/blanche vide.png" id="AncreDeathrow" alt="Ancre" class="ancre-click" onclick="changeToDeathrow()">
@@ -159,8 +159,8 @@
                                 <a href="https://discord.gg/mRkyGHqCsX" target="-blank"><button>DEVIS</button></a>
                             </div>
                             <div class="page-2-services__container__affiche__right">
-                                <img class="affiche-service" id="img-affiche" src="./images/services/page2/details/affiche/Affiche_ConanExile.png" alt="affiche">
-                                <div>
+                                <img class="affiche-service" id="img-affiche" src="./images/services/page2/details/affiche/Affiche_ConanExile-1.webp" alt="affiche">
+                                <div id="ancre-affiche">
                                     <img src="./images/accueil/Ancre/blanche pleine.png" id="AncreConanExile" alt="Ancre" class="ancre-click" onclick="changeToAfficheConanExile()">
                                     <img src="./images/accueil/Ancre/blanche vide.png" id="AncreDraz" alt="Ancre" class="ancre-click" onclick="changeToAfficheDraz()">
                                     <img src="./images/accueil/Ancre/blanche vide.png" id="AncreMax" alt="Ancre" class="ancre-click" onclick="changeToAfficheMax()">
@@ -201,7 +201,7 @@
                             </div>
                             <div class="page-2-services__container__logo__right">
                                 <img class="logo-service" id="img-logo" src="./images/services/page2/details/logo/Logo_DarkWin 1.png" alt="logo">
-                                <div>
+                                <div id="ancre-logo">
                                     <img src="./images/accueil/Ancre/blanche pleine.png" id="AncreLogoDarkwin" alt="Ancre" class="ancre-click" onclick="changeToLogoDarkwin()">
                                     <img src="./images/accueil/Ancre/blanche vide.png" id="AncreLogoDysnastie" class="ancre-click" onclick="changeToLogoDynastie()">
                                     <img src="./images/accueil/Ancre/blanche vide.png" id="AncreLogoEyxoo" class="ancre-click" onclick="changeToLogoEyxoo()">
@@ -498,7 +498,13 @@
                     </div>
                     <div class="footer__container__info__contact">
                         <h4>CONTACT</h4>
-                        <p>bhc@gmail.com</p>
+                        <div class="footer-bordercontact">
+                            <div>
+                                <a href="https://twitter.com/BHC_Com" target="-blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://discord.com/invite/pXFpGV4T8U" target="-blank"><i class="fab fa-discord"></i></a>
+                            </div>
+                            <p>contact@bhc-communication.com</p>
+                        </div>
                     </div>
                 </div>
                 <div class="agence-mention">

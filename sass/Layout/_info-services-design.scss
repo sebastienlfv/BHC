@@ -404,17 +404,41 @@
         &__right{ 
             .streampack-service{
                 width: 700px;
-                padding: 120px 20px 0px 20px;
+                padding: 120px 30px 0px 30px !important;
             }
     
             div{
                 display: flex;
                 justify-content: center;
                 img{
-                    width: 25px;
+                    width: 20px !important;
                     margin-right: 10px;
                     padding-bottom: 1px;
                     cursor: pointer;
+                }
+            }
+        }
+
+        &__left{
+            padding-top: 80px;
+
+            ul{
+                font-size: 18px !important;
+            }
+
+            p{
+                margin-top: 60px !important;
+                font-size: 15px !important;
+            }
+            
+
+            div{
+                img:nth-child(1){
+                    width: 50px;
+                }
+
+                img:nth-child(2){
+                    width: 150px;
                 }
             }
         }
@@ -423,49 +447,8 @@
     .page-2-services__container__banniere{  
         &__right{ 
             .banniere-service{
-                width: 700px;
-                padding: 200px 20px 0px 20px;
-            }
-    
-            div{
-                display: flex;
-                justify-content: center;
-                img{
-                    width: 25px;
-                    margin-right: 10px;
-                    padding-bottom: 1px;
-                    cursor: pointer;
-                }
-            }
-        }
-    }
-
-    .page-2-services__container__affiche{  
-        &__right{ 
-            padding-bottom: 100px;
-            .affiche-service{
-                width: 700px;
-                padding: 150px 20px 0px 20px;
-            }
-    
-            div{
-                display: flex;
-                justify-content: center;
-                img{
-                    width: 25px;
-                    margin-right: 10px;
-                    padding-bottom: 1px;
-                    cursor: pointer;
-                }
-            }
-        }
-    }
-
-    .page-2-services__container__esport{  
-        &__right{ 
-            .esport-service{
-                width: 700px;
-                padding: 100px 20px 0px 20px;
+                width: 600px !important;
+                padding: 150px 20px 0px 20px !important;
             }
     
             div{
@@ -481,7 +464,80 @@
         }
 
         &__left{
+            padding-bottom: 60px;
+            ul{
+                font-size: 20px !important;
+
+                li:nth-child(2){
+                    margin-top: 15px;
+                }
+            }
+
+            p{
+                margin-top: 200px;
+                width: 100%;
+            }
+        }
+    }
+
+    .page-2-services__container__affiche{  
+        &__right{ 
+            padding-bottom: 100px;
+            .affiche-service{
+                width: 400px;
+                padding: 150px 20px 0px 20px;
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 25px;
+                    margin-right: 10px;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__left{
+            ul{
+                font-size: 20px;
+            }
+        }
+    }
+
+    .page-2-services__container__esport{  
+        &__right{ 
+            .esport-service{
+                width: 700px;
+                padding: 100px 45px 0px 45px !important;
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 20px !important;
+                    margin-right: 10px;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__left{
             padding-bottom: 20px;
+            padding-top: 80px;
+
+            ul{
+                font-size: 18px !important;
+            }
+
+            p{
+                margin-top: 90px !important;
+                font-size: 15px;
+            }
         }
     }
 
@@ -505,7 +561,15 @@
         }
 
         &__left{
-            padding-bottom: 90px;
+            padding-bottom: 50px !important;
+
+            ul{
+                font-size: 20px;
+            }
+
+            p{
+                width: 100% !important;
+            }
         }
     }
 }

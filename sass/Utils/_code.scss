@@ -807,7 +807,7 @@ header{
     // PAGE SERVICES
 
 .page1-services{
-    background-image: url("/images/services/page1/fond.png");
+    background-image: url("/images/services/page1/fond.webp");
     height: 100vh;
     position: relative;
 
@@ -847,7 +847,7 @@ header{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                background-image: url("/images/services/page1/design.png");
+                background-image: url("/images/services/page1/design.webp");
                 background-size: cover;
                 border-radius: 30px;
                 font-weight: 400;
@@ -873,7 +873,7 @@ header{
                 }
 
                 &:hover{
-                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/design.png");
+                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/design.webp");
                     background-size: cover;
                 }
             }
@@ -882,7 +882,7 @@ header{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                background-image: url("/images/services/page1/strategie.png");
+                background-image: url("/images/services/page1/strategie.webp");
                 background-size: cover;
                 font-weight: 400;
                 font-size: 50px;
@@ -908,7 +908,7 @@ header{
                 }
 
                 &:hover{
-                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/strategie.png");
+                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/strategie.webp");
                     background-size: cover;
                 }
             }
@@ -917,7 +917,7 @@ header{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                background-image: url("/images/services/page1/web.png");
+                background-image: url("/images/services/page1/web.webp");
                 background-size: cover;
                 font-weight: 400;
                 font-size: 50px;
@@ -943,7 +943,7 @@ header{
                 }
 
                 &:hover{
-                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/web.png");
+                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/services/page1/web.webp");
                     background-size: cover;
                 }
             }
@@ -966,7 +966,7 @@ header{
 }
 
 .page2-services{
-    background-image: url("/images/services/page2/font-page2.png");
+    background-image: url("/images/services/page2/font-page2.webp");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1081,7 +1081,7 @@ header{
 }
 
 .page3-services{
-    background-image: url("/images/services/page3/fond-page3.png");
+    background-image: url("/images/services/page3/fond-page3.webp");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1194,7 +1194,7 @@ header{
 }
 
 .page4-services{
-    background-image: url("/images/services/page4/fond-page4.jpg");
+    background-image: url("/images/services/page4/fond-page4.webp");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
