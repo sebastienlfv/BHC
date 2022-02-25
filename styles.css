@@ -326,7 +326,7 @@
 .page-2-services__container__logo__left p {
   font-size: 18px;
   font-weight: 300;
-  width: 80%;
+  width: 100%;
   font-family: "Poppins";
   margin-top: 150px;
 }
@@ -2787,7 +2787,7 @@ header nav .header-icon i:hover {
 }
 
 .page2 {
-  background-image: url("/images/accueil/dpa/fond-page2.png");
+  background-image: url("/images/accueil/dpa/fond-page2.webp");
   background-repeat: no-repeat;
   height: 100vh;
   position: relative;
@@ -2923,8 +2923,8 @@ header nav .header-icon i:hover {
   margin-top: 41px;
 }
 .page3__container__slide--h3 {
-  background-image: url("/images/accueil/fondprojet/projet-streampack 1.png");
-  background-size: cover;
+  background-image: url("/images/accueil/fondprojet/projet-streampack-1.webp");
+  background-size: 103%;
   width: 1000px;
   height: 500px;
   font-size: 100px;
@@ -2936,6 +2936,7 @@ header nav .header-icon i:hover {
   border-radius: 27px;
   position: relative;
   box-shadow: 10px 10px 20px black;
+  cursor: pointer;
 }
 .page3__container__slide--h3 h3 {
   font-size: 60px;
@@ -3087,7 +3088,7 @@ header nav .header-icon i:hover {
 }
 
 .page5 {
-  background-image: url("/images/accueil/dpa/fond-page2.png");
+  background-image: url("/images/accueil/dpa/fond-page2.webp");
   background-repeat: no-repeat;
   height: 100vh;
   position: relative;
@@ -3456,27 +3457,27 @@ header nav .header-icon i:hover {
   transition: 0.4s;
 }
 .page2-services .page-2-services__container__liste ul .onglet1-page2 {
-  background-image: url("/images/services/page2/liste/logo.png");
+  background-image: url("/images/services/page2/liste/logo.webp");
   background-size: 100%;
   cursor: pointer;
 }
 .page2-services .page-2-services__container__liste ul .onglet2-page2 {
-  background-image: url("/images/services/page2/liste/header.png");
+  background-image: url("/images/services/page2/liste/header.webp");
   background-size: 100%;
   cursor: pointer;
 }
 .page2-services .page-2-services__container__liste ul .onglet3-page2 {
-  background-image: url("/images/services/page2/liste/affiches.png");
+  background-image: url("/images/services/page2/liste/affiche.webp");
   background-size: 100%;
   cursor: pointer;
 }
 .page2-services .page-2-services__container__liste ul .onglet4-page2 {
-  background-image: url("/images/services/page2/liste/streampack.png");
+  background-image: url("/images/services/page2/liste/streampack.webp");
   background-size: 100%;
   cursor: pointer;
 }
 .page2-services .page-2-services__container__liste ul .onglet5-page2 {
-  background-image: url("/images/services/page2/liste/autres.png");
+  background-image: url("/images/services/page2/liste/autres.webp");
   background-size: 100%;
   cursor: pointer;
 }
@@ -3497,9 +3498,9 @@ header nav .header-icon i:hover {
   margin-top: 50px;
   border: solid 2px white;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   background-color: #0725bd;
-  padding: 7px 13px 7px 13px;
+  padding: 3px 30px 3px 30px;
   cursor: pointer;
 }
 
@@ -3555,17 +3556,17 @@ header nav .header-icon i:hover {
   transition: 0.4s;
 }
 .page3-services .page-3-services__container__liste ul .onglet1-page2 {
-  background-image: url("/images/services/page3/Élaboration de dossier 2.png");
+  background-image: url("/images/services/page3/Élaboration de dossier.webp");
   background-size: 100%;
   cursor: pointer;
 }
 .page3-services .page-3-services__container__liste ul .onglet2-page2 {
-  background-image: url("/images/services/page3/Conseil-Stratégique 2.png");
+  background-image: url("/images/services/page3/Conseil-Stratégique.webp");
   background-size: 100%;
   cursor: pointer;
 }
 .page3-services .page-3-services__container__liste ul .onglet3-page2 {
-  background-image: url("/images/services/page3/Gestions de projets et event 2.png");
+  background-image: url("/images/services/page3/Gestions_de_projets_et_event.webp");
   background-size: 100%;
   cursor: pointer;
 }
@@ -3646,12 +3647,12 @@ header nav .header-icon i:hover {
   transition: 0.4s;
 }
 .page4-services .page-4-services__container__liste ul .onglet1-page2 {
-  background-image: url("/images/services/page4/vitrine.png");
+  background-image: url("/images/services/page4/vitrine.webp");
   background-size: 100%;
   cursor: pointer;
 }
 .page4-services .page-4-services__container__liste ul .onglet2-page2 {
-  background-image: url("/images/services/page4/e-commerce.png");
+  background-image: url("/images/services/page4/e-commerce.webp");
   background-size: 100%;
   cursor: pointer;
 }
@@ -3679,7 +3680,7 @@ header nav .header-icon i:hover {
 }
 
 .page-contact {
-  background-image: url("/images/contact/fond-contact.png");
+  background-image: url("/images/contact/fond-contact.webp");
   background-size: cover;
   height: 100vh;
 }

@@ -126,7 +126,7 @@ function closeAllOngletEcommerce(){
 
 function changeToStreampack05(){
     document.getElementById('AncreDarkwin').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-streampack').src="images/services/page2/details/steampack/stream_pack-05 1.png";
+    document.getElementById('img-streampack').src="images/services/page2/details/steampack/stream_pack-05-1.webp";
     document.getElementById('AncreInsaw').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreKalax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreNature').src="images/accueil/Ancre/blanche vide.png";
@@ -138,7 +138,7 @@ function changeToStreampack05(){
 
 function changeToDarkwin(){
     document.getElementById('AncreDarkwin').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-streampack').src="images/services/page2/details/steampack/Streampack_Darkwin.png";
+    document.getElementById('img-streampack').src="images/services/page2/details/steampack/Streampack_Darkwin.webp";
     document.getElementById('AncreInsaw').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreKalax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreNature').src="images/accueil/Ancre/blanche vide.png";
@@ -150,7 +150,7 @@ function changeToDarkwin(){
 
 function changeToInsaw(){
     document.getElementById('AncreDarkwin').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-streampack').src="images/services/page2/details/steampack/Streampack_Insaw.png";
+    document.getElementById('img-streampack').src="images/services/page2/details/steampack/Streampack_Insaw.webp";
     document.getElementById('AncreInsaw').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('AncreKalax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreNature').src="images/accueil/Ancre/blanche vide.png";
@@ -210,34 +210,34 @@ function changeToValorant(){
 
 // ANCRE BANNIERE
 
-function changeToDeathrow(){
-    document.getElementById('AncreAgrios').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-banniere').src="images/services/page2/details/banniere/Banniere_Deathrow.png";
-    document.getElementById('AncreDeathrow').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('AncreInsawBanniere').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('AncreTestBanniere').src="images/accueil/Ancre/blanche vide.png";
-}
+// function changeToDeathrow(){
+//     document.getElementById('AncreAgrios').src="images/accueil/Ancre/blanche vide.png";
+//     document.getElementById('img-banniere').src="images/services/page2/details/banniere/Banniere_Deathrow.png";
+//     document.getElementById('AncreDeathrow').src="images/accueil/Ancre/blanche pleine.png";
+//     document.getElementById('AncreInsawBanniere').src="images/accueil/Ancre/blanche vide.png";
+//     document.getElementById('AncreTestBanniere').src="images/accueil/Ancre/blanche vide.png";
+// }
 
-function changeToAgrios(){
-    document.getElementById('AncreAgrios').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-banniere').src="images/services/page2/details/banniere/Bannière_Agrios.webp";
-    document.getElementById('AncreDeathrow').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('AncreInsawBanniere').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('AncreTestBanniere').src="images/accueil/Ancre/blanche vide.png";
-}
+// // function changeToAgrios(){
+// //     document.getElementById('AncreAgrios').src="images/accueil/Ancre/blanche pleine.png";
+// //     document.getElementById('img-banniere').src="images/services/page2/details/banniere/Bannière_Agrios.webp";
+// //     document.getElementById('AncreDeathrow').src="images/accueil/Ancre/blanche vide.png";
+// //     document.getElementById('AncreInsawBanniere').src="images/accueil/Ancre/blanche vide.png";
+// //     document.getElementById('AncreTestBanniere').src="images/accueil/Ancre/blanche vide.png";
+// // }
 
 function changeToInsawBanniere(){
-    document.getElementById('AncreAgrios').src="images/accueil/Ancre/blanche vide.png";
+    // document.getElementById('AncreAgrios').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('img-banniere').src="images/services/page2/details/banniere/Bannière_Insaw.png";
-    document.getElementById('AncreDeathrow').src="images/accueil/Ancre/blanche vide.png";
+    // document.getElementById('AncreDeathrow').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreInsawBanniere').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('AncreTestBanniere').src="images/accueil/Ancre/blanche vide.png";
 }
 
 function changeToTestBanniere(){
-    document.getElementById('AncreAgrios').src="images/accueil/Ancre/blanche vide.png";
+    // document.getElementById('AncreAgrios').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('img-banniere').src="images/services/page2/details/banniere/Bannière_Test.png";
-    document.getElementById('AncreDeathrow').src="images/accueil/Ancre/blanche vide.png";
+    // document.getElementById('AncreDeathrow').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreInsawBanniere').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreTestBanniere').src="images/accueil/Ancre/blanche pleine.png";
 }
@@ -407,6 +407,9 @@ function changeToAfficheAfficheVenasty(){
     document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreMax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche pleine.png";
+    document.getElementById('img-affiche').style.height = "550px";
+    document.getElementById('img-affiche').style.width = "550px";
+    document.getElementById('ancre-affiche').style.paddingBottom = "60px";
 }
 
 
@@ -416,14 +419,14 @@ function changeToAfficheAfficheVenasty(){
 
 function changeToDossierEvent(){
     document.getElementById('AncreVenastyEvent').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-dossier').src="images/services/page3/img produits/Dossier-Event.jpg";
+    document.getElementById('img-dossier').src="images/services/page3/img produits/Dossier-Event.webp";
     document.getElementById('AncreMarcheR6').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreOnesEsport').src="images/accueil/Ancre/blanche vide.png";
 }
 
 function changeToDossierEtdMarche(){
     document.getElementById('AncreMarcheR6').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-dossier').src="images/services/page3/img produits/Etude-de-marché.jpg";
+    document.getElementById('img-dossier').src="images/services/page3/img produits/Etude-de-marché.webp";
     document.getElementById('AncreVenastyEvent').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreOnesEsport').src="images/accueil/Ancre/blanche vide.png";
 }
@@ -446,14 +449,14 @@ function changeToStratCom(){
 
 function changeToMarketing(){
     document.getElementById('AncreMarketing').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-stratcom').src="images/services/page3/img produits/Stratégie-Marketing.jpg";
+    document.getElementById('img-stratcom').src="images/services/page3/img produit/tableau-stratégie-communication";
     document.getElementById('AncreStratCom').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreOptiOrga').src="images/accueil/Ancre/blanche vide.png";
 }
 
 function changeToOptiOrga(){
     document.getElementById('AncreOptiOrga').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-stratcom').src="images/services/page3/img produits/Optimisation-Orga.jpg";
+    document.getElementById('img-stratcom').src="images/services/page3/img produits/optimisation-de-lorganisation.webp";
     document.getElementById('AncreStratCom').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreMarketing').src="images/accueil/Ancre/blanche vide.png";
 }

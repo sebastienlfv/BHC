@@ -9,12 +9,13 @@
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/accueil/Logo/BHC-Communication-3.webp">
     <link rel="stylesheet" href="https://use.typekit.net/rtu3zol.css">
+    <link rel="stylesheet" type="text/css" href="fullpage.css" />
     <title>BHC Communication - Agence Esport et Streaming</title>
     <meta name="description" content="L'agence aux servoces des influenceurs, streamers, équipes esport pour des préstations de 
     développements aux besoins de chacun.">
 </head>
 <body>
-    <div class="block_page">
+    <div class="block_page" id="fullpage">
         <header>
             <nav>
                 <div class="header-nav">                   
@@ -68,7 +69,7 @@
             </nav>
         </header>
         <main>
-            <section class="page1" id="page1">
+            <section class="page1 slide" id="page1">
                 <div class="ancre_page">
                     <a href="#page1"><img src="./images/accueil/Ancre/ancre pleine.png" alt="ancre accueil"></a>
                     <a href="#page2"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre présentation"></a>
@@ -92,7 +93,7 @@
                     </div>
                 </div>
             </section>
-            <section class="page2" id="page2">
+            <section class="page2 slide" id="page2">
                 <div class="ancre_page">
                     <a href="#page1"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre accueil"></a>
                     <a href="#page2"><img src="./images/accueil/Ancre/ancre pleine.png" alt="ancre présentation"></a>
@@ -119,7 +120,7 @@
                     <a href="./services.html"><button>DÉCOUVRIR</button></a>
                 </div>
             </section>
-            <section class="page3" id="page3">
+            <section class="page3 slide" id="page3">
                 <div class="ancre_page">
                     <a href="#page1"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre accueil"></a>
                     <a href="#page2"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre présentation"></a>
@@ -132,9 +133,9 @@
                     <h2>PROJETS RÉALISÉS</h2>
                     <p>Nous tenons à ce que chaque personne soit <span>satisfaite</span> du travail que nous lui offrons. Voici ci-dessous des projets réalisés par BHC à ce jour.</p>
                     <div class="page3__container__slide">
-                        <div class="page3__container__slide--h3" id="img-projet">
+                        <a href="/services.html#page2-services" onclick="openLogo()"><div class="page3__container__slide--h3" id="img-projet">
                             <h3 id="projet-h3">STREAMPACK</h3>
-                        </div>
+                        </div></a>
                         <div class="page3__container__slide__arrow">
                             <i class="fas fa-sort-down" id="left_arrow" onclick="modifyLeft()"></i>
                             <p class="arrow-slide" id="arrowSlide">1/4</p>
@@ -143,7 +144,7 @@
                     </div>
                 </div>
             </section>
-            <section class="page4" id="page4">
+            <section class="page4 slide" id="page4">
                 <div class="ancre_page">
                     <a href="#page1"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre accueil"></a>
                     <a href="#page2"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre présentation"></a>
@@ -215,7 +216,7 @@
                     <img src="./images/accueil/avis/bottom_arrow.png" alt="Flèche" id="bottom_arrow"> 
                 </div>
             </section>
-            <section class="page5" id="page5">
+            <section class="page5 slide" id="page5">
                 <div class="ancre_page">
                     <a href="#page1"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre accueil"></a>
                     <a href="#page2"><img src="./images/accueil/Ancre/ancre vide.png" alt="ancre présentation"></a>
@@ -271,7 +272,7 @@
                 </div>
             </section>
         </main>
-        <footer id="footer">
+        <footer id="footer" class="slide">
             <div class="ancre_page">
                 <a href="#page1"><img src="./images/accueil/Ancre/Vector.png" alt="ancre accueil"></a>
                 <a href="#page2"><img src="./images/accueil/Ancre/Vector.png" alt="ancre présentation"></a>
@@ -306,21 +307,22 @@
                                 <a href="https://twitter.com/BHC_Com" target="-blank"><i class="fab fa-twitter"></i></a>
                                 <a href="https://discord.com/invite/pXFpGV4T8U" target="-blank"><i class="fab fa-discord"></i></a>
                             </div>
-                            <p>contact@bhc-communication.com</p>
+                            <p><a href="mailto:contact@bhc-communication.com">contact@bhc-communication.com</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="agence-mention">
-                    <p class="agence test">AGENCE BHC - 2021</p>
+                    <p class="agence test">AGENCE BHC - 2022</p>
                     <div class="mention-legal">
-                        <p><a href="">Politique de confidentialité</a></p>
-                        <p><a href="">© Mentions légales</a></p>
-                        <p><a href="">Gestion des cookies</a></p>
+                        <p><a href="#">Politique de confidentialité</a></p>
+                        <p><a href="#">© Mentions légales</a></p>
+                        <p><a href="#">Gestion des cookies</a></p>
                     </div>
                 </div>
             </section>
         </footer>
     </div>
 
+    <script src="./JS/services.js"></script>
     <script src="./JS/index.js"></script>
 </body>
