@@ -1140,4 +1140,84 @@
             color: white;
         }
     }
+
+    // PAGE CONNECT
+
+    .page-connect{
+        background-image: url("/images/connect/background.png");
+        height: 100% !important;
+    
+        .mention-legal-connect{
+            display: flex;
+            justify-content: space-evenly !important;
+            margin-right: 0 !important;
+            padding-bottom: 10px;
+    
+            a{
+                color: #3A3A3A;
+                margin: 0 !important;
+                font-weight: 200;
+                font-size: 10px !important;
+            }
+        }
+    
+        .agence-connect{
+            text-align: center;
+            font-size: 20px;
+            font-weight: 100;
+            margin-top: 70px;
+            margin-bottom: 20px;
+            color: #3A3A3A;
+        }
+    
+        &__container{
+            padding-top: 150px;
+            text-align: center;
+    
+            h1{
+                color: #0725bd;
+                font-size: 40px;
+                font-family: "Houschka";
+            }
+    
+            .time{
+                width: 100px !important;
+            }
+    
+            &__info{
+                width: 100%;
+                margin-top: 100px !important;
+                display: flex;
+                flex-direction: column;
+    
+                &__details{
+                    width: 100% !important;
+                    p{
+                        width: 80% !important;
+                        margin: auto;
+                        font-weight: 300;
+                        margin-bottom: 100px;
+                        font-size: 16px !important;
+                    }
+    
+                    .parrainage-user{
+                        width: 120px;
+                    }
+    
+                    .p-desc{
+                        margin-top: 20px;
+                    }
+    
+                    span{
+                        color: #0725bd;
+                    }
+                }
+    
+                div.connect-fleche{
+                    display: none;
+                    margin-top: 200px;
+                }
+            }
+        }
+    }
 }
