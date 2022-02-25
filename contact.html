@@ -15,11 +15,34 @@
     <div class="block_page">
         <header>
             <nav>
-                <div class="header-nav">
+                <div class="header-nav">                   
+                    <div class="burger-container">
+                        <button id="btn-burger"><img src="./images/Téléphone/burger.png" alt="menu burger" class="burger"></button>
+                        <div id="burger-content" class="burger-content">
+                            <ul>
+                                <div>
+                                    <a href="index.html"><li class="active">ACCUEIL</li></a>
+                                    <div class="border-nav"></div>
+                                </div>
+                                <div>
+                                    <a href="services.html"><li>SERVICES</li></a>
+                                    <div class="border-nav"></div>
+                                </div>
+                                <div>
+                                    <a href="contact.html"><li>CONTACT</li></a>
+                                    <div class="border-nav"></div>
+                                </div>
+                                <div>
+                                    <a href="connect.html"><li>SE CONNECTER</li></a>
+                                    <div class="border-nav"></div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
                     <ul>
                         <div>
-                            <a href="index.html"><li class="border-bottom-li">ACCUEIL</li></a>
-                            <div class="border-nav"></div>
+                            <a href="index.html"><li class="border-bottom-li active">ACCUEIL</li></a>
+                            <div class="border-nav active-border"></div>
                         </div>
                         <div>
                             <a href="services.html"><li class="border-bottom-li">SERVICES</li></a>
@@ -27,8 +50,8 @@
                         </div>
                             <a href="index.html"><li><img src="./images/accueil/Logo/BHC-Communication-3.webp" alt="Logo BHC"></li></a>
                         <div>
-                            <a href="contact.html"><li class="border-bottom-li active">CONTACT</li ></a>
-                            <div class="border-nav active-border"></div>
+                            <a href="contact.html"><li class="border-bottom-li">CONTACT</li ></a>
+                            <div class="border-nav"></div>
                         </div>
                         <div>
                             <a href="connect.html"><li class="border-bottom-li">SE CONNECTER</li></a>
@@ -55,7 +78,7 @@
                         <p><span>Créons</span> ensemble,</p>
                         <p><span>Évoluons</span> ensemble</p>
                     </div>
-                    <div class="fleche-displayblock">
+                    <div class="fleche-displayblock none-phone">
                         <img src="./images/contact/Polygon 9.png" alt="Flèche">
                         <img src="./images/contact/Polygon 9.png" alt="Flèche">
                         <img src="./images/contact/Polygon 9.png" alt="Flèche">
@@ -71,9 +94,10 @@
                     </div>
                     <div class="page-contact__info__send">
                         <h4>REJOIGNEZ-NOUS</h4>
+                        <div id="border-bottom-joinus"></div>
                         <div class="page-contact__info__send__info">
                             <div>
-                                <form action="https://formsubmit.co/contact@bhc-communication.com" method="post" enctype="multipart/form-data" name="EmailForm">
+                                <form action="https://formsubmit.co/sebastienlfv.pro@gmail.com" method="post" enctype="multipart/form-data" name="EmailForm">
                                     <input type="text" id="nom" name="nom" placeholder="Nom Prénom" required class="prenom">
                                     <select name="nom" id="1" required>
                                         <option disabled selected hidden>Domaine</option>

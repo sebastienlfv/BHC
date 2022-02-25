@@ -491,7 +491,7 @@
     font-size: 20px;
   }
   .page-2-services__container__logo__left p {
-    width: 115% !important;
+    width: 100% !important;
   }
 }
 @media screen and (max-width: 1600px) {
@@ -1953,10 +1953,8 @@
     font-weight: 400;
     font-size: 50px;
     background-image: url("/images/Téléphone/services/page1/design.png") !important;
-    background-size: 100% !important;
-    width: 95% !important;
-    height: 125px !important;
-    border-radius: 20px !important;
+    width: 380px !important;
+    height: 150px !important;
   }
   .page1-services__container__dsw__details:nth-child(1) h3 {
     font-family: "BebasNeue";
@@ -1985,10 +1983,8 @@
     font-weight: 400;
     font-size: 50px;
     background-image: url("/images/Téléphone/services/page1/consulting.png") !important;
-    background-size: 100% !important;
-    width: 95% !important;
-    height: 125px !important;
-    border-radius: 20px !important;
+    width: 380px !important;
+    height: 150px !important;
     margin-top: 30px;
   }
   .page1-services__container__dsw__details:nth-child(2) h3 {
@@ -2018,11 +2014,9 @@
     font-weight: 400;
     font-size: 50px;
     background-image: url("/images/Téléphone/services/page1/developpement.png") !important;
-    background-size: 100% !important;
-    width: 95% !important;
-    height: 125px !important;
+    width: 380px !important;
+    height: 150px !important;
     margin-top: 30px;
-    border-radius: 20px !important;
   }
   .page1-services__container__dsw__details:nth-child(3) h3 {
     font-family: "BebasNeue";
@@ -2080,7 +2074,7 @@
   }
   .page2-services .page-2-services__container__liste ul li {
     margin: auto;
-    font-size: 20px !important;
+    font-size: 25px !important;
     font-weight: 400;
     border: solid 1px white;
     border-radius: 30px;
@@ -2184,7 +2178,7 @@
   }
   .page3-services .page-3-services__container__liste ul li {
     margin: auto;
-    font-size: 20px !important;
+    font-size: 25px !important;
     font-weight: 400;
     border: solid 1px white;
     border-radius: 30px;
@@ -2294,7 +2288,7 @@
   }
   .page4-services .page-4-services__container__liste ul li {
     margin: auto;
-    font-size: 20px !important;
+    font-size: 25px !important;
     font-weight: 400;
     border: solid 1px white;
     border-radius: 30px;
@@ -2360,169 +2354,6 @@
     margin: auto;
     margin-top: 30px;
     color: black;
-  }
-
-  .page-contact {
-    background-image: url("/images/contact/fond-contact.png");
-    background-size: cover;
-    height: 100% !important;
-  }
-  .page-contact__titre {
-    display: flex;
-    flex-direction: column;
-    padding-top: 80px !important;
-    color: white;
-    width: 100% !important;
-  }
-  .page-contact__titre .fleche-displayblock {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-  .page-contact__titre .fleche-displayblock img {
-    transform: rotate(270deg);
-  }
-  .page-contact__titre h1 {
-    font-size: 40px;
-    width: 1200px;
-    text-align: center;
-  }
-  .page-contact__titre__p {
-    display: flex;
-    flex-direction: column;
-    width: 100% !important;
-    justify-content: space-around;
-    margin: auto;
-  }
-  .page-contact__titre__p p {
-    margin-bottom: 20px !important;
-  }
-  .page-contact .none-phone {
-    display: none;
-  }
-  .page-contact__info {
-    display: flex;
-    flex-direction: column;
-    width: 100% !important;
-    margin: auto;
-    margin-top: 200px;
-  }
-  .page-contact__info p {
-    font-size: 15px;
-    margin-top: 0;
-    width: 100%;
-  }
-  .page-contact__info h4 {
-    font-size: 25px;
-    color: white;
-    text-align: center;
-  }
-  .page-contact__info__reseaux__icone {
-    margin-top: 15px;
-    border-top: none !important;
-    text-align: center;
-    margin-bottom: 150px;
-  }
-  .page-contact__info__reseaux__icone a {
-    color: white;
-    font-size: 35px;
-  }
-  .page-contact__info__reseaux__icone a i {
-    margin-top: 20px;
-    padding: 0px 15px 0px 15px;
-    transition: 0.4s;
-  }
-  .page-contact__info__reseaux__icone a i:hover {
-    transform: scale(1.2);
-    transition: 0.4s;
-  }
-  .page-contact__info__send h4 {
-    padding-bottom: 15px;
-    border-bottom: none !important;
-    text-align: center;
-  }
-  .page-contact__info__send #border-bottom-joinus {
-    display: flex !important;
-    background-color: #0725bd;
-    width: 100px;
-    margin: auto;
-    height: 2px;
-    margin-bottom: 10px;
-  }
-  .page-contact__info__send__info {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  .page-contact__info__send__info .prenom {
-    color: white;
-    background: #0725BD33;
-    border: 1px solid #0725bd;
-    border-radius: 8px;
-    font-weight: 400;
-    font-size: 15px;
-    padding: 5px 5px;
-    margin: 15px 0px;
-    width: 240px !important;
-  }
-  .page-contact__info__send__info form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .page-contact__info__send__info div {
-    display: flex;
-    flex-direction: column;
-  }
-  .page-contact__info__send__info div input {
-    margin-bottom: 15px;
-  }
-  .page-contact__info__send__info select {
-    color: white;
-    background: #0725BD33;
-    border: 1px solid #0725bd;
-    border-radius: 8px;
-    font-weight: 400;
-    font-size: 15px;
-    padding: 5px 2px;
-    width: 250px !important;
-    margin-bottom: 15px;
-  }
-  .page-contact__info__send__info input::-webkit-input-placeholder {
-    color: #fff;
-  }
-  .page-contact__info__send__info input:-moz-placeholder {
-    color: #fff;
-  }
-  .page-contact__info__send__info .submit {
-    border: 2px solid #fff;
-    background-color: transparent;
-    padding: 5px 30px !important;
-    color: white;
-    font-size: 20px !important;
-    cursor: pointer;
-    margin-top: 25px;
-  }
-  .page-contact .mention-legal-contact {
-    display: flex;
-    justify-content: space-evenly !important;
-    margin-right: 0 !important;
-    padding-bottom: 50px;
-  }
-  .page-contact .mention-legal-contact p {
-    font-size: 10px;
-  }
-  .page-contact .mention-legal-contact a {
-    color: #3A3A3A;
-    margin: 0 !important;
-  }
-  .page-contact .agence-contact {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: 140px;
-    margin-bottom: 20px;
-    color: white;
   }
 }
 html {
@@ -2910,7 +2741,7 @@ header nav .header-icon i:hover {
   display: none;
 }
 .page3__container__slide2 h3 {
-  background-image: url("/images/accueil/fondprojet/projet-streampack-1.webp");
+  background-image: url("/images/accueil/fondprojet/test.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 60%;
@@ -2947,7 +2778,7 @@ header nav .header-icon i:hover {
 .page4__container__avis {
   background-color: white;
   width: 1125px;
-  height: 225px;
+  height: 200px;
   margin: auto;
   margin-top: 80px;
   border-radius: 20px;
@@ -3095,7 +2926,7 @@ header nav .header-icon i:hover {
 
 #footer {
   text-align: center;
-  background-image: url("/images/accueil/image-footer.webp");
+  background-image: url("/images/accueil/image footer.png");
   height: 100vh;
   color: white;
   background-position: right -50px;
@@ -3685,9 +3516,6 @@ header nav .header-icon i:hover {
   border-bottom: solid 2px #0725bd;
   text-align: center;
 }
-.page-contact__info__send #border-bottom-joinus {
-  display: none;
-}
 .page-contact__info__send__info {
   display: flex;
   text-align: center;
@@ -3709,16 +3537,13 @@ header nav .header-icon i:hover {
 }
 .page-contact__info__send__info select {
   color: white;
-  background-color: #0725BD33;
+  background: #0725BD33;
   border: 1px solid #0725bd;
   border-radius: 8px;
   font-weight: 400;
   font-size: 15px;
   padding: 5px 2px;
   width: 150px;
-}
-.page-contact__info__send__info option {
-  background-color: black;
 }
 .page-contact__info__send__info input::-webkit-input-placeholder {
   color: #fff;

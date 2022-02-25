@@ -162,7 +162,7 @@ function changeToInsaw(){
 
 function changeToKalax(){
     document.getElementById('AncreDarkwin').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-streampack').src="images/services/page2/details/steampack/Streampack_Kalax.png";
+    document.getElementById('img-streampack').src="images/services/page2/details/steampack/Streampack_Kalax.webp";
     document.getElementById('AncreInsaw').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreKalax').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('AncreNature').src="images/accueil/Ancre/blanche vide.png";
@@ -174,7 +174,7 @@ function changeToKalax(){
 
 function changeToNature(){
     document.getElementById('AncreDarkwin').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-streampack').src="images/services/page2/details/steampack/Streampack_Nature.png";
+    document.getElementById('img-streampack').src="images/services/page2/details/steampack/Streampack_Nature.webp";
     document.getElementById('AncreInsaw').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreKalax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreNature').src="images/accueil/Ancre/blanche pleine.png";
@@ -186,7 +186,7 @@ function changeToNature(){
 
 function changeToRed(){
     document.getElementById('AncreDarkwin').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-streampack').src="images/services/page2/details/steampack/Streampack_ReD.png";
+    document.getElementById('img-streampack').src="images/services/page2/details/steampack/Streampack_ReD.webp";
     document.getElementById('AncreInsaw').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreKalax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreNature').src="images/accueil/Ancre/blanche vide.png";
@@ -198,7 +198,7 @@ function changeToRed(){
 
 function changeToValorant(){
     document.getElementById('AncreDarkwin').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-streampack').src="images/services/page2/details/steampack/Streampack_Valorant.png";
+    document.getElementById('img-streampack').src="images/services/page2/details/steampack/Streampack_Valorant.webp";
     document.getElementById('AncreInsaw').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreKalax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreNature').src="images/accueil/Ancre/blanche vide.png";
@@ -253,7 +253,7 @@ function changToEsportUbiteam(){
 
 function changToEsportVenasty(){
     document.getElementById('AncreEsportUbiteam').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-esport').src="images/services/page2/details/esport/Esport_Venasty 1.png";
+    document.getElementById('img-esport').src="images/services/page2/details/esport/Esport_Venasty-1.webp";
     document.getElementById('AncreEsportVenasty').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('AncreEsportDeathrow').src="images/accueil/Ancre/blanche vide.png";
 }
@@ -269,7 +269,7 @@ function changToEsportDeathrow(){
 
 function changeToLogoDynastie(){
     document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_Dynastie.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_Dynastie.webp";
     document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";
@@ -282,7 +282,7 @@ function changeToLogoDynastie(){
 
 function changeToLogoDarkwin(){
     document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_DarkWin 1.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_DarkWin_1.webp";
     document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";
@@ -294,7 +294,7 @@ function changeToLogoDarkwin(){
 
 function changeToLogoEyxoo(){
     document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_Eyxoo.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_Eyxoo.webp";
     document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";
@@ -307,7 +307,7 @@ function changeToLogoEyxoo(){
 
 function changeToLogoKalax(){
     document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_Kalax.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_Kalax.webp";
     document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche pleine.png";
@@ -319,7 +319,7 @@ function changeToLogoKalax(){
 
 function changeToLogoNotEldrie(){
     document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_NotEldrie.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_NotEldrie.webp";
     document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";
@@ -331,7 +331,7 @@ function changeToLogoNotEldrie(){
 
 function changeToLogoReD(){
     document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_ReD.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_ReD.webp";
     document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";
@@ -343,7 +343,7 @@ function changeToLogoReD(){
 
 function changeToLogoSN(){
     document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_SN.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_SN.webp";
     document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";
@@ -355,7 +355,7 @@ function changeToLogoSN(){
 
 function changeToLogoZiakCorp(){
     document.getElementById('AncreLogoDarkwin').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_ZiakCorp.png";
+    document.getElementById('img-logo').src="images/services/page2/details/logo/Logo_ZiakCorp.webp";
     document.getElementById('AncreLogoDysnastie').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoEyxoo').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreLogoKalax').src="images/accueil/Ancre/blanche vide.png";

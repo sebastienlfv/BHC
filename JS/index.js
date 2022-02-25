@@ -8,7 +8,7 @@ const slideNumber = document.getElementById('arrowSlide');
 function modifyRight() {
     if (slideNumber.firstChild.nodeValue == '1/4'){
         slideNumber.firstChild.nodeValue = '2/4'
-        imageDiv.style.backgroundImage= 'url("images/services/page2/details/esport/Esport_Venasty 1.png")'
+        imageDiv.style.backgroundImage= 'url("images/services/page2/details/esport/Esport_Venasty-1.webp")'
         titreProjet.firstChild.nodeValue = 'ESPORT'
     } else if (slideNumber.firstChild.nodeValue == '2/4') {
         slideNumber.firstChild.nodeValue = '3/4'
@@ -16,7 +16,7 @@ function modifyRight() {
         titreProjet.firstChild.nodeValue = 'STREAMPACK'
     } else if (slideNumber.firstChild.nodeValue == '3/4') {
         slideNumber.firstChild.nodeValue = '4/4'
-        imageDiv.style.backgroundImage= 'url("images/services/page2/details/affiche/Affiche_ConanExile.png")'
+        imageDiv.style.backgroundImage= 'url("images/services/page2/details/affiche/Affiche_ConanExile-1.webp")'
         titreProjet.firstChild.nodeValue = 'AFFICHE'
     }
 }
@@ -28,7 +28,7 @@ function modifyLeft() {
         titreProjet.firstChild.nodeValue = 'STREAMPACK'
     } else if (slideNumber.firstChild.nodeValue == '3/4') {
         slideNumber.firstChild.nodeValue = '2/4'
-        imageDiv.style.backgroundImage= 'url("images/services/page2/details/esport/Esport_Venasty 1.png")'
+        imageDiv.style.backgroundImage= 'url("images/services/page2/details/esport/Esport_Venasty-1.webp")'
         titreProjet.firstChild.nodeValue = 'ESPORT'
     } else if (slideNumber.firstChild.nodeValue == '2/4') {
         slideNumber.firstChild.nodeValue = '1/4'
