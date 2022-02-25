@@ -158,7 +158,7 @@ header{
     background-image: url("/images/accueil/dpa/fond-accueil.webp");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 100vh;
+    padding-bottom: 300px;
     position: relative;
 
     &__container{
@@ -229,7 +229,7 @@ header{
 .page2{
     background-image: url("/images/accueil/dpa/fond-page2.webp");
     background-repeat: no-repeat;
-    height: 100vh;
+    padding-bottom: 250px;
     position: relative;
     
     &__container{
@@ -267,15 +267,17 @@ header{
                 align-items: center;
                 justify-content: center;
 
+                &:hover{
+                    h2{
+                        transform: scale(1.2);
+                        transition: 0.4s;
+                    }
+                }
+
                 h2{
                     font-size: 25px;
                     color: white;
                     transition: 0.4s;
-
-                    &:hover{
-                        transform: scale(1.2);
-                        transition: 0.4s;
-                    }
                 }
             }
 
@@ -300,15 +302,17 @@ header{
                 align-items: center;
                 justify-content: center;
 
+                &:hover{
+                    h2{
+                        transform: scale(1.2);
+                        transition: 0.4s;
+                    }
+                }
+
                 & h2{
                     width: 340px;
                     font-size: 25px;
                     transition: 0.4s;
-
-                    &:hover{
-                        transform: scale(1.2);
-                        transition: 0.4s;
-                    }
                 }
             }
 
@@ -325,14 +329,16 @@ header{
                 align-items: center;
                 justify-content: center;
 
-                & h2{
-                    font-size: 25px;
-                    transition: 0.4s;
-
-                    &:hover{
+                &:hover{
+                    h2{
                         transform: scale(1.2);
                         transition: 0.4s;
                     }
+                }
+
+                & h2{
+                    font-size: 25px;
+                    transition: 0.4s;
                 }
             }
         }
@@ -360,7 +366,7 @@ header{
 .page3{
     background-image: url("/images/accueil/dpa/font-page3.webp");
     background-size: cover;
-    height: 100vh;
+    padding-bottom: 300px;
     position: relative;
 
     &__container{   
@@ -466,7 +472,7 @@ header{
 .page4{
     background-image: url("/images/accueil/avis/fond-avis.webp");
     background-size: cover;
-    height: 100vh;
+    padding-bottom: 300px;
     position: relative;
 
     #bottom_arrow{
@@ -585,7 +591,7 @@ header{
 .page5{
     background-image: url("/images/accueil/dpa/fond-page2.webp");
     background-repeat: no-repeat;
-    height: 100vh;
+    padding-bottom: 300px;
     position: relative;
 
     .page5__container{
@@ -653,9 +659,10 @@ header{
                 }
 
                 h4{
-                   font-size: 60px;
+                   font-size: 80px;
                    font-weight: 500;
                    color: #0725bd;
+                   font-family: "Poppins";
 
                    span{
                        color: black;
@@ -666,6 +673,7 @@ header{
                 p{
                     font-size: 30px;
                     font-weight: 100;
+                    font-family: "Poppins";
                 }
             }
         }
@@ -675,7 +683,7 @@ header{
 #footer{
     text-align: center;
     background-image: url("/images/accueil/image-footer.webp");
-    height: 100vh;
+    padding-bottom: 300px;
     color: white;
     background-position: right -50px;
     position: relative;
@@ -741,7 +749,7 @@ header{
 
                     i{
                         margin-top: 20px;
-                        padding: 0px 7px 0px 7px;
+                        padding: 0px 20px 0px 20px;
                         transition: 0.4s;
 
                         &:hover{
@@ -810,7 +818,7 @@ header{
 
 .page1-services{
     background-image: url("/images/services/page1/fond.webp");
-    height: 100vh;
+    padding-bottom: 300px;
     position: relative;
 
     &__container{
@@ -975,7 +983,7 @@ header{
     background-image: url("/images/services/page2/font-page2.webp");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 100vh;
+    padding-bottom: 300px;
     color: white;
     position: relative;
 
@@ -1090,7 +1098,7 @@ header{
     background-image: url("/images/services/page3/fond-page3.webp");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 100vh;
+    padding-bottom: 300px;
     color: white;
     position: relative;
 
@@ -1104,7 +1112,7 @@ header{
         &__liste{
 
             ul{
-                margin-top: 130px;
+                margin-top: 180px;
                 li{
                     font-size: 25px;
                     font-weight: 400;
@@ -1203,7 +1211,7 @@ header{
     background-image: url("/images/services/page4/fond-page4.webp");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 100vh;
+    padding-bottom: 300px;
     color: white;
     position: relative;
 
@@ -1432,6 +1440,7 @@ header{
                 }
 
                 .submit{
+                    margin-top: 20px;
                     border: 2px solid #fff;
                     background-color: transparent;
                     padding: 5px 20px;

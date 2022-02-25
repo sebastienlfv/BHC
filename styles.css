@@ -69,15 +69,16 @@
   color: white;
   background-color: #0725bd;
   border: solid 1px #0725bd;
-  padding: 6px 20px 6px 20px;
+  padding: 6px 48px;
   font-size: 20px;
   margin-top: 15px;
   transition: 0.4s;
   cursor: pointer;
 }
 .page-2-services__container__streampack__left button:hover {
-  transform: scale(1.2);
-  transition: 0.4s;
+  color: #0725bd;
+  border-color: #0725bd;
+  background-color: white;
 }
 .page-2-services__container__streampack__right {
   background-color: #3A3A3A;
@@ -133,15 +134,16 @@
   color: white;
   background-color: #0725bd;
   border: solid 1px #0725bd;
-  padding: 6px 20px 6px 20px;
+  padding: 6px 48px;
   font-size: 20px;
   margin-top: 15px;
   transition: 0.4s;
   cursor: pointer;
 }
 .page-2-services__container__banniere__left button:hover {
-  transform: scale(1.2);
-  transition: 0.4s;
+  color: #0725bd;
+  border-color: #0725bd;
+  background-color: white;
 }
 .page-2-services__container__banniere__right {
   background-color: #3A3A3A;
@@ -200,15 +202,16 @@
   color: white;
   background-color: #0725bd;
   border: solid 1px #0725bd;
-  padding: 6px 20px 6px 20px;
+  padding: 6px 48px;
   font-size: 20px;
   margin-top: 15px;
   transition: 0.4s;
   cursor: pointer;
 }
 .page-2-services__container__affiche__left button:hover {
-  transform: scale(1.2);
-  transition: 0.4s;
+  color: #0725bd;
+  border-color: #0725bd;
+  background-color: white;
 }
 .page-2-services__container__affiche__right {
   background-color: #3A3A3A;
@@ -267,15 +270,16 @@
   color: white;
   background-color: #0725bd;
   border: solid 1px #0725bd;
-  padding: 6px 20px 6px 20px;
+  padding: 6px 48px;
   font-size: 20px;
   margin-top: 15px;
   transition: 0.4s;
   cursor: pointer;
 }
 .page-2-services__container__esport__left button:hover {
-  transform: scale(1.2);
-  transition: 0.4s;
+  color: #0725bd;
+  border-color: #0725bd;
+  background-color: white;
 }
 .page-2-services__container__esport__right {
   background-color: #3A3A3A;
@@ -334,15 +338,16 @@
   color: white;
   background-color: #0725bd;
   border: solid 1px #0725bd;
-  padding: 6px 20px 6px 20px;
+  padding: 6px 48px;
   font-size: 20px;
   margin-top: 15px;
   transition: 0.4s;
   cursor: pointer;
 }
 .page-2-services__container__logo__left button:hover {
-  transform: scale(1.2);
-  transition: 0.4s;
+  color: #0725bd;
+  border-color: #0725bd;
+  background-color: white;
 }
 .page-2-services__container__logo__right {
   background-color: #3A3A3A;
@@ -644,15 +649,16 @@
   color: white;
   background-color: #0725bd;
   border: solid 1px #0725bd;
-  padding: 6px 20px 6px 20px;
+  padding: 6px 48px;
   font-size: 20px;
   margin-top: 15px;
   transition: 0.4s;
   cursor: pointer;
 }
 .page-3-services__container__conseil-strategique__left button:hover {
-  transform: scale(1.2);
-  transition: 0.4s;
+  color: #0725bd;
+  border-color: #0725bd;
+  background-color: white;
 }
 .page-3-services__container__conseil-strategique__right {
   background-color: #3A3A3A;
@@ -714,15 +720,16 @@
   color: white;
   background-color: #0725bd;
   border: solid 1px #0725bd;
-  padding: 6px 20px 6px 20px;
+  padding: 6px 48px;
   font-size: 20px;
   margin-top: 15px;
   transition: 0.4s;
   cursor: pointer;
 }
 .page-3-services__container__dossier__left button:hover {
-  transform: scale(1.2);
-  transition: 0.4s;
+  color: #0725bd;
+  border-color: #0725bd;
+  background-color: white;
 }
 .page-3-services__container__dossier__right {
   background-color: #3A3A3A;
@@ -767,7 +774,7 @@
 }
 .page-3-services__container__event__left li {
   margin: 10px 0 0px 25px;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 100;
 }
 .page-3-services__container__event__left p {
@@ -780,7 +787,7 @@
 }
 .page-3-services__container__event__left ul li {
   margin: 5px 0 0px 30px;
-  font-size: 17px;
+  font-size: 18px;
   width: 70%;
 }
 .page-3-services__container__event__left button {
@@ -788,7 +795,7 @@
   background-color: #0725bd;
   border: solid 2px white;
   box-shadow: 7px 10px 15px 1px #3d3d3d;
-  padding: 6px 20px 6px 20px;
+  padding: 6px 48px;
   font-size: 20px;
   transition: 0.4s;
   position: absolute;
@@ -798,8 +805,9 @@
   cursor: pointer;
 }
 .page-3-services__container__event__left button:hover {
-  transform: scale(1.2);
-  transition: 0.4s;
+  color: #0725bd;
+  border-color: #0725bd;
+  background-color: white;
 }
 .page-3-services__container__event__right {
   width: 80%;
@@ -925,7 +933,7 @@
     background-color: #0725bd;
     border: solid 2px white;
     box-shadow: 7px 10px 15px 1px #3d3d3d;
-    padding: 6px 20px 6px 20px;
+    padding: 6px 48px;
     font-size: 20px;
     transition: 0.4s;
     position: absolute;
@@ -935,8 +943,9 @@
     cursor: pointer;
   }
   .page-3-services__container__event__left button:hover {
-    transform: scale(1.2);
-    transition: 0.4s;
+    color: #0725bd;
+    border-color: #0725bd;
+    background-color: white;
   }
   .page-3-services__container__event__right {
     width: 40%;
@@ -1004,15 +1013,16 @@
   color: white;
   background-color: #0725bd;
   border: solid 1px #0725bd;
-  padding: 6px 20px 6px 20px;
+  padding: 6px 48px;
   font-size: 20px;
   margin-top: 15px;
   transition: 0.4s;
   cursor: pointer;
 }
 .page-4-services__container__site-vitrine__left button:hover {
-  transform: scale(1.2);
-  transition: 0.4s;
+  color: #0725bd;
+  border-color: #0725bd;
+  background-color: white;
 }
 .page-4-services__container__site-vitrine__right {
   background-color: #3A3A3A;
@@ -1090,15 +1100,16 @@
     color: white;
     background-color: #0725bd;
     border: solid 1px #0725bd;
-    padding: 6px 20px 6px 20px;
+    padding: 6px 48px;
     font-size: 20px;
     margin-top: 15px;
     transition: 0.4s;
     cursor: pointer;
   }
   .page-4-services__container__site-vitrine__left button:hover {
-    transform: scale(1.2);
-    transition: 0.4s;
+    color: #0725bd;
+    border-color: #0725bd;
+    background-color: white;
   }
   .page-4-services__container__site-vitrine__right {
     background-color: #3A3A3A;
@@ -2729,7 +2740,7 @@ header nav .header-icon i:hover {
   background-image: url("/images/accueil/dpa/fond-accueil.webp");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 100vh;
+  padding-bottom: 300px;
   position: relative;
 }
 .page1__container {
@@ -2789,7 +2800,7 @@ header nav .header-icon i:hover {
 .page2 {
   background-image: url("/images/accueil/dpa/fond-page2.webp");
   background-repeat: no-repeat;
-  height: 100vh;
+  padding-bottom: 250px;
   position: relative;
 }
 .page2__container {
@@ -2824,13 +2835,13 @@ header nav .header-icon i:hover {
   align-items: center;
   justify-content: center;
 }
+.page2__container__dcw--design:hover h2 {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
 .page2__container__dcw--design h2 {
   font-size: 25px;
   color: white;
-  transition: 0.4s;
-}
-.page2__container__dcw--design h2:hover {
-  transform: scale(1.2);
   transition: 0.4s;
 }
 .page2__container__dcw--consulting h2 {
@@ -2852,13 +2863,13 @@ header nav .header-icon i:hover {
   align-items: center;
   justify-content: center;
 }
+.page2__container__dcw--consulting:hover h2 {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
 .page2__container__dcw--consulting h2 {
   width: 340px;
   font-size: 25px;
-  transition: 0.4s;
-}
-.page2__container__dcw--consulting h2:hover {
-  transform: scale(1.2);
   transition: 0.4s;
 }
 .page2__container__dcw--web {
@@ -2874,12 +2885,12 @@ header nav .header-icon i:hover {
   align-items: center;
   justify-content: center;
 }
-.page2__container__dcw--web h2 {
-  font-size: 25px;
+.page2__container__dcw--web:hover h2 {
+  transform: scale(1.2);
   transition: 0.4s;
 }
-.page2__container__dcw--web h2:hover {
-  transform: scale(1.2);
+.page2__container__dcw--web h2 {
+  font-size: 25px;
   transition: 0.4s;
 }
 .page2__container button {
@@ -2902,7 +2913,7 @@ header nav .header-icon i:hover {
 .page3 {
   background-image: url("/images/accueil/dpa/font-page3.webp");
   background-size: cover;
-  height: 100vh;
+  padding-bottom: 300px;
   position: relative;
 }
 .page3__container {
@@ -2994,7 +3005,7 @@ header nav .header-icon i:hover {
 .page4 {
   background-image: url("/images/accueil/avis/fond-avis.webp");
   background-size: cover;
-  height: 100vh;
+  padding-bottom: 300px;
   position: relative;
 }
 .page4 #bottom_arrow {
@@ -3090,7 +3101,7 @@ header nav .header-icon i:hover {
 .page5 {
   background-image: url("/images/accueil/dpa/fond-page2.webp");
   background-repeat: no-repeat;
-  height: 100vh;
+  padding-bottom: 300px;
   position: relative;
 }
 .page5 .page5__container {
@@ -3147,9 +3158,10 @@ header nav .header-icon i:hover {
   width: 20%;
 }
 .page5 .page5__container__content__chiffre h4 {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 500;
   color: #0725bd;
+  font-family: "Poppins";
 }
 .page5 .page5__container__content__chiffre h4 span {
   color: black;
@@ -3158,12 +3170,13 @@ header nav .header-icon i:hover {
 .page5 .page5__container__content__chiffre p {
   font-size: 30px;
   font-weight: 100;
+  font-family: "Poppins";
 }
 
 #footer {
   text-align: center;
   background-image: url("/images/accueil/image-footer.webp");
-  height: 100vh;
+  padding-bottom: 300px;
   color: white;
   background-position: right -50px;
   position: relative;
@@ -3220,7 +3233,7 @@ header nav .header-icon i:hover {
 }
 #footer .footer__container__info__reseaux__icone a i {
   margin-top: 20px;
-  padding: 0px 7px 0px 7px;
+  padding: 0px 20px 0px 20px;
   transition: 0.4s;
 }
 #footer .footer__container__info__reseaux__icone a i:hover {
@@ -3272,7 +3285,7 @@ header nav .header-icon i:hover {
 
 .page1-services {
   background-image: url("/images/services/page1/fond.webp");
-  height: 100vh;
+  padding-bottom: 300px;
   position: relative;
 }
 .page1-services__container {
@@ -3411,7 +3424,7 @@ header nav .header-icon i:hover {
   background-image: url("/images/services/page2/font-page2.webp");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 100vh;
+  padding-bottom: 300px;
   color: white;
   position: relative;
 }
@@ -3508,7 +3521,7 @@ header nav .header-icon i:hover {
   background-image: url("/images/services/page3/fond-page3.webp");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 100vh;
+  padding-bottom: 300px;
   color: white;
   position: relative;
 }
@@ -3520,7 +3533,7 @@ header nav .header-icon i:hover {
   position: relative;
 }
 .page3-services .page-3-services__container__liste ul {
-  margin-top: 130px;
+  margin-top: 180px;
 }
 .page3-services .page-3-services__container__liste ul li {
   font-size: 25px;
@@ -3602,7 +3615,7 @@ header nav .header-icon i:hover {
   background-image: url("/images/services/page4/fond-page4.webp");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 100vh;
+  padding-bottom: 300px;
   color: white;
   position: relative;
 }
@@ -3794,6 +3807,7 @@ header nav .header-icon i:hover {
   color: #fff;
 }
 .page-contact__info__send__info .submit {
+  margin-top: 20px;
   border: 2px solid #fff;
   background-color: transparent;
   padding: 5px 20px;
