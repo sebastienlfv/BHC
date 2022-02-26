@@ -1,10 +1,5 @@
 @media screen and (max-width: 1600px){    
 
-    #close-onglet-service{
-        height: 2790px !important;
-        width: 1500px !important;
-    }
-
     .page1{
         .ancre_page{
             top: 300px;
@@ -105,7 +100,8 @@
 
             .page4__container__avis{
                 width: 1100px;
-                margin-top: 30px;
+                height: 200px !important;
+                margin-top: 20px;
 
                 &__style{
                     padding: 10px 70px;
@@ -129,13 +125,18 @@
 
         .page5__container{
             .page5__container__content{
+                margin-top: 30px;
                 max-width: 1200px;
 
                 &__chiffre{
                     margin-top: 30px;
 
                     h4{
-                        font-size: 35px;
+                        font-size: 50px;
+
+                        span{
+                            font-size: 50px;
+                        }
                     }
 
                     p{
@@ -165,6 +166,7 @@
     }
 
     #footer{
+        padding-bottom: 210px !important;
         .ancre_page{
             top: 300px;
         }
@@ -212,7 +214,7 @@
 
                     h3{
                         font-size: 35px;
-                        width: 50%;
+                        width: 50% !important;
                         margin: auto;
                     }
                 }

@@ -46,19 +46,22 @@
         }
     
         button{
+            margin-top: 10px;
+            margin-bottom: 50px;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 3px 30px 3px 30px;
             color: white;
             background-color: #0725bd;
-            border: solid 1px #0725bd;
-            padding: 6px 48px ;
-            font-size: 20px;
-            margin-top: 15px;
-            transition: 0.4s;
+            border-color: white;
+            border-style: solid;
             cursor: pointer;
-    
+            transition: 0.3s;
+
             &:hover{
+                background-color: white;
                 color: #0725bd;
                 border-color: #0725bd;
-                background-color: white;
             }
         }
     }
@@ -90,7 +93,7 @@
     height: 700px;
     width: 1600px;
     align-items: center;
-    background-image: url("/images/services/page4/Fond\ commerce.png");
+    background-image: url("/images/accueil/dpa/");
     background-color: gray;
     border-radius: 20px;
 
@@ -148,19 +151,22 @@
             }
         
             button{
+                margin-top: 10px;
+                margin-bottom: 50px;
+                font-size: 20px;
+                font-weight: 500;
+                padding: 3px 30px 3px 30px;
                 color: white;
                 background-color: #0725bd;
-                border: solid 1px #0725bd;
-                padding: 6px 48px ;
-                font-size: 20px;
-                margin-top: 15px;
-                transition: 0.4s;
+                border-color: white;
+                border-style: solid;
                 cursor: pointer;
-        
+                transition: 0.3s;
+    
                 &:hover{
+                    background-color: white;
                     color: #0725bd;
                     border-color: #0725bd;
-                    background-color: white;
                 }
             }
         }

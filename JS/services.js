@@ -426,7 +426,7 @@ function changeToDossierEvent(){
 
 function changeToDossierEtdMarche(){
     document.getElementById('AncreMarcheR6').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-dossier').src="images/services/page3/img produits/Etude-de-marché.webp";
+    document.getElementById('img-dossier').src="images/services/page3/img produits/étude-de-marché.webp";
     document.getElementById('AncreVenastyEvent').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreOnesEsport').src="images/accueil/Ancre/blanche vide.png";
 }
@@ -442,14 +442,14 @@ function changeToOnestEsport(){
 
 function changeToStratCom(){
     document.getElementById('AncreStratCom').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-stratcom').src="images/services/page3/img produits/Stratégie-Communication.jpg";
+    document.getElementById('img-stratcom').src="images/services/page3/img produits/tableau-stratégie-communication.webp";
     document.getElementById('AncreMarketing').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreOptiOrga').src="images/accueil/Ancre/blanche vide.png";
 }
 
 function changeToMarketing(){
     document.getElementById('AncreMarketing').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-stratcom').src="images/services/page3/img produit/tableau-stratégie-communication";
+    document.getElementById('img-stratcom').src="images/services/page3/img produits/Stratégie-Marketing.webp";
     document.getElementById('AncreStratCom').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreOptiOrga').src="images/accueil/Ancre/blanche vide.png";
 }
