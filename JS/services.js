@@ -374,9 +374,7 @@ function changeToAfficheConanExile(){
     document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreMax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-affiche').style.height = "455px";
     document.getElementById('img-affiche').style.width = "800px";
-    document.getElementById('ancre-affiche').style.paddingBottom = "none";
 }
 
 function changeToAfficheDraz(){
@@ -385,9 +383,7 @@ function changeToAfficheDraz(){
     document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('AncreMax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-affiche').style.height = "455px";
     document.getElementById('img-affiche').style.width = "800px";
-    document.getElementById('ancre-affiche').style.paddingBottom = "none";
 }
 
 function changeToAfficheMax(){
@@ -396,9 +392,8 @@ function changeToAfficheMax(){
     document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreMax').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-affiche').style.height = "550px";
-    document.getElementById('img-affiche').style.width = "550px";
-    document.getElementById('ancre-affiche').style.paddingBottom = "60px";
+    // document.getElementById('img-affiche').style.width = "450px";
+
 }
 
 function changeToAfficheAfficheVenasty(){
@@ -407,9 +402,7 @@ function changeToAfficheAfficheVenasty(){
     document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreMax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-affiche').style.height = "550px";
-    document.getElementById('img-affiche').style.width = "550px";
-    document.getElementById('ancre-affiche').style.paddingBottom = "60px";
+    // document.getElementById('img-affiche').style.width = "450px";
 }
 
 

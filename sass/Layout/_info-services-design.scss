@@ -13,7 +13,7 @@
         background-image: url("/images/services/page2/details/steampack/Fond\ 1.png");
         background-color: white;
         color: black;
-        padding: 120px 250px 120px 90px;
+        padding: 120px 230px 150px 90px;
         border-radius: 20px 0px 0px 20px;
 
         div{
@@ -70,7 +70,7 @@
 
         .streampack-service{
             width: 800px;
-            padding: 120px 20px 0px 20px;
+            padding: 120px 50px 0px 50px;
         }
 
         div{
@@ -151,7 +151,7 @@
 
         .banniere-service{
             width: 800px;
-            padding: 180px 60px 0px 60px;
+            padding: 220px 60px 0px 60px;
         }
 
         div{
@@ -174,7 +174,7 @@
         background-image: url("/images/services/page2/details/steampack/Fond\ 1.png");
         background-color: white;
         color: black;
-        padding: 60px 140px 100px 140px;
+        padding: 130px 50px 100px 100px;
         border-radius: 20px 0px 0px 20px;
 
         div{
@@ -234,7 +234,7 @@
 
         .affiche-service{
             width: 800px;
-            padding: 100px 70px 10px 70px;
+            padding: 100px 60px 10px 60px;
         }
 
         div{
@@ -257,7 +257,7 @@
         background-image: url("/images/services/page2/details/steampack/Fond\ 1.png");
         background-color: white;
         color: black;
-        padding: 120px 100px 60px 90px;
+        padding: 120px 0px 60px 90px;
         border-radius: 20px 0px 0px 20px;
 
         div{
@@ -275,7 +275,8 @@
             font-weight: 300;
             font-family: "Poppins";
             margin-top: 25px;
-            margin-left: 25px;
+            margin-left: 15px;
+            width: 80%;
 
             li:nth-child(2), li:nth-child(3), li:nth-child(4){
                 margin-top: 15px;
@@ -287,7 +288,7 @@
             font-weight: 300;
             width: 80%;
             font-family: "Poppins";
-            margin-top: 150px;
+            margin-top: 200px;
         }
 
         button{
@@ -316,7 +317,7 @@
         border-radius: 0px 20px 20px 0px;
 
         .esport-service{
-            width: 800px;
+            width: 750px;
             padding: 120px 60px 10px 60px;
         }
 
@@ -421,7 +422,7 @@
         &__right{ 
             .streampack-service{
                 width: 700px;
-                padding: 120px 50px 0px 50px !important;
+                padding: 120px 100px 0px 100px !important;
             }
     
             div{
@@ -437,17 +438,11 @@
         }
 
         &__left{
-            padding: 40px 250px 120px 90px  !important;
+            padding: 100px 150px 120px 90px  !important;
 
             ul{
-                font-size: 18px !important;
+                font-size: 20px;
             }
-
-            p{
-                margin-top: 60px !important;
-                font-size: 15px !important;
-            }
-            
 
             div{
                 img:nth-child(1){
@@ -464,15 +459,15 @@
     .page-2-services__container__banniere{  
         &__right{ 
             .banniere-service{
-                width: 600px !important;
-                padding: 150px 20px 0px 20px !important;
+                width: 700px !important;
+                padding: 220px 80px 0px 80px !important;
             }
     
             div{
                 display: flex;
                 justify-content: center;
                 img{
-                    width: 25px;
+                    width: 20px;
                     margin-right: 10px;
                     padding-bottom: 1px;
                     cursor: pointer;
@@ -481,7 +476,9 @@
         }
 
         &__left{
-            padding-bottom: 60px;
+            padding-bottom: 100px;
+            padding-right: 170px;
+
             ul{
                 font-size: 20px !important;
 
@@ -499,25 +496,31 @@
 
     .page-2-services__container__affiche{  
         &__right{ 
-            padding-bottom: 100px;
+            padding-bottom: 80px;
             .affiche-service{
-                width: 400px;
-                padding: 150px 20px 0px 20px;
+                width: 700px;
+                padding: 120px 100px 0px 100px !important;
             }
     
             div{
                 display: flex;
                 justify-content: center;
                 img{
-                    width: 25px;
+                    width: 20px;
                     margin-right: 10px;
-                    padding-bottom: 1px;
+                    margin-top: 10px;
                     cursor: pointer;
                 }
             }
         }
 
         &__left{
+            padding-bottom: 0px !important;
+
+            p{
+                margin-top: 100px;
+            }
+
             ul{
                 font-size: 20px;
             }
@@ -528,7 +531,7 @@
         &__right{ 
             .esport-service{
                 width: 700px;
-                padding: 100px 45px 0px 45px !important;
+                padding: 100px 90px 10px 90px !important;
             }
     
             div{
@@ -548,11 +551,11 @@
             padding-top: 80px;
 
             ul{
-                font-size: 18px !important;
+                font-size: 20px;
             }
 
             p{
-                margin-top: 90px !important;
+                margin-top: 250px !important;
                 font-size: 15px;
             }
         }
@@ -562,14 +565,14 @@
         &__right{ 
             .logo-service{
                 width: 700px;
-                padding: 100px 20px 0px 20px;
+                padding: 100px 100px 0px 100px !important;
             }
     
             div{
                 display: flex;
                 justify-content: center;
                 img{
-                    width: 25px;
+                    width: 20px;
                     margin-right: 10px;
                     padding-bottom: 1px;
                     cursor: pointer;
@@ -578,7 +581,8 @@
         }
 
         &__left{
-            padding-bottom: 50px !important;
+            padding-bottom: 100px !important;
+            padding-right: 170px;
 
             ul{
                 font-size: 20px;
@@ -596,7 +600,7 @@
         &__right{ 
             .streampack-service{
                 width: 600px;
-                padding: 120px 200px 0px 20px;
+                padding: 100px 80px 0px 80px !important
             }
     
             div{
@@ -613,36 +617,19 @@
 
         &__left{
             padding-right: 0;
-            padding-bottom: 30px;
+            padding-bottom: 10px !important;
+
+            p{
+                margin-top: 100px !important;
+            }
         }
     }
 
     .page-2-services__container__banniere{  
         &__right{ 
             .banniere-service{
-                width: 700px;
-                padding: 200px 20px 0px 20px;
-            }
-    
-            div{
-                display: flex;
-                justify-content: center;
-                img{
-                    width: 20px;
-                    margin-right: 10px;
-                    padding-bottom: 1px;
-                    cursor: pointer;
-                }
-            }
-        }
-    }
-
-    .page-2-services__container__affiche{  
-        &__right{ 
-            padding-bottom: 0px;
-            .affiche-service{
                 width: 600px;
-                padding: 120px 20px 0px 20px;
+                padding: 160px 70px 0px 70px !important;
             }
     
             div{
@@ -658,8 +645,38 @@
         }
 
         &__left{
-            padding-bottom: 40px;
+            padding-bottom: 10px !important;
+            padding-right: 120px ;
+        }
+    }
+
+    .page-2-services__container__affiche{  
+        &__right{ 
+            padding-bottom: 0px;
+            .affiche-service{
+                width: 600px;
+                padding: 100px 80px 0px 80px !important;
+            }
+    
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 20px;
+                    margin-right: 10px;
+                    padding-bottom: 1px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__left{
+            padding-bottom: 30px !important;
             padding-left: 70px;
+            
+            p{
+                margin-top: 100px;
+            }
         }
     }
 
@@ -667,7 +684,7 @@
         &__right{ 
             .esport-service{
                 width: 600px;
-                padding: 100px 20px 0px 20px;
+                padding: 100px 60px 10px 60px !important;
             }
     
             div{
@@ -694,7 +711,7 @@
             }
 
             p{
-                margin-top: 70px;
+                margin-top: 150px !important;
             }
         }
     }
@@ -703,7 +720,7 @@
         &__right{ 
             .logo-service{
                 width: 600px;
-                padding: 100px 20px 0px 20px;
+                padding: 100px 70px 0px 70px !important;
             }
     
             div{
@@ -719,7 +736,7 @@
         }
 
         &__left{
-            padding-bottom: 50px;
+            padding-bottom: 30px !important;
         }
     }
 }

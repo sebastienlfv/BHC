@@ -15,7 +15,7 @@
         background-color: white;
         background-size: cover;
         color: black;
-        padding: 120px 250px 100px 200px;
+        padding: 120px 50px 100px 210px;
         border-radius: 0px 20px 20px 0px;
     
         div{
@@ -34,7 +34,7 @@
             font-family: "Poppins";
             margin-top: 25px;
             margin-left: 25px;
-            width: 80%;
+            width: 100%;
 
             li:nth-child(2), li:nth-child(3){
                 margin-top: 15px;
@@ -78,7 +78,7 @@
             border-radius: 20px;
             width: 350px;
             height: 400px;
-            padding: 120px 150px 20px 150px;
+            padding: 120px 220px 20px 220px;
         }
     
         div{
@@ -101,7 +101,7 @@
         background-color: white;
         background-size: cover;
         color: black;
-        padding: 120px 300px 150px 200px;
+        padding: 120px 100px 100px 250px;
         border-radius: 0px 20px 20px 0px;
     
         div{
@@ -162,9 +162,8 @@
         .dossier-service{
             background-size: cover;
             border-radius: 20px;
-            width: 350px;
             height: 400px;
-            padding: 120px 150px 20px 150px;
+            padding: 120px 250px 20px 250px;
         }
     
         div{
@@ -186,6 +185,7 @@
     border-radius: 20px;
 
     &__global{
+        padding: 100px;
         display: flex;
         flex-direction: row-reverse;
         width: 80%;
@@ -239,6 +239,9 @@
             border-style: solid;
             cursor: pointer;
             transition: 0.3s;
+            position: absolute;
+            bottom: -20px;
+            right: 550px;
 
             &:hover{
                 background-color: white;
@@ -272,6 +275,279 @@
             }
         }
     }    
+}
+
+@media screen and (max-width: 1800px) {
+    .page-3-services__container__conseil-strategique{
+        display: none;
+        flex-direction: row-reverse;
+    
+        &__left{
+            background-image: url("/images/services/page2/details/steampack/Fond\ 1.png");
+            background-color: white;
+            background-size: cover;
+            color: black;
+            padding: 120px 50px 50px 250px;
+            border-radius: 0px 20px 20px 0px;
+        
+            div{
+                img:nth-child(1){
+                    width: 76px;
+                    margin-right: 30px;
+                }
+                img:nth-child(2){
+                    width: 182px;
+                }
+            }
+        
+            ul{
+                font-size: 20px;
+                font-weight: 300;
+                font-family: "Poppins";
+                margin-top: 25px;
+                margin-left: 25px;
+                width: 100%;
+    
+                li:nth-child(2), li:nth-child(3){
+                    margin-top: 15px;
+                }
+            }
+        
+            p{
+                font-size: 18px;
+                font-weight: 300;
+                font-family: "Poppins";
+                margin-top: 100px;
+            }
+        
+            button{
+                margin-top: 10px;
+                margin-bottom: 50px;
+                font-size: 20px;
+                font-weight: 500;
+                padding: 3px 30px 3px 30px;
+                color: white;
+                background-color: #0725bd;
+                border-color: white;
+                border-style: solid;
+                cursor: pointer;
+                transition: 0.3s;
+    
+                &:hover{
+                    background-color: white;
+                    color: #0725bd;
+                    border-color: #0725bd;
+                }
+            }
+        }
+        
+        &__right{
+            background-color: #3A3A3A;
+            border-radius: 20px 0px 0px 20px;
+        
+            .strategie-service{
+                background-size: cover;
+                border-radius: 20px;
+                width: 350px;
+                height: 400px;
+                padding: 120px 220px 20px 220px;
+            }
+        
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 25px;
+                    margin-right: 10px;
+                }
+            }
+        }    
+    }
+    
+    .page-3-services__container__dossier{
+        display: none;
+        flex-direction: row-reverse;
+    
+        &__left{
+            background-image: url("/images/services/page2/details/steampack/Fond\ 1.png");
+            background-color: white;
+            background-size: cover;
+            color: black;
+            padding: 120px 100px 50px 270px;
+            border-radius: 0px 20px 20px 0px;
+        
+            div{
+                img:nth-child(1){
+                    width: 76px;
+                    margin-right: 30px;
+                }
+                img:nth-child(2){
+                    width: 182px;
+                }
+            }
+        
+            ul{
+                font-size: 20px;
+                font-weight: 300;
+                font-family: "Poppins";
+                margin-top: 25px;
+                margin-left: 25px;
+                width: 80%;
+    
+                li:nth-child(2), li:nth-child(3){
+                    margin-top: 15px;
+                }
+            }
+        
+            p{
+                font-size: 18px;
+                font-weight: 300;
+                font-family: "Poppins";
+                margin-top: 100px;
+            }
+        
+            button{
+                margin-top: 10px;
+                margin-bottom: 50px;
+                font-size: 20px;
+                font-weight: 500;
+                padding: 3px 30px 3px 30px;
+                color: white;
+                background-color: #0725bd;
+                border-color: white;
+                border-style: solid;
+                cursor: pointer;
+                transition: 0.3s;
+    
+                &:hover{
+                    background-color: white;
+                    color: #0725bd;
+                    border-color: #0725bd;
+                }
+            }
+        }
+        
+        &__right{
+            background-color: #3A3A3A;
+            border-radius: 20px 0px 0px 20px;
+        
+            .dossier-service{
+                background-size: cover;
+                border-radius: 20px;
+                height: 400px;
+                padding: 120px 250px 20px 250px;
+            }
+        
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 25px;
+                    margin-right: 10px;
+                }
+            }
+        }    
+    }
+    
+    .page-3-services__container__event{
+        background-image: url("/images/services/page3/overlay-projet-event-2.webp");
+        height: 600px;
+        width: 1450px;
+        display: none;
+        border-radius: 20px;
+    
+        &__global{
+            padding: 100px;
+            display: flex;
+            flex-direction: row-reverse;
+            width: 80%;
+            margin: auto;
+            justify-content: space-between;
+            position: relative;
+        }
+    
+        &__left{
+            color: black;
+        
+            div{
+                img{
+                    width: 76px;
+                }
+            }
+    
+            li{
+                margin: 10px 0 0px 25px;
+                font-size: 18px;
+                font-weight: 100;
+            }
+    
+            p{
+                margin-top: 20px;
+                font-weight: 100;
+            }
+    
+            ul{
+                p{
+                    font-size: 20px;
+                    font-weight: 100;
+                }
+    
+                li{
+                    margin: 5px 0 0px 30px;
+                    font-size: 18px;
+                    width: 70%;
+                }
+            }
+        
+            button{
+                margin-top: 10px;
+                margin-bottom: 50px;
+                font-size: 20px;
+                font-weight: 500;
+                padding: 3px 30px 3px 30px;
+                color: white;
+                background-color: #0725bd;
+                border-color: white;
+                border-style: solid;
+                cursor: pointer;
+                transition: 0.3s;
+                position: absolute;
+                bottom: -5px;
+                right: 550px;
+    
+                &:hover{
+                    background-color: white;
+                    color: #0725bd;
+                    border-color: #0725bd;
+                }
+            }
+        }
+        
+        &__right{   
+            width: 80%;
+            li{
+                margin: 10px 0 0px 25px;
+                font-size: 21px;
+            }
+    
+            p{
+                width: 45%;
+                margin-top: 20px;
+            }
+    
+            ul{
+                p{
+                    font-size: 20px;
+                }
+    
+                li{
+                    margin: 5px 0 0px 20px;
+                    font-size: 18px;
+                    width: 60%;
+                }
+            }
+        }    
+    }
 }
 
 @media screen and (max-width: 1600px) {
@@ -327,7 +603,7 @@
     .page-3-services__container__dossier{
     
         &__left{
-            padding: 90px 200px 40px 150px !important;
+            padding: 90px 150px 40px 250px !important;
         
             div{
                 img:nth-child(1){
