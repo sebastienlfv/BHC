@@ -1813,6 +1813,9 @@
   .page4 {
     background-size: cover;
   }
+  .page4 #avis1, .page4 #avis3 {
+    margin-top: 15px !important;
+  }
   .page4 .ancre_page {
     top: 300px;
   }
@@ -3455,8 +3458,15 @@ header nav .header-icon i:hover {
   padding-bottom: 300px;
   position: relative;
 }
+.page4 #top_arrow {
+  transform: rotate(90deg);
+  margin-top: 50px;
+}
+.page4 #bottom_arrow {
+  transform: rotate(-90deg);
+}
 .page4 i {
-  font-size: 100px;
+  font-size: 70px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -3472,30 +3482,17 @@ header nav .header-icon i:hover {
   font-size: 35px;
   margin-top: 20px;
 }
-.page4__container #avis1 {
-  display: flex;
+.page4__container #avis1, .page4__container #avis3 {
+  margin-top: 60px;
 }
-.page4__container #avis2 {
-  display: flex;
-}
-.page4__container #avis3 {
-  display: none;
-}
-.page4__container #avis4 {
-  display: none;
-}
-.page4__container #avis5 {
-  display: none;
-}
-.page4__container #avis6 {
-  display: none;
+.page4__container #avis2, .page4__container #avis4 {
+  margin-top: 40px;
 }
 .page4__container__avis {
   background-color: white;
   width: 1125px;
   height: 225px;
   margin: auto;
-  margin-top: 80px;
   border-radius: 20px;
   display: flex;
   box-shadow: 10px 10px 20px black;

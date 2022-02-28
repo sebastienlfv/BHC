@@ -500,8 +500,17 @@ header{
     padding-bottom: 300px;
     position: relative;
 
+    #top_arrow{
+        transform: rotate(90deg);
+        margin-top: 50px;
+    }
+
+    #bottom_arrow{
+        transform: rotate(-90deg);
+    }
+
     i{
-        font-size: 100px;
+        font-size: 70px;
         cursor: pointer;
         transition: 0.3s;
 
@@ -520,28 +529,12 @@ header{
             margin-top: 20px;
         }
 
-        #avis1{
-            display: flex;
+        #avis1, #avis3{
+            margin-top: 60px;
         }
 
-        #avis2{
-            display: flex;
-        }
-
-        #avis3{
-            display: none;
-        }
-
-        #avis4{
-            display: none;
-        }
-
-        #avis5{
-            display: none;
-        }
-
-        #avis6{
-            display: none;
+        #avis2, #avis4{
+            margin-top: 40px;
         }
 
         &__avis{
@@ -549,7 +542,6 @@ header{
             width: 1125px;
             height: 225px;
             margin: auto;
-            margin-top: 80px;
             border-radius: 20px;
             display: flex;
             box-shadow: 10px 10px 20px black;
