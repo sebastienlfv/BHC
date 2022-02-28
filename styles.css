@@ -2011,17 +2011,26 @@
   }
 }
 @media screen and (max-width: 500px) {
-  header nav .burger-container {
-    display: flex !important;
+  header .burger-content {
+    display: flex;
   }
-  header nav button {
+  header nav #btn-burger {
     width: 35px;
     position: absolute !important;
     left: 15px;
     top: 15px;
     background: transparent;
     border: none;
-    display: flex !important;
+    display: flex;
+  }
+  header nav #close-burger {
+    width: 35px;
+    position: absolute !important;
+    left: 15px;
+    top: 15px;
+    background: transparent;
+    border: none;
+    display: none;
   }
   header nav .header-nav {
     margin-left: 0 !important;
@@ -3057,6 +3066,46 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
+header button {
+  display: none;
+}
+header .burger-content {
+  display: none;
+  background-image: url("/images/accueil/dpa/fond-page2.webp");
+  background-size: cover;
+  background-color: white;
+  height: 429px;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  transition: 0.4s;
+  flex-direction: column;
+}
+header .burger-content .active {
+  color: #0725bd;
+}
+header .burger-content ul {
+  padding-top: 100px;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 100;
+}
+header .burger-content ul li {
+  color: black;
+  padding-bottom: 20px;
+}
+header .burger-content .mention-legal {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  padding-top: 80px;
+}
+header .burger-content .mention-legal a {
+  color: black;
+  font-size: 10px;
+}
 header nav {
   display: flex;
   align-items: center;
@@ -3067,21 +3116,8 @@ header nav {
   width: 100%;
   z-index: 99;
 }
-header nav button {
-  display: none;
-}
 header nav .header-nav {
   margin-left: 48px;
-}
-header nav .header-nav .burger-container {
-  display: none;
-}
-header nav .header-nav .burger-container .burger-content {
-  display: none;
-  background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1 2.png");
-  background-color: white;
-  height: 100px;
-  width: 400px;
 }
 header nav .header-nav ul {
   display: flex;
@@ -3434,6 +3470,18 @@ header nav .header-icon i:hover {
   color: white;
   font-size: 35px;
   margin-top: 20px;
+}
+.page4__container #avis1 {
+  display: flex;
+}
+.page4__container #avis2 {
+  display: flex;
+}
+.page4__container #avis3 {
+  display: none;
+}
+.page4__container #avis4 {
+  display: none;
 }
 .page4__container__avis {
   background-color: white;

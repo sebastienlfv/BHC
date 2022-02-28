@@ -19,29 +19,8 @@
         <header>
             <nav>
                 <div class="header-nav">                   
-                    <div class="burger-container">
-                        <button id="btn-burger"><img src="./images/Téléphone/burger.png" alt="menu burger" class="burger"></button>
-                        <div id="burger-content" class="burger-content">
-                            <ul>
-                                <div>
-                                    <a href="index.html"><li class="active">ACCUEIL</li></a>
-                                    <div class="border-nav"></div>
-                                </div>
-                                <div>
-                                    <a href="services.html"><li>SERVICES</li></a>
-                                    <div class="border-nav"></div>
-                                </div>
-                                <div>
-                                    <a href="contact.html"><li>CONTACT</li></a>
-                                    <div class="border-nav"></div>
-                                </div>
-                                <div>
-                                    <a href="connect.html"><li>SE CONNECTER</li></a>
-                                    <div class="border-nav"></div>
-                                </div>
-                            </ul>
-                        </div>
-                    </div>
+                    <button id="btn-burger"><img src="./images/Téléphone/burger.png" alt="menu burger" class="burger" id="burger" onclick="openBurger()"></button>
+                    <button id="close-burger"><img src="./images/Téléphone/close-burger.png" alt="close burger" id="imgCloseBurger" onclick="closeBurger()"></button>
                     <ul>
                         <div>
                             <a href="index.html"><li class="border-bottom-li active">ACCUEIL</li></a>
@@ -67,6 +46,30 @@
                     <a href="https://discord.com/invite/pXFpGV4T8U" target="-blank"><i class="fab fa-discord"></i></a>
                 </div>
             </nav>
+            <div id="burger-content" class="burger-content">
+                <ul>
+                    <div>
+                        <a href="index.html"><li class="active">ACCUEIL</li></a>
+                        <div class="border-nav"></div>
+                    </div>
+                    <div>
+                        <a href="services.html"><li>SERVICES</li></a>
+                        <div class="border-nav"></div>
+                    </div>
+                    <div>
+                        <a href="contact.html"><li>CONTACT</li></a>
+                        <div class="border-nav"></div>
+                    </div>
+                    <div>
+                        <a href="connect.html"><li>SE CONNECTER</li></a>
+                        <div class="border-nav"></div>
+                    </div>
+                </ul>
+                <div class="mention-legal">
+                    <p><a href="#">Politique de confidentialité</a></p>
+                    <p><a href="#">Gestion des cookies</a></p>
+                </div>
+            </div>
         </header>
         <main>
             <section class="page1 slide" id="page1">
@@ -155,7 +158,7 @@
                 </div>
                 <div class="page4__container">
                     <h2>AVIS CLIENTS</h2>
-                    <div class="page4__container__avis">
+                    <div class="page4__container__avis" id="avis1">
                         <div class="page4__container__avis__style">
                             <div class="page4__container__avis__style__info">
                                 <img src="./images/accueil/avis/user/light.jpg" alt="Profile">
@@ -184,7 +187,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="page4__container__avis">
+                    <div class="page4__container__avis" id="avis2">
                         <div class="page4__container__avis__style">
                             <div class="page4__container__avis__style__info">
                                 <img src="./images/accueil/avis/user/onestesport.webp" alt="Profile">
@@ -209,6 +212,65 @@
                                 <h4>COMMENTAIRE</h4>
                                 <p>Travail rapide, à l'écoute de toutes nos demandes avec une qualité de 
                                     service et un temps de réalisation incroyable. Très satisfait !
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page4__container__avis" id="avis3">
+                        <div class="page4__container__avis__style">
+                            <div class="page4__container__avis__style__info">
+                                <img src="./images/accueil/avis/user/onestesport.webp" alt="Profile">
+                                <h4>BOT_NOTELDRIE</h4>
+                                <p>@NOTELDRIE</p>
+                            </div>
+                            <div class="page4__container__avis__style__type">
+                                <div class="page4__container__avis__style__type--desc">
+                                    <h4>TYPE DE VISUEL</h4>
+                                    <p>LOGO,BANNIERE,STREAMPACK</p>
+                                </div>
+                                <div class="page4__container__avis__style__type--note note-onest">
+                                    <h4>NOTE</h4>
+                                    <div>
+                                        <img src="./images/accueil/avis/arrow.png" alt="">
+                                        <img src="./images/accueil/avis/arrow.png" alt="">
+                                        <p>10<span>/10</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="page4__container__avis__style__com">
+                                <h4>COMMENTAIRE</h4>
+                                <p>
+                                    2ème commande prise et toujours aurant satisfait du travail.
+                                    Rien à dire sur la qualité du travail rendu ainsi que du services et très à l'écoute
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page4__container__avis" id="avis4">
+                        <div class="page4__container__avis__style">
+                            <div class="page4__container__avis__style__info">
+                                <img src="./images/accueil/avis/user/onestesport.webp" alt="Profile">
+                                <h4>RED</h4>
+                                <p>@REDOUANZEM</p>
+                            </div>
+                            <div class="page4__container__avis__style__type">
+                                <div class="page4__container__avis__style__type--desc">
+                                    <h4>TYPE DE VISUEL</h4>
+                                    <p>LOGO,STREAMPACK</p>
+                                </div>
+                                <div class="page4__container__avis__style__type--note note-onest">
+                                    <h4>NOTE</h4>
+                                    <div>
+                                        <img src="./images/accueil/avis/arrow.png" alt="">
+                                        <img src="./images/accueil/avis/arrow.png" alt="">
+                                        <p>10<span>/10</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="page4__container__avis__style__com">
+                                <h4>COMMENTAIRE</h4>
+                                <p>
+                                    Super rapide et travail bien accomplie !
                                 </p>
                             </div>
                         </div>
@@ -324,4 +386,5 @@
 
     <script src="./JS/services.js"></script>
     <script src="./JS/index.js"></script>
+    <script src="./JS/phone.js"></script>
 </body>

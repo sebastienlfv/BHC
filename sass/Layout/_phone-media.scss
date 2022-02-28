@@ -1,18 +1,31 @@
 @media screen and (max-width: 500px) {
 
     header{
+
+        .burger-content{
+            display: flex;
+        }
+        
         nav{
-            .burger-container{
-                display: flex !important;
-            }
-            button{
+
+            #btn-burger{
                 width: 35px;
                 position: absolute !important;
                 left: 15px;
                 top: 15px;
                 background: transparent;
                 border: none;
-                display: flex !important;
+                display: flex;
+            }
+
+            #close-burger{
+                width: 35px;
+                position: absolute !important;
+                left: 15px;
+                top: 15px;
+                background: transparent;
+                border: none;
+                display: none;
             }
 
             .header-nav{

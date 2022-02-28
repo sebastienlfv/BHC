@@ -31,8 +31,6 @@ h1,h2,h3,h4,h5,h6{
     opacity: 0.7;
 }
 
-
-
 .ancre_page{
     position: absolute;
     display: flex;
@@ -49,6 +47,52 @@ h1,h2,h3,h4,h5,h6{
 }
 
 header{
+    button{
+        display: none;
+    }
+
+    .burger-content{
+        display: none;
+        background-image: url("/images/accueil/dpa/fond-page2.webp");
+        background-size: cover;
+        background-color: white;
+        height: 429px;
+        width: 100%;
+        z-index: 2;
+        position: absolute;
+        transition: 0.4s;
+        flex-direction: column;
+
+        .active{
+            color: #0725bd;
+        }
+
+        ul{
+            padding-top: 100px;
+            text-align: center;
+            width: 100%;
+            font-size: 20px;
+            font-weight: 100;
+            
+            li{
+                color: black;
+                padding-bottom: 20px;
+            }
+        }
+
+        .mention-legal{
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            margin: auto;
+            padding-top: 80px;
+            a{
+                color: black;
+                font-size: 10px;
+            }
+        }
+    }
+
     nav{
         display: flex;
         align-items: center;
@@ -58,23 +102,8 @@ header{
         position: fixed;
         width: 100%;
         z-index: 99;
-
-        button{
-            display: none;
-        }
         
         & .header-nav{ 
-            .burger-container{
-                display: none;
-
-                .burger-content{
-                    display: none;
-                    background-image: url("/images/Téléphone/Accueil/Fond/fond-acceuil-1\ 2.png");
-                    background-color: white;
-                    height: 100px;
-                    width: 400px;
-                }
-            }
             
             margin-left: 48px;
             & ul{
@@ -489,6 +518,22 @@ header{
             color: white;
             font-size: 35px;
             margin-top: 20px;
+        }
+
+        #avis1{
+            display: flex;
+        }
+
+        #avis2{
+            display: flex;
+        }
+
+        #avis3{
+            display: none;
+        }
+
+        #avis4{
+            display: none;
         }
 
         &__avis{

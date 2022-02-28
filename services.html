@@ -18,29 +18,8 @@
         <header>
             <nav>
                 <div class="header-nav">                   
-                    <div class="burger-container">
-                        <button id="btn-burger"><img src="./images/Téléphone/burger.png" alt="menu burger" class="burger"></button>
-                        <div id="burger-content" class="burger-content">
-                            <ul>
-                                <div>
-                                    <a href="index.html"><li class="active">ACCUEIL</li></a>
-                                    <div class="border-nav"></div>
-                                </div>
-                                <div>
-                                    <a href="services.html"><li>SERVICES</li></a>
-                                    <div class="border-nav"></div>
-                                </div>
-                                <div>
-                                    <a href="contact.html"><li>CONTACT</li></a>
-                                    <div class="border-nav"></div>
-                                </div>
-                                <div>
-                                    <a href="connect.html"><li>SE CONNECTER</li></a>
-                                    <div class="border-nav"></div>
-                                </div>
-                            </ul>
-                        </div>
-                    </div>
+                    <button id="btn-burger"><img src="./images/Téléphone/burger.png" alt="menu burger" class="burger" id="burger" onclick="openBurger()"></button>
+                    <button id="close-burger"><img src="./images/Téléphone/close-burger.png" alt="close burger" id="imgCloseBurger" onclick="closeBurger()"></button>
                     <ul>
                         <div>
                             <a href="index.html"><li class="border-bottom-li">ACCUEIL</li></a>
@@ -66,6 +45,30 @@
                     <a href="https://discord.com/invite/pXFpGV4T8U" target="-blank"><i class="fab fa-discord"></i></a>
                 </div>
             </nav>
+            <div id="burger-content" class="burger-content">
+                <ul>
+                    <div>
+                        <a href="index.html"><li>ACCUEIL</li></a>
+                        <div class="border-nav"></div>
+                    </div>
+                    <div>
+                        <a href="services.html"><li class="active">SERVICES</li></a>
+                        <div class="border-nav"></div>
+                    </div>
+                    <div>
+                        <a href="contact.html"><li>CONTACT</li></a>
+                        <div class="border-nav"></div>
+                    </div>
+                    <div>
+                        <a href="connect.html"><li>SE CONNECTER</li></a>
+                        <div class="border-nav"></div>
+                    </div>
+                </ul>
+                <div class="mention-legal">
+                    <p><a href="#">Politique de confidentialité</a></p>
+                    <p><a href="#">Gestion des cookies</a></p>
+                </div>
+            </div>
         </header>
         <main>
             <section class="page1-services" id="page1-services">
