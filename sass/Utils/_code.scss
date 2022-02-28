@@ -59,7 +59,7 @@ header{
         height: 429px;
         width: 100%;
         z-index: 2;
-        position: absolute;
+        position: fixed;
         transition: 0.4s;
         flex-direction: column;
 
@@ -533,6 +533,14 @@ header{
         }
 
         #avis4{
+            display: none;
+        }
+
+        #avis5{
+            display: none;
+        }
+
+        #avis6{
             display: none;
         }
 

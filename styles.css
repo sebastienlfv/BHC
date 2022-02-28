@@ -2105,7 +2105,7 @@
     background-image: url("/images/Téléphone/Accueil/Présentation/Design.png") !important;
     background-size: 120% !important;
     background-position: left 0 top 0px !important;
-    width: 90% !important;
+    width: 350px !important;
     height: 125px !important;
     margin-bottom: 50px;
   }
@@ -2116,8 +2116,9 @@
     background-image: url("/images/Téléphone/Accueil/Présentation/Consulting.png") !important;
     background-size: 120% !important;
     background-position: left 0 top 0px !important;
-    width: 90% !important;
+    width: 350px !important;
     height: 125px !important;
+    margin: auto;
     margin-bottom: 50px;
   }
   .page2__container__dcw--consulting h2 {
@@ -2127,7 +2128,7 @@
     background-image: url("/images/Téléphone/Accueil/Présentation/Develloppemen.png") !important;
     background-size: 120% !important;
     background-position: left 0 top 0px !important;
-    width: 90% !important;
+    width: 350px !important;
     height: 125px !important;
   }
   .page2__container__dcw--web h2 {
@@ -3077,7 +3078,7 @@ header .burger-content {
   height: 429px;
   width: 100%;
   z-index: 2;
-  position: absolute;
+  position: fixed;
   transition: 0.4s;
   flex-direction: column;
 }
@@ -3481,6 +3482,12 @@ header nav .header-icon i:hover {
   display: none;
 }
 .page4__container #avis4 {
+  display: none;
+}
+.page4__container #avis5 {
+  display: none;
+}
+.page4__container #avis6 {
   display: none;
 }
 .page4__container__avis {
