@@ -367,6 +367,8 @@ function changeToLogoZiakCorp(){
 
 // ANCRE AFFICHE
 
+// const mediaQueries1800 = window.matchMedia('min-width: 1800px');
+
 
 function changeToAfficheConanExile(){
     document.getElementById('AncreConanExile').src="images/accueil/Ancre/blanche pleine.png";
@@ -374,7 +376,8 @@ function changeToAfficheConanExile(){
     document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreMax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-affiche').style.width = "800px";
+    document.getElementById('img-affiche').style.paddingLeft = "60px";
+    document.getElementById('img-affiche').style.paddingRight = "60px";
 }
 
 function changeToAfficheDraz(){
@@ -383,27 +386,34 @@ function changeToAfficheDraz(){
     document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('AncreMax').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-affiche').style.width = "800px";
+    document.getElementById('img-affiche').style.paddingLeft = "60px";
+    document.getElementById('img-affiche').style.paddingRight = "60px";
 }
 
-function changeToAfficheMax(){
-    document.getElementById('AncreConanExile').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-affiche').src="/images/services/page2/details/affiche/Affiche_Max-Verstappen.png";
-    document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('AncreMax').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche vide.png";
-    // document.getElementById('img-affiche').style.width = "450px";
+// function changeToAfficheMax(){
+//     document.getElementById('AncreConanExile').src="images/accueil/Ancre/blanche vide.png";
+//     document.getElementById('img-affiche').src="/images/services/page2/details/affiche/Affiche_Max-Verstappen.png";
+//     document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
+//     document.getElementById('AncreMax').src="images/accueil/Ancre/blanche pleine.png";
+//     document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche vide.png";
+//     document.getElementById('img-affiche').style.width = "343px";
+//     document.getElementById('img-affiche').style.height = "485px";
+//     document.getElementById('img-affiche').style.paddingLeft = "288.5px";
+//     document.getElementById('img-affiche').style.paddingRight = "288.5px";
 
-}
+// }
 
-function changeToAfficheAfficheVenasty(){
-    document.getElementById('AncreConanExile').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('img-affiche').src="/images/services/page2/details/affiche/Affiche_Venasty.png";
-    document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('AncreMax').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche pleine.png";
-    // document.getElementById('img-affiche').style.width = "450px";
-}
+// function changeToAfficheAfficheVenasty(){
+//     document.getElementById('AncreConanExile').src="images/accueil/Ancre/blanche vide.png";
+//     document.getElementById('img-affiche').src="/images/services/page2/details/affiche/Affiche_Venasty.png";
+//     document.getElementById('AncreDraz').src="images/accueil/Ancre/blanche vide.png";
+//     document.getElementById('AncreMax').src="images/accueil/Ancre/blanche vide.png";
+//     document.getElementById('AncreAfficheVenasty').src="images/accueil/Ancre/blanche pleine.png";
+//     document.getElementById('img-affiche').style.width = "343px";
+//     document.getElementById('img-affiche').style.height = "485px";
+//     document.getElementById('img-affiche').style.paddingLeft = "288.5px";
+//     document.getElementById('img-affiche').style.paddingRight = "288.5px";
+// }
 
 
 // ANCRE PAGE CONSULTING

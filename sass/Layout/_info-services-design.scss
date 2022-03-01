@@ -233,6 +233,7 @@
         border-radius: 0px 20px 20px 0px;
 
         .affiche-service{
+            height: 485px;
             width: 800px;
             padding: 100px 60px 10px 60px;
         }
@@ -496,7 +497,7 @@
 
     .page-2-services__container__affiche{  
         &__right{ 
-            padding-bottom: 80px;
+            padding-bottom: 40px;
             .affiche-service{
                 width: 700px;
                 padding: 120px 100px 0px 100px !important;
@@ -628,7 +629,7 @@
     .page-2-services__container__banniere{  
         &__right{ 
             .banniere-service{
-                width: 600px;
+                width: 600px !important;
                 padding: 160px 70px 0px 70px !important;
             }
     
@@ -655,6 +656,7 @@
             padding-bottom: 0px;
             .affiche-service{
                 width: 600px;
+                height: 400px;
                 padding: 100px 80px 0px 80px !important;
             }
     

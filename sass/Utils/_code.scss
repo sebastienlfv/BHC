@@ -21,6 +21,10 @@ h1,h2,h3,h4,h5,h6{
     cursor: pointer;
 }
 
+.mobile-maintenance{
+    display: none;
+}
+
 #close-onglet-service{
     display: none;
     position: absolute;
@@ -549,6 +553,7 @@ header{
             &__style{
                 display: flex;
                 padding: 20px 70px 20px 70px;
+                width: 100%;
                 justify-content: space-between;
 
                 &__info{
@@ -1362,7 +1367,7 @@ header{
 .page-contact{
     background: linear-gradient(180deg, rgba(43,43,43,1) 6%, rgba(0,0,0,1) 45%);
     background-size: cover;
-    height: 100vh;
+    padding-bottom: 21px;
 
     &__titre{
         display: flex;
@@ -1529,7 +1534,7 @@ header{
         text-align: center;
         font-size: 20px;
         font-weight: 100;
-        margin-top: 140px;
+        margin-top: 120px;
         margin-bottom: 20px;
         color: white;
     }
