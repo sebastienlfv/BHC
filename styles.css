@@ -1325,8 +1325,8 @@
   height: 700px;
   width: 1600px;
   align-items: center;
-  background-image: url("/images/accueil/dpa/");
-  background-color: gray;
+  background-image: url("/images/accueil/dpa/Fond 1.png");
+  background-color: #3a3a3a;
   border-radius: 20px;
 }
 .page-4-services__container__site-ecommerce img {
@@ -1716,7 +1716,7 @@
   }
 
   .page-contact {
-    padding-bottom: 16px !important;
+    padding-bottom: 22px !important;
   }
   .page-contact .page-contact__titre__p p {
     font-size: 30px;
@@ -1989,7 +1989,7 @@
   }
 
   .page-contact {
-    padding-bottom: 18px !important;
+    padding-bottom: 27px !important;
   }
   .page-contact__titre {
     width: 1350px !important;
@@ -2454,9 +2454,9 @@ header nav .header-icon i:hover {
   cursor: pointer;
 }
 .page3__container__slide--h3 h3 {
-  font-size: 60px;
+  font-size: 40px;
   position: absolute;
-  bottom: 10px;
+  bottom: 2px;
 }
 .page3__container__slide__arrow {
   display: flex;
@@ -3220,7 +3220,7 @@ header nav .header-icon i:hover {
 .page-contact {
   background: linear-gradient(180deg, #2b2b2b 6%, black 45%);
   background-size: cover;
-  padding-bottom: 21px;
+  padding-bottom: 28px;
 }
 .page-contact__titre {
   display: flex;
@@ -3306,7 +3306,8 @@ header nav .header-icon i:hover {
   font-size: 15px;
   padding: 5px 5px;
   margin: 15px 0px;
-  width: 150px;
+  width: 100px;
+  margin-right: 15px;
 }
 .page-contact__info__send__info div {
   display: flex;
@@ -3320,7 +3321,9 @@ header nav .header-icon i:hover {
   font-weight: 400;
   font-size: 15px;
   padding: 5px 2px;
-  width: 150px;
+  width: 110px;
+  margin-right: 15px;
+  cursor: pointer;
 }
 .page-contact__info__send__info option {
   background-color: black;
@@ -3333,12 +3336,71 @@ header nav .header-icon i:hover {
 }
 .page-contact__info__send__info .submit {
   margin-top: 20px;
-  border: 2px solid #fff;
-  background-color: transparent;
+  border: 2px solid #0725bd;
+  background-color: white;
   padding: 5px 20px;
-  color: white;
+  color: #0725bd;
   font-size: 15px;
+  font-weight: 500;
   cursor: pointer;
+}
+.page-contact__info__send__info--ligne1 {
+  display: flex;
+  flex-direction: row !important;
+}
+.page-contact__info__send__info--ligne1 #span-cv {
+  background-color: #0725BD33;
+  border: 1px solid #0725bd;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 5px 10px;
+  position: relative;
+  width: 80px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  height: 23px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.page-contact__info__send__info--ligne1 #span-cv input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  direction: ltr;
+  height: 33px;
+  width: 100px;
+}
+.page-contact__info__send__info--ligne2 {
+  display: flex;
+  flex-direction: row !important;
+}
+.page-contact__info__send__info--ligne2 #span-lm {
+  background-color: #0725BD33;
+  border: 1px solid #0725bd;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 5px 10px;
+  position: relative;
+  width: 80px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.page-contact__info__send__info--ligne2 input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  direction: ltr;
+  height: 33px;
+  width: 100px;
 }
 .page-contact .mention-legal-contact {
   display: flex;

@@ -434,9 +434,9 @@ header{
                 cursor: pointer;
 
                 h3{
-                    font-size: 60px;
+                    font-size: 40px;
                     position: absolute;
-                    bottom: 10px;
+                    bottom: 2px;
                 }
             }
 
@@ -1367,7 +1367,7 @@ header{
 .page-contact{
     background: linear-gradient(180deg, rgba(43,43,43,1) 6%, rgba(0,0,0,1) 45%);
     background-size: cover;
-    padding-bottom: 21px;
+    padding-bottom: 28px;
 
     &__titre{
         display: flex;
@@ -1467,7 +1467,8 @@ header{
                     font-size: 15px;
                     padding: 5px 5px;
                     margin: 15px 0px;
-                    width: 150px;
+                    width: 100px;
+                    margin-right: 15px;
                 }
 
                 div{
@@ -1483,7 +1484,9 @@ header{
                     font-weight: 400;
                     font-size: 15px;
                     padding: 5px 2px;
-                    width: 150px;
+                    width: 110px;
+                    margin-right: 15px;
+                    cursor: pointer;
                 }
 
                 option{
@@ -1500,12 +1503,76 @@ header{
 
                 .submit{
                     margin-top: 20px;
-                    border: 2px solid #fff;
-                    background-color: transparent;
+                    border: 2px solid #0725bd;
+                    background-color: white;
                     padding: 5px 20px;
-                    color: white;
+                    color: #0725bd;
                     font-size: 15px;
+                    font-weight: 500;
                     cursor: pointer;
+                }
+
+                &--ligne1{
+                    display: flex;
+                    flex-direction: row !important;
+                    #span-cv{
+                        background-color: #0725BD33;
+                        border: 1px solid #0725bd;
+                        border-radius: 8px;
+                        font-weight: 400;
+                        font-size: 15px;
+                        padding: 5px 10px;
+                        position: relative;
+                        width: 80px;
+                        display: flex;
+                        color: white;
+                        justify-content: space-between;
+                        height: 23px;
+                        margin-top: 15px;
+                        cursor: pointer;
+
+                        input{
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            margin: 0;
+                            opacity: 0;
+                            direction: ltr;
+                            height: 33px;
+                            width: 100px;
+                        }
+                    }
+                }
+
+                &--ligne2{
+                    display: flex;
+                    flex-direction: row !important;
+
+                    #span-lm{
+                        background-color: #0725BD33;
+                        border: 1px solid #0725bd;
+                        border-radius: 8px;
+                        font-weight: 400;
+                        font-size: 15px;
+                        padding: 5px 10px;
+                        position: relative;
+                        width: 80px;
+                        display: flex;
+                        color: white;
+                        justify-content: space-between;
+                        cursor: pointer;
+                    }
+
+                    input{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        margin: 0;
+                        opacity: 0;
+                        direction: ltr;
+                        height: 33px;
+                        width: 100px;
+                    }
                 }
             }
         }

@@ -169,7 +169,7 @@ function changeToKalax(){
     document.getElementById('AncreRed').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreValorant').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreStreampack05').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('ancre-streampack').style.marginTop = "10px";
+    document.getElementById('ancre-streampack').style.marginTop = "3px";
 }
 
 function changeToNature(){
@@ -420,24 +420,24 @@ function changeToAfficheDraz(){
 
 // ANCRE DOSSIER
 
-function changeToDossierEvent(){
-    document.getElementById('AncreVenastyEvent').src="images/accueil/Ancre/blanche pleine.png";
-    document.getElementById('img-dossier').src="images/services/page3/img produits/Dossier-Event.webp";
-    document.getElementById('AncreMarcheR6').src="images/accueil/Ancre/blanche vide.png";
-    document.getElementById('AncreOnesEsport').src="images/accueil/Ancre/blanche vide.png";
-}
+// function changeToDossierEvent(){
+//     document.getElementById('AncreVenastyEvent').src="images/accueil/Ancre/blanche pleine.png";
+//     document.getElementById('img-dossier').src="images/services/page3/img produits/dossier-Event.webp";
+//     document.getElementById('AncreMarcheR6').src="images/accueil/Ancre/blanche vide.png";
+//     document.getElementById('AncreOnesEsport').src="images/accueil/Ancre/blanche vide.png";
+// }
 
 function changeToDossierEtdMarche(){
     document.getElementById('AncreMarcheR6').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('img-dossier').src="images/services/page3/img produits/étude-de-marché.webp";
-    document.getElementById('AncreVenastyEvent').src="images/accueil/Ancre/blanche vide.png";
+    // document.getElementById('AncreVenastyEvent').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreOnesEsport').src="images/accueil/Ancre/blanche vide.png";
 }
 
 function changeToOnestEsport(){
     document.getElementById('AncreOnesEsport').src="images/accueil/Ancre/blanche pleine.png";
     document.getElementById('img-dossier').src="images/services/page3/img produits/OnestEsport.png";
-    document.getElementById('AncreVenastyEvent').src="images/accueil/Ancre/blanche vide.png";
+    // document.getElementById('AncreVenastyEvent').src="images/accueil/Ancre/blanche vide.png";
     document.getElementById('AncreMarcheR6').src="images/accueil/Ancre/blanche vide.png";
 }
 
