@@ -60,12 +60,13 @@ header{
         background-image: url("/images/accueil/dpa/fond-page2.webp");
         background-size: cover;
         background-color: white;
-        height: 429px;
+        height: 350px;
         width: 100%;
         z-index: 2;
         position: fixed;
         transition: 0.4s;
         flex-direction: column;
+        border-bottom: 2px solid #0725bd;
 
         .active{
             color: #0725bd;
@@ -89,7 +90,8 @@ header{
             justify-content: space-between;
             width: 70%;
             margin: auto;
-            padding-top: 80px;
+            margin-top: 10px;
+            padding-top: 10px;
             a{
                 color: black;
                 font-size: 10px;
