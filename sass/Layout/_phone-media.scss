@@ -674,13 +674,17 @@
 
     .page2-services{
         background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
-        background-size: 100%;
+        background-size: 100% !important;
         background-repeat: repeat !important;
         height: 100% !important;
         padding-bottom: 50px !important;
         color: white;
         position: relative;
         display: flex;
+
+        .page-2-services__container__info-mobile{
+            display: flex;
+        }
 
         .ancre_page{
             display: none;
@@ -797,13 +801,17 @@
 
     .page3-services{
         background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
-        background-size: 100%;
+        background-size: 100% !important;
         background-repeat: repeat !important;
         height: 100% !important;
         padding-bottom: 50px !important;
         color: white;
         position: relative;
         display: flex;
+
+        .page-3-services__container__info-mobile{
+            display: flex;
+        }
 
         .ancre_page{
             display: none;
@@ -927,13 +935,17 @@
 
     .page4-services{
         background-image: url("/images/Téléphone/Accueil/Fond/1.jpg") !important;
-        background-size: 100%;
+        background-size: 100% !important;
         background-repeat: repeat !important;
         height: 100% !important;
         padding-bottom: 50px !important;
         color: white;
         position: relative;
         display: flex;
+
+        .page-4-services__container__info-mobile{
+            display: flex;
+        }
 
         .ancre_page{
             display: none;

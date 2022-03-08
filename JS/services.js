@@ -1,13 +1,45 @@
 // IMAGE
 
 
-
-
 // DESIGN
 
 function openLogo(){
     document.getElementById('onglet-logo').style.display = "flex";
     document.getElementById('close-onglet-service').style.display = "flex";
+
+    if ("matchMedia" in window){
+        if(window.matchMedia("(max-width:1000px)").matches){
+            document.getElementById('onglet-logo').style.display = "none";
+            document.getElementById('close-onglet-service').style.display = "none";
+            document.getElementById('onglet-logo-mobile').style.display = "block";
+            document.getElementById('btn-logo').style.display = "none";
+            document.getElementById('btn-banniere').style.marginTop= "400px";
+            if(document.getElementById('onglet-logo-mobile').style.display = "block"){
+                document.getElementById('onglet-banniere-mobile').style.display = "none";
+                document.getElementById('btn-banniere').style.display = "flex";
+                document.getElementById('btn-affiches').style.marginTop = "0px";
+
+                document.getElementById('onglet-affiche-mobile').style.display = "none";
+                document.getElementById('btn-affiches').style.display = "flex";
+                document.getElementById('btn-streampack').style.marginTop = "0px";
+
+                document.getElementById('onglet-streampack-mobile').style.display = "none";
+                document.getElementById('btn-streampack').style.display = "flex";
+                document.getElementById('btn-esport').style.marginTop = "0px";
+
+                document.getElementById('onglet-esport-mobile').style.display = "none";
+                document.getElementById('btn-esport').style.display = "flex";
+                document.getElementById('page2-services').style.marginBottom = "0px";
+            }
+        }
+    }
+}
+
+function closeAllOngletLogoMobile(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-logo-mobile').style.display = "none";
+    document.getElementById('btn-logo').style.display = "flex";
+    document.getElementById('btn-banniere').style.marginTop= "0px";
 }
 
 function closeAllOngletLogo(){
@@ -18,6 +50,41 @@ function closeAllOngletLogo(){
 function openBanniere(){
     document.getElementById('onglet-banniere').style.display = "flex";
     document.getElementById('close-onglet-service').style.display = "flex";
+
+    if ("matchMedia" in window){
+        if(window.matchMedia("(max-width:1000px)").matches){
+            document.getElementById('onglet-banniere').style.display = "none";
+            document.getElementById('close-onglet-service').style.display = "none";
+            document.getElementById('onglet-banniere-mobile').style.display = "block";
+            document.getElementById('btn-banniere').style.display = "none";
+            document.getElementById('btn-affiches').style.marginTop= "300px";
+            if(document.getElementById('onglet-banniere-mobile').style.display = "block"){
+
+                document.getElementById('onglet-logo-mobile').style.display = "none";
+                document.getElementById('btn-logo').style.display = "flex";
+                document.getElementById('btn-banniere').style.marginTop = "0px";
+
+                document.getElementById('onglet-affiche-mobile').style.display = "none";
+                document.getElementById('btn-affiches').style.display = "flex";
+                document.getElementById('btn-streampack').style.marginTop = "0px";
+
+                document.getElementById('onglet-streampack-mobile').style.display = "none";
+                document.getElementById('btn-streampack').style.display = "flex";
+                document.getElementById('btn-esport').style.marginTop = "0px";
+
+                document.getElementById('onglet-esport-mobile').style.display = "none";
+                document.getElementById('btn-esport').style.display = "flex";
+                document.getElementById('page2-services').style.marginBottom = "0px";
+            }
+        }
+    }
+}
+
+function closeAllOngletBanniereMobile(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-banniere-mobile').style.display = "none";
+    document.getElementById('btn-banniere').style.display = "flex";
+    document.getElementById('btn-affiches').style.marginTop= "0px";
 }
 
 function closeAllOngletBanniere(){
@@ -28,6 +95,41 @@ function closeAllOngletBanniere(){
 function openAffiches(){
     document.getElementById('onglet-affiches').style.display = "flex";
     document.getElementById('close-onglet-service').style.display = "flex";
+
+    if ("matchMedia" in window){
+        if(window.matchMedia("(max-width:1000px)").matches){
+            document.getElementById('onglet-affiches').style.display = "none";
+            document.getElementById('close-onglet-service').style.display = "none";
+            document.getElementById('onglet-affiche-mobile').style.display = "block";
+            document.getElementById('btn-affiches').style.display = "none";
+            document.getElementById('btn-streampack').style.marginTop= "300px";
+            if(document.getElementById('onglet-affiche-mobile').style.display = "block"){
+
+                document.getElementById('onglet-logo-mobile').style.display = "none";
+                document.getElementById('btn-logo').style.display = "flex";
+                document.getElementById('btn-banniere').style.marginTop = "0px";
+
+                document.getElementById('onglet-banniere-mobile').style.display = "none";
+                document.getElementById('btn-banniere').style.display = "flex";
+                document.getElementById('btn-affiches').style.marginTop = "0px";
+
+                document.getElementById('onglet-streampack-mobile').style.display = "none";
+                document.getElementById('btn-streampack').style.display = "flex";
+                document.getElementById('btn-esport').style.marginTop = "0px";
+
+                document.getElementById('onglet-esport-mobile').style.display = "none";
+                document.getElementById('btn-esport').style.display = "flex";
+                document.getElementById('page2-services').style.marginBottom = "0px";
+            }
+        }
+    }
+}
+
+function closeAllOngletAfficheMobile(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-affiche-mobile').style.display = "none";
+    document.getElementById('btn-affiches').style.display = "flex";
+    document.getElementById('btn-streampack').style.marginTop= "0px";
 }
 
 function closeAllOngletAffiches(){
@@ -38,6 +140,41 @@ function closeAllOngletAffiches(){
 function openStreampack(){
     document.getElementById('onglet-streampack').style.display = "flex";
     document.getElementById('close-onglet-service').style.display = "flex";
+
+    if ("matchMedia" in window){
+        if(window.matchMedia("(max-width:1000px)").matches){
+            document.getElementById('onglet-streampack').style.display = "none";
+            document.getElementById('close-onglet-service').style.display = "none";
+            document.getElementById('onglet-streampack-mobile').style.display = "block";
+            document.getElementById('btn-streampack').style.display = "none";
+            document.getElementById('btn-esport').style.marginTop= "300px";
+            if(document.getElementById('onglet-streampack-mobile').style.display = "block"){
+
+                document.getElementById('onglet-logo-mobile').style.display = "none";
+                document.getElementById('btn-logo').style.display = "flex";
+                document.getElementById('btn-banniere').style.marginTop = "0px";
+
+                document.getElementById('onglet-banniere-mobile').style.display = "none";
+                document.getElementById('btn-banniere').style.display = "flex";
+                document.getElementById('btn-affiches').style.marginTop = "0px";
+
+                document.getElementById('onglet-affiche-mobile').style.display = "none";
+                document.getElementById('btn-affiches').style.display = "flex";
+                document.getElementById('btn-streampack').style.marginTop = "0px";
+
+                document.getElementById('onglet-esport-mobile').style.display = "none";
+                document.getElementById('btn-esport').style.display = "flex";
+                document.getElementById('page2-services').style.marginBottom = "0px";
+            }
+        }
+    }
+}
+
+function closeAllOngletStreampackMobile(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-streampack-mobile').style.display = "none";
+    document.getElementById('btn-streampack').style.display = "flex";
+    document.getElementById('btn-esport').style.marginTop= "0px";
 }
 
 function closeAllOngletStreampack(){
@@ -48,6 +185,42 @@ function closeAllOngletStreampack(){
 function openEsport(){
     document.getElementById('onglet-esport').style.display = "flex";
     document.getElementById('close-onglet-service').style.display = "flex";
+
+    if ("matchMedia" in window){
+        if(window.matchMedia("(max-width:1000px)").matches){
+            document.getElementById('onglet-esport').style.display = "none";
+            document.getElementById('close-onglet-service').style.display = "none";
+            document.getElementById('onglet-esport-mobile').style.display = "block";
+            document.getElementById('btn-esport').style.display = "none";
+            document.getElementById('page2-services').style.marginBottom = "250px";
+            if(document.getElementById('onglet-esport-mobile').style.display = "block"){
+
+                document.getElementById('onglet-logo-mobile').style.display = "none";
+                document.getElementById('btn-logo').style.display = "flex";
+                document.getElementById('btn-banniere').style.marginTop = "0px";
+
+                document.getElementById('onglet-banniere-mobile').style.display = "none";
+                document.getElementById('btn-banniere').style.display = "flex";
+                document.getElementById('btn-affiches').style.marginTop = "0px";
+
+                document.getElementById('onglet-affiche-mobile').style.display = "none";
+                document.getElementById('btn-affiches').style.display = "flex";
+                document.getElementById('btn-streampack').style.marginTop = "0px";
+
+                document.getElementById('onglet-streampack-mobile').style.display = "none";
+                document.getElementById('btn-streampack').style.display = "flex";
+                document.getElementById('btn-esport').style.marginTop = "0px";
+            }
+        }
+    }
+}
+
+function closeAllOngletEsportMobile(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-esport-mobile').style.display = "none";
+    document.getElementById('btn-esport').style.display = "flex";
+    document.getElementById('btn-streampack').style.marginTop= "0px";
+    document.getElementById('page2-services').style.marginBottom = "0px"
 }
 
 function closeAllOngletEsport(){
@@ -61,6 +234,23 @@ function closeAllOngletEsport(){
 function openDossier(){
     document.getElementById('onglet-dossier').style.display = "flex";
     document.getElementById('close-onglet-service').style.display = "flex";
+
+    if ("matchMedia" in window){
+        if(window.matchMedia("(max-width:1000px)").matches){
+            document.getElementById('onglet-dossier').style.display = "none";
+            document.getElementById('close-onglet-service').style.display = "none";
+            document.getElementById('onglet-dossier-mobile').style.display = "block";
+            document.getElementById('btn-dossier').style.display = "none";
+            document.getElementById('btn-conseil').style.marginTop = "650px";
+        }
+    }
+}
+
+function closeAllOngletDossierMobile(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-dossier-mobile').style.display = "none";
+    document.getElementById('btn-dossier').style.display = "flex";
+    document.getElementById('btn-conseil').style.marginTop = "0px";
 }
 
 function closeAllOngletDossier(){
@@ -71,6 +261,23 @@ function closeAllOngletDossier(){
 function openConseil(){
     document.getElementById('onglet-conseil').style.display = "flex";
     document.getElementById('close-onglet-service').style.display = "flex";
+
+    if ("matchMedia" in window){
+        if(window.matchMedia("(max-width:1000px)").matches){
+            document.getElementById('onglet-conseil').style.display = "none";
+            document.getElementById('close-onglet-service').style.display = "none";
+            document.getElementById('onglet-conseil-mobile').style.display = "block";
+            document.getElementById('btn-conseil').style.display = "none";
+            document.getElementById('btn-event').style.marginTop = "550px";
+        }
+    }
+}
+
+function closeAllOngletConseilMobile(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-conseil-mobile').style.display = "none";
+    document.getElementById('btn-conseil').style.display = "flex";
+    document.getElementById('btn-event').style.marginTop = "0px";
 }
 
 function closeAllOngletConseil(){
@@ -81,6 +288,23 @@ function closeAllOngletConseil(){
 function openEvent(){
     document.getElementById('onglet-event').style.display = "flex";
     document.getElementById('close-onglet-service').style.display = "flex";
+
+    if ("matchMedia" in window){
+        if(window.matchMedia("(max-width:1000px)").matches){
+            document.getElementById('onglet-event').style.display = "none";
+            document.getElementById('close-onglet-service').style.display = "none";
+            document.getElementById('onglet-projet-mobile').style.display = "block";
+            document.getElementById('btn-event').style.display = "none";
+            document.getElementById('page3-services').style.marginBottom = "450px"
+        }
+    }
+}
+
+function closeAllOngletProjetMobile(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-projet-mobile').style.display = "none";
+    document.getElementById('btn-event').style.display = "flex";
+    document.getElementById('page3-services').style.marginBottom = "0px"
 }
 
 function closeAllOngletEvent(){
@@ -94,6 +318,23 @@ function closeAllOngletEvent(){
 function openVitrine(){
     document.getElementById('onglet-vitrine').style.display = "flex";
     document.getElementById('close-onglet-service').style.display = "flex";
+
+    if ("matchMedia" in window){
+        if(window.matchMedia("(max-width:1000px)").matches){
+            document.getElementById('onglet-vitrine').style.display = "none";
+            document.getElementById('close-onglet-service').style.display = "none";
+            document.getElementById('onglet-vitrine-mobile').style.display = "block";
+            document.getElementById('btn-vitrine').style.display = "none";
+            document.getElementById('btn-ecommerce').style.marginTop = "550px";
+        }
+    }
+}
+
+function closeAllOngletVitrineMobile(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-vitrine-mobile').style.display = "none";
+    document.getElementById('btn-vitrine').style.display = "flex";
+    document.getElementById('btn-ecommerce').style.marginTop = "0px";
 }
 
 function closeAllOngletVitrine(){
@@ -104,6 +345,23 @@ function closeAllOngletVitrine(){
 function openEcommerce(){
     document.getElementById('onglet-ecommerce').style.display = "flex";
     document.getElementById('close-onglet-service').style.display = "flex";
+
+    if ("matchMedia" in window){
+        if(window.matchMedia("(max-width:1000px)").matches){
+            document.getElementById('onglet-ecommerce').style.display = "none";
+            document.getElementById('close-onglet-service').style.display = "none";
+            document.getElementById('onglet-ecommerce-mobile').style.display = "block";
+            document.getElementById('btn-ecommerce').style.display = "none";
+            document.getElementById('page4-services').style.marginBottom = "300px";
+        }
+    }
+}
+
+function closeAllOngletEcommerceMobile(){
+    document.getElementById('close-onglet-service').style.display = "none";
+    document.getElementById('onglet-ecommerce-mobile').style.display = "none";
+    document.getElementById('btn-ecommerce').style.display = "flex";
+    document.getElementById('page4-services').style.marginBottom = "0px";
 }
 
 function closeAllOngletEcommerce(){
