@@ -242,6 +242,16 @@ function openDossier(){
             document.getElementById('onglet-dossier-mobile').style.display = "block";
             document.getElementById('btn-dossier').style.display = "none";
             document.getElementById('btn-conseil').style.marginTop = "650px";
+            if(document.getElementById('onglet-dossier-mobile').style.display = "block"){
+
+                document.getElementById('onglet-conseil-mobile').style.display = "none";
+                document.getElementById('btn-conseil').style.display = "flex";
+                document.getElementById('btn-event').style.marginTop = "0px";
+
+                document.getElementById('onglet-projet-mobile').style.display = "none";
+                document.getElementById('btn-event').style.display = "flex";
+                document.getElementById('page3-services').style.marginBottom = "0px";
+            }
         }
     }
 }
@@ -269,6 +279,16 @@ function openConseil(){
             document.getElementById('onglet-conseil-mobile').style.display = "block";
             document.getElementById('btn-conseil').style.display = "none";
             document.getElementById('btn-event').style.marginTop = "550px";
+            if(document.getElementById('onglet-conseil-mobile').style.display = "block"){
+
+                document.getElementById('onglet-dossier-mobile').style.display = "none";
+                document.getElementById('btn-dossier').style.display = "flex";
+                document.getElementById('btn-conseil').style.marginTop = "0px";
+
+                document.getElementById('onglet-projet-mobile').style.display = "none";
+                document.getElementById('btn-event').style.display = "flex";
+                document.getElementById('page3-services').style.marginBottom = "0px";
+            }
         }
     }
 }
@@ -295,7 +315,17 @@ function openEvent(){
             document.getElementById('close-onglet-service').style.display = "none";
             document.getElementById('onglet-projet-mobile').style.display = "block";
             document.getElementById('btn-event').style.display = "none";
-            document.getElementById('page3-services').style.marginBottom = "450px"
+            document.getElementById('page3-services').style.marginBottom = "450px";
+            if(document.getElementById('onglet-projet-mobile').style.display = "block"){
+
+                document.getElementById('onglet-dossier-mobile').style.display = "none";
+                document.getElementById('btn-dossier').style.display = "flex";
+                document.getElementById('btn-conseil').style.marginTop = "0px";
+
+                document.getElementById('onglet-conseil-mobile').style.display = "none";
+                document.getElementById('btn-conseil').style.display = "flex";
+                document.getElementById('btn-event').style.marginTop = "0px";
+            }
         }
     }
 }
@@ -326,6 +356,12 @@ function openVitrine(){
             document.getElementById('onglet-vitrine-mobile').style.display = "block";
             document.getElementById('btn-vitrine').style.display = "none";
             document.getElementById('btn-ecommerce').style.marginTop = "550px";
+            if(document.getElementById('onglet-vitrine-mobile').style.display = "block"){
+                
+                document.getElementById('onglet-ecommerce-mobile').style.display = "none";
+                document.getElementById('btn-ecommerce').style.display = "flex";
+                document.getElementById('page4-services').style.marginBottom = "0px";
+            }
         }
     }
 }
@@ -353,6 +389,12 @@ function openEcommerce(){
             document.getElementById('onglet-ecommerce-mobile').style.display = "block";
             document.getElementById('btn-ecommerce').style.display = "none";
             document.getElementById('page4-services').style.marginBottom = "300px";
+            if(document.getElementById('onglet-ecommerce-mobile').style.display = "block"){
+                
+                document.getElementById('onglet-vitrine-mobile').style.display = "none";
+                document.getElementById('btn-vitrine').style.display = "flex";
+                document.getElementById('btn-ecommerce').style.marginTop = "0px";
+            }
         }
     }
 }
