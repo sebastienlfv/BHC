@@ -400,6 +400,10 @@ header{
     padding-bottom: 300px;
     position: relative;
 
+    .carousel-items{
+        display: none;
+    }
+
     &__container{   
         text-align: center;
         padding-top: 100px;
@@ -560,6 +564,12 @@ header{
 
                 &__info{
                     width: 33%;
+
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        text-align: left;
+                    }
 
                     img{
                         width: 100px;

@@ -218,6 +218,47 @@
             display: none;
         }
 
+        li{
+            list-style: none;
+        }
+
+        ::-webkit-scrollbar{
+            display: none;
+        }
+
+        .carousel-items{
+            display: flex !important;
+            overflow-x: scroll;
+            padding: 1rem 0;
+            scroll-snap-type: x mandatory;
+
+            ::-webkit-scrollbar-track {
+                background-color: #F5F5F5;
+            }
+            
+            ::-webkit-scrollbar {
+                height: 6px;
+                background-color: #F5F5F5;
+            }
+            
+            
+            ::-webkit-scrollbar-thumb {
+                background-color: #3d4852;
+                border-radius: 3px;
+            }
+
+            .carousel-item{
+                flex-grow: 1;
+                flex-shrink: 0;
+                flex-basis: 325px;
+                margin-left: 0rem;
+                scroll-snap-align: start;
+                img{
+                    width: 300px;
+                }
+            }
+        }
+
         &__container{
             padding-top: 50px !important;
 
@@ -231,6 +272,7 @@
             }
 
             &__slide{
+                display: none;
                 &--h3{
                     width: 90% !important;
                     height: 167px !important;
@@ -239,10 +281,6 @@
                         font-size: 18px !important;
                         bottom: 10px !important;
                     }
-                }
-
-                &__arrow{
-                    display: none !important;
                 }
             }
         }
@@ -265,8 +303,41 @@
             display: none;
         }
 
-        #avis2{
+        #avis3, #avis4{
+            display: flex !important;
+        }
+
+        #avis1, #avis2, #avis3, #avis4{
+            margin-top: 0 !important;
+            height: 220px !important;
+        }
+
+        #avis4{
+            .page4__container__avis__style__com{
+                margin-top: 6px;
+                margin-bottom: 46px;
+            }
+        }
+
+        ::-webkit-scrollbar{
             display: none;
+        }
+
+        .carousel-items{
+            display: flex;
+            overflow-x: scroll;
+            padding: 1rem 0;
+            align-items: center;
+            scroll-snap-type: x mandatory;
+            margin-left: 1rem;
+
+            .carousel-item{
+                margin-left: 1rem;
+                flex-grow: 1;
+                flex-shrink: 0;
+                flex-basis: 300px;
+                scroll-snap-align: start;
+            }
         }
 
         &__container{
@@ -286,7 +357,7 @@
 
                     &__info{
                         display: flex;
-                        width: 30%;
+                        width: 100%;
                         margin-bottom: 10px;
                         img{
                             width: 70px;

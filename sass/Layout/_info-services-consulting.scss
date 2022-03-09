@@ -20,6 +20,27 @@
     width: 350px;
     margin: auto;
 
+    .carousel-items{
+        display: flex;
+        overflow-x: scroll;
+        padding: 1rem 0;
+        align-items: center;
+        scroll-snap-type: x mandatory;
+        margin-left: 1rem;
+
+        .carousel-item{
+            margin-left: 1rem;
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 100px;
+            scroll-snap-align: start;
+        }
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
     button{
         font-size: 15px;
         font-weight: 500;
@@ -73,6 +94,27 @@
     height: 500px;
     width: 350px;
     margin: auto;
+
+    .carousel-items{
+        display: flex;
+        overflow-x: scroll;
+        padding: 1rem 0;
+        align-items: center;
+        scroll-snap-type: x mandatory;
+        margin-left: 1rem;
+
+        .carousel-item{
+            margin-left: 1rem;
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 100px;
+            scroll-snap-align: start;
+        }
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
 
     button{
         font-size: 15px;
