@@ -88,11 +88,12 @@
   font-size: 20px;
 }
 .page-2-services__container__streampack-mobile--header img {
+  margin-top: 5px;
   width: 20px;
+  height: 10px;
 }
 .page-2-services__container__streampack-mobile--images {
   display: flex;
-  justify-content: center;
 }
 .page-2-services__container__streampack-mobile--images img {
   width: 250px;
@@ -111,7 +112,6 @@
 .page-2-services__container__logo-mobile .carousel-items {
   display: flex;
   overflow-x: scroll;
-  padding: 0rem 0;
   scroll-snap-type: x mandatory;
 }
 .page-2-services__container__logo-mobile ::-webkit-scrollbar {
@@ -153,11 +153,12 @@
   font-size: 20px;
 }
 .page-2-services__container__logo-mobile--header img {
+  margin-top: 5px;
   width: 20px;
+  height: 10px;
 }
 .page-2-services__container__logo-mobile--images {
   display: flex;
-  justify-content: center;
 }
 .page-2-services__container__logo-mobile--images img {
   width: 250px;
@@ -222,11 +223,12 @@
   font-size: 20px;
 }
 .page-2-services__container__banniere-mobile--header img {
+  margin-top: 5px;
   width: 20px;
+  height: 10px;
 }
 .page-2-services__container__banniere-mobile--images {
   display: flex;
-  justify-content: center;
   margin-top: 20px;
 }
 .page-2-services__container__banniere-mobile--images img {
@@ -258,7 +260,7 @@
 .page-2-services__container__affiche-mobile .carousel-item {
   flex-grow: 1;
   flex-shrink: 0;
-  flex-basis: 100px;
+  flex-basis: 20px;
   margin-left: 1rem;
   scroll-snap-align: start;
 }
@@ -294,11 +296,12 @@
   font-size: 20px;
 }
 .page-2-services__container__affiche-mobile--header img {
+  margin-top: 5px;
   width: 20px;
+  height: 10px;
 }
 .page-2-services__container__affiche-mobile--images {
   display: flex;
-  justify-content: center;
 }
 .page-2-services__container__affiche-mobile--images img {
   width: 250px;
@@ -365,11 +368,12 @@
   font-size: 20px;
 }
 .page-2-services__container__esport-mobile--header img {
+  margin-top: 5px;
   width: 20px;
+  height: 10px;
 }
 .page-2-services__container__esport-mobile--images {
   display: flex;
-  justify-content: center;
 }
 .page-2-services__container__esport-mobile--images img {
   width: 250px;
@@ -1045,11 +1049,12 @@
   font-size: 18px;
 }
 .page-3-services__container__dossier-mobile--header img {
+  margin-top: 5px;
   width: 20px;
+  height: 10px;
 }
 .page-3-services__container__dossier-mobile--images {
   display: flex;
-  justify-content: center;
 }
 .page-3-services__container__dossier-mobile--images img {
   width: 250px;
@@ -1112,11 +1117,12 @@
   font-size: 18px;
 }
 .page-3-services__container__conseil-mobile--header img {
+  margin-top: 5px;
   width: 20px;
+  height: 10px;
 }
 .page-3-services__container__conseil-mobile--images {
   display: flex;
-  justify-content: center;
 }
 .page-3-services__container__conseil-mobile--images img {
   width: 250px;
@@ -1162,7 +1168,9 @@
   font-size: 18px;
 }
 .page-3-services__container__projet-mobile--header img {
+  margin-top: 5px;
   width: 20px;
+  height: 10px;
 }
 .page-3-services__container__projet-mobile--images {
   display: flex;
@@ -1842,7 +1850,9 @@
   font-size: 18px;
 }
 .page-4-services__container__vitrine-mobile--header img {
+  margin-top: 5px;
   width: 20px;
+  height: 10px;
 }
 .page-4-services__container__vitrine-mobile--images {
   display: flex;
@@ -1891,7 +1901,9 @@
   font-size: 18px;
 }
 .page-4-services__container__ecommerce-mobile--header img {
+  margin-top: 5px;
   width: 20px;
+  height: 10px;
 }
 .page-4-services__container__ecommerce-mobile--images {
   display: flex;

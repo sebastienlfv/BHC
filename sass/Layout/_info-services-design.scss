@@ -70,13 +70,14 @@
         }
 
         img{
+            margin-top: 5px;
             width: 20px;
+            height: 10px;
         }
     }
 
     &--images{
         display: flex;
-        justify-content: center;
         img{
             width: 250px;
         }
@@ -96,7 +97,6 @@
     .carousel-items {
         display: flex;
         overflow-x: scroll;
-        padding: 0rem 0;
         scroll-snap-type: x mandatory;
     }
 
@@ -143,13 +143,14 @@
         }
 
         img{
+            margin-top: 5px;
             width: 20px;
+            height: 10px;
         }
     }
 
     &--images{
         display: flex;
-        justify-content: center;
         img{
             width: 250px;
         }
@@ -221,13 +222,14 @@
         }
 
         img{
+            margin-top: 5px;
             width: 20px;
+            height: 10px;
         }
     }
 
     &--images{
         display: flex;
-        justify-content: center;
         margin-top: 20px;
         img{
             width: 250px;
@@ -265,7 +267,7 @@
     .carousel-item {
         flex-grow: 1;
         flex-shrink: 0;
-        flex-basis: 100px;
+        flex-basis: 20px;
         margin-left: 1rem;
         scroll-snap-align: start;
 
@@ -305,13 +307,14 @@
         }
 
         img{
+            margin-top: 5px;
             width: 20px;
+            height: 10px;
         }
     }
 
     &--images{
         display: flex;
-        justify-content: center;
         img{
             width: 250px;
         }
@@ -388,13 +391,14 @@
         }
 
         img{
+            margin-top: 5px;
             width: 20px;
+            height: 10px;
         }
     }
 
     &--images{
         display: flex;
-        justify-content: center;
         img{
             width: 250px;
         }
